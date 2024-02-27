@@ -1,4 +1,4 @@
-# Brandon James Shaffer Portfolio Website
+# Brandon James Shaffer's Portfolio Website
 
 Welcome to my MERN stack Healthcare Website! **PLEASE NOTE: This project is continually changing at the moment.**
 
