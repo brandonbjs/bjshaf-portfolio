@@ -20,48 +20,41 @@ class NavigationBar extends Component {
 
         return (
             <div className="navbar">
-                <div className="navbar-tabs-left">
-                    <a
-                        href="1"
-                        className={activePage === 'home' ? 'active' : ''}
-                        onClick={() => this.setActivePage('home')}
-                    >
-                        WELCOME
-                    </a>
-                </div>
-
-                <div className="navbar-tabs-right">
-                    <a
-                        href="2"
-                        className={activePage === 'aboutme' ? 'active' : ''}
-                        onClick={() => this.setActivePage('aboutme')}
-                    >
-                        ABOUT ME
-                    </a>
-                    <a
-                        href="3"
-                        className={activePage === 'projects' ? 'active' : ''}
-                        onClick={() => this.setActivePage('projects')}
-                    >
-                        PROJECTS
-                    </a>
-                    <a
-                        href="4"
-                        className={activePage === 'contact' ? 'active' : ''}
-                        onClick={() => this.setActivePage('contact')}
-                    >
-                        CONTACT ME
-                    </a>
-                    <a
-                        href="5"
-                        className={
-                            activePage === 'snowboarding' ? 'active' : ''
-                        }
-                        onClick={() => this.setActivePage('snowboarding')}
-                    >
-                        COOL SNOWBOARDING PICS
-                    </a>
-                </div>
+                <a
+                    href="1"
+                    className={activePage === 'home' ? 'active' : ''}
+                    onClick={() => this.setActivePage('home')}
+                >
+                    WELCOME
+                </a>
+                <a
+                    href="2"
+                    className={activePage === 'aboutme' ? 'active' : ''}
+                    onClick={() => this.setActivePage('aboutme')}
+                >
+                    ABOUT ME
+                </a>
+                <a
+                    href="3"
+                    className={activePage === 'projects' ? 'active' : ''}
+                    onClick={() => this.setActivePage('projects')}
+                >
+                    PROJECTS
+                </a>
+                <a
+                    href="4"
+                    className={activePage === 'contact' ? 'active' : ''}
+                    onClick={() => this.setActivePage('contact')}
+                >
+                    CONTACT ME
+                </a>
+                <a
+                    href="5"
+                    className={activePage === 'snowboarding' ? 'active' : ''}
+                    onClick={() => this.setActivePage('snowboarding')}
+                >
+                    COOL SNOWBOARDING PICS
+                </a>
             </div>
         )
     }
