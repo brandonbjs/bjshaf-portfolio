@@ -20,34 +20,37 @@ class NavigationBar extends Component {
 
         return (
             <div className="navbar">
-                <div className="navbar-center">
+                <div className="navbar-tabs-left">
                     <a
                         href="1"
                         className={activePage === 'home' ? 'active' : ''}
                         onClick={() => this.setActivePage('home')}
                     >
-                        Home
+                        WELCOME
                     </a>
+                </div>
+
+                <div className="navbar-tabs-right">
                     <a
                         href="2"
                         className={activePage === 'aboutme' ? 'active' : ''}
                         onClick={() => this.setActivePage('aboutme')}
                     >
-                        About Me
+                        ABOUT ME
                     </a>
                     <a
                         href="3"
                         className={activePage === 'projects' ? 'active' : ''}
                         onClick={() => this.setActivePage('projects')}
                     >
-                        Projects
+                        PROJECTS
                     </a>
                     <a
                         href="4"
                         className={activePage === 'contact' ? 'active' : ''}
                         onClick={() => this.setActivePage('contact')}
                     >
-                        Contact Me
+                        CONTACT ME
                     </a>
                     <a
                         href="5"
@@ -56,7 +59,7 @@ class NavigationBar extends Component {
                         }
                         onClick={() => this.setActivePage('snowboarding')}
                     >
-                        Cool Snowboarding Pics
+                        COOL SNOWBOARDING PICS
                     </a>
                 </div>
             </div>

@@ -1,38 +1,62 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #fefae0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*============================= Style the navigation bar ==============================*/
+.navbar {
+    background-color: #264653;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    position: fixed; /* Make it stick to the left */
+    left: 0;
+    top: 0;
+    width: 15vw; /* Width of the navbar */
+    text-align: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Style the navigation buttons */
+.navbar a {
+    display: block;
+    background-color: #264653;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1vh 1vw;
+    margin: 1vh;
+    transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+/* Add a border to the active button */
+.navbar a.active {
+    content: '';
+    left: 0;
+    background: linear-gradient(
+        to right,
+        #e9c46a,
+        #2a9d8f
+    ); /* Gradient colors */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Optional: Add a subtle box-shadow for depth */
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+.navbar-tabs-left,
+.navbar-tabs-right {
+    display: block;
+}
+
+.navbar-tabs-right {
+    justify-content: flex-end;
+}
+
+/*=====================================================================================*/
