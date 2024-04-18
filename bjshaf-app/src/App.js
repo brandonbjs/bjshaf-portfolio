@@ -1,17 +1,23 @@
 import './App.css'
 import NavigationBar from './components/NavigationBar'
-import Footer from './components/Footer'
 import LandingPage from './components/LandingPage'
-import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
+import Projects from './components/Projects'
+import ContactMe from './components/ContactMe'
+import StorySlider from './components/StorySlider'
+import Pics from './components/Pics'
 
 function App() {
     return (
-        <div className="App">
+        <>
             <NavigationBar />
             <LandingPage />
-            <AboutMe />
+            <StorySlider />
+            <Projects />
+            <ContactMe />
+            <Pics />
             <Footer />
-        </div>
+        </>
     )
 }
 

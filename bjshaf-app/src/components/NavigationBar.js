@@ -1,60 +1,32 @@
 import React, { Component } from 'react'
+import { Link } from 'react-scroll'
 
 class NavigationBar extends Component {
-    constructor(props) {
-        super(props)
-
-        // Set the initial state with the default active page
-        this.state = {
-            activePage: 'home', // Default to 'build', assuming 'build' is the initial page
-        }
-    }
-
-    // Function to update the active page
-    setActivePage = (page) => {
-        this.setState({ activePage: page })
-    }
-
     render() {
-        const { activePage } = this.state
-
         return (
             <div className="navbar">
-                <a
-                    href="1"
-                    className={activePage === 'home' ? 'active' : ''}
-                    onClick={() => this.setActivePage('home')}
-                >
-                    WELCOME
-                </a>
-                <a
-                    href="2"
-                    className={activePage === 'aboutme' ? 'active' : ''}
-                    onClick={() => this.setActivePage('aboutme')}
+                <Link
+                    className="button"
+                    to="storySliderContainer"
+                    smooth={true}
+                    offset={50}
                 >
                     ABOUT ME
-                </a>
-                <a
-                    href="3"
-                    className={activePage === 'projects' ? 'active' : ''}
-                    onClick={() => this.setActivePage('projects')}
+                </Link>
+                <Link
+                    className="button"
+                    to="projects"
+                    smooth={true}
+                    offset={20}
                 >
                     PROJECTS
-                </a>
-                <a
-                    href="4"
-                    className={activePage === 'contact' ? 'active' : ''}
-                    onClick={() => this.setActivePage('contact')}
-                >
+                </Link>
+                <Link className="button" to="contactMe" smooth={true}>
                     CONTACT ME
-                </a>
-                <a
-                    href="5"
-                    className={activePage === 'snowboarding' ? 'active' : ''}
-                    onClick={() => this.setActivePage('snowboarding')}
-                >
+                </Link>
+                <Link className="button" to="pics" smooth={true}>
                     COOL SNOWBOARDING PICS
-                </a>
+                </Link>
             </div>
         )
     }

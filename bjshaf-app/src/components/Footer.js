@@ -12,7 +12,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <a href="http://www.freepik.com">
-                    Background Image Designed by starline / Freepik
+                    Copyright reserved by Brandon James Shaffer
                 </a>
             </div>
         )
