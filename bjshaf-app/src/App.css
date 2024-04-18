@@ -77,9 +77,9 @@ body {
     transform: translateX(
         -50%
     ); /* Shift it back by half its width to truly center it */
-    height: 6vh; /* Height of the circle */
+    height: 4vh; /* Height of the circle */
     width: 7vw; /* Width of the circle */
-    margin-top: 15vh;
+    margin-top: 25vh;
     background-color: white; /* White background color */
     color: #333; /* Dark text for contrast */
     font-family: 'Roboto', sans-serif; /* Assuming you're using Roboto elsewhere */
@@ -121,6 +121,22 @@ body {
     transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
 }
 
+.disclaimer {
+    position: absolute;
+    bottom: 7vh;
+    width: 90%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header3 {
+    color: white;
+}
+
+.disclaimerParagraph {
+    color: red;
+}
 /*=====================================================================================*/
 
 /*============================= Style the Swiper story panels ==============================*/
@@ -166,8 +182,19 @@ swiper-container::part(bullet-active) {
 
 .titleSlide {
     text-align: center;
-    margin: auto;
-    margin-top: 10%;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 100%; /* Set a specific height if needed */
+    overflow: hidden; /* Prevents content from spilling out */
+}
+
+.titleSlide img {
+    margin-left: 1vw;
+    width: 70vw;
+    height: 70vh; /* Keeps the aspect ratio of the image */
 }
 
 .paragraphWrapper {
@@ -197,7 +224,7 @@ swiper-container::part(bullet-active) {
 /*====================================================================================*/
 
 .footer {
-    margin-top: 500vh;
+    margin-top: 50vh;
 }
 
 /*============================= Style the navigation bar ==============================*/
@@ -261,7 +288,7 @@ swiper-container::part(bullet-active) {
     background-color: #1a1a1a;
     height: auto;
     width: 20%;
-    height: 50%;
+    height: 30%;
     text-align: left;
     padding: 1vh;
     justify-content: space-between;
