@@ -9,16 +9,10 @@ class NavigationBar extends Component {
                     className="button"
                     to="storySliderContainer"
                     smooth={true}
-                    offset={50}
                 >
                     ABOUT ME
                 </Link>
-                <Link
-                    className="button"
-                    to="projects"
-                    smooth={true}
-                    offset={20}
-                >
+                <Link className="button" to="projects" smooth={true}>
                     PROJECTS
                 </Link>
                 <Link className="button" to="contactMe" smooth={true}>

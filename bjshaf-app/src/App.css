@@ -1,30 +1,16 @@
 .App {
     text-align: center;
+    height: 100vh;
 }
 
 body {
-    background: linear-gradient(
-        to bottom,
-        #000c26 10%,
-        #003366 20%,
-        #3f0c7d 25%,
-        #ffd700 30%,
-        #ff8c00 35%,
-        #87ceeb 50%,
-        #ff8c00 65%,
-        #ffd700 70%,
-        #3f0c7d 75%,
-        #003366 80%,
-        #000000 100%
-    );
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    background-image: url('../public/images/background_slide.webp');
+    background-size: cover;
     background-attachment: scroll; /* or 'scroll' if you want the image to scroll with the page */
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-style: normal;
-    overflow-x: hidden; /* This can prevent horizontal scrollbars if your image is wider than the screen */
+    height: 100vh; /* 100% of the viewport height */
+    overflow: hidden; /* Hide overflow to prevent external scroll */
 }
 
 /*============================= Style the landing page ==============================*/
@@ -67,6 +53,92 @@ body {
     transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
 }
 
+/*=====================================================================================*/
+
+/*============================= Style the Swiper story panels ==============================*/
+
+swiper-container {
+    background-color: #3f3e3e;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    border-radius: 5%;
+    border: 2px solid #ffffff;
+}
+
+swiper-container::part(button-prev) {
+    color: #ffffff;
+}
+
+swiper-container::part(button-next) {
+    color: #ffffff;
+}
+
+swiper-container::part(bullet-active) {
+    background-color: #ffffff;
+}
+
+.storySlider {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 75%;
+}
+
+.storySliderContainer {
+    margin-bottom: 750vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    width: 100%;
+}
+
+.titleSlide {
+    text-align: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    display: grid;
+    place-items: center; /* Centers both horizontally and vertically */
+    height: 100%; /* Set a specific height if needed */
+    overflow: hidden; /* Prevents content from spilling out */
+}
+
+.titleSlide img {
+    margin-left: 1vw;
+    width: 70vw;
+    height: 70vh; /* Keeps the aspect ratio of the image */
+}
+
+.paragraphWrapper {
+    font-size: 1.2em;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    max-width: 75%; /* Adjust the width of the paragraph */
+    text-align: center;
+    margin: auto; /* Centers the div in the container */
+    margin-top: 5vh;
+    width: 100%; /* Ensures it takes full width of the max-width */
+}
+
+.panelImage {
+    margin-top: 1vh;
+}
+.panelImage img {
+    max-width: 50%; /* Makes sure the image is responsive */
+    width: auto;
+    height: auto; /* Keeps the aspect ratio of the image */
+}
+
+.headshot {
+    margin-top: 1vh;
+}
+
 .skipToEndButton {
     display: flex; /* Use flexbox for layout */
     justify-content: center; /* Center items horizontally */
@@ -79,7 +151,7 @@ body {
     ); /* Shift it back by half its width to truly center it */
     height: 4vh; /* Height of the circle */
     width: 7vw; /* Width of the circle */
-    margin-top: 25vh;
+    margin-top: 26vh;
     background-color: white; /* White background color */
     color: #333; /* Dark text for contrast */
     font-family: 'Roboto', sans-serif; /* Assuming you're using Roboto elsewhere */
@@ -123,7 +195,7 @@ body {
 
 .disclaimer {
     position: absolute;
-    bottom: 7vh;
+    bottom: 6vh;
     width: 90%;
     color: white;
     padding: 10px;
@@ -137,94 +209,11 @@ body {
 .disclaimerParagraph {
     color: red;
 }
-/*=====================================================================================*/
-
-/*============================= Style the Swiper story panels ==============================*/
-
-swiper-container {
-    background-color: #3f3e3e;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60%;
-    height: 60%;
-    border-radius: 5%;
-    border: 2px solid #ffffff;
-}
-
-swiper-container::part(button-prev) {
-    color: #ffffff;
-}
-
-swiper-container::part(button-next) {
-    color: #ffffff;
-}
-
-swiper-container::part(bullet-active) {
-    background-color: #ffffff;
-}
-
-.storySlider {
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-    height: 75%;
-}
-
-.storySliderContainer {
-    margin-top: 100vh;
-    height: 150vh;
-    width: 100%;
-}
-
-.titleSlide {
-    text-align: center;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-
-    display: grid;
-    place-items: center; /* Centers both horizontally and vertically */
-    height: 100%; /* Set a specific height if needed */
-    overflow: hidden; /* Prevents content from spilling out */
-}
-
-.titleSlide img {
-    margin-left: 1vw;
-    width: 70vw;
-    height: 70vh; /* Keeps the aspect ratio of the image */
-}
-
-.paragraphWrapper {
-    font-size: 1.5em;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    max-width: 75%; /* Adjust the width of the paragraph */
-    text-align: center;
-    margin: auto; /* Centers the div in the container */
-    margin-top: 5vh;
-    width: 100%; /* Ensures it takes full width of the max-width */
-}
-
-.panelImage {
-    margin-top: 1vh;
-}
-.panelImage img {
-    max-width: 50%; /* Makes sure the image is responsive */
-    width: auto;
-    height: auto; /* Keeps the aspect ratio of the image */
-}
-
-.headshot {
-    margin-top: 1vh;
-}
 
 /*====================================================================================*/
 
 .footer {
-    margin-top: 50vh;
+    color: #ffffff;
 }
 
 /*============================= Style the navigation bar ==============================*/
@@ -274,8 +263,6 @@ swiper-container::part(bullet-active) {
     padding: 10px;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
 }
 
 .project1,
@@ -303,3 +290,19 @@ swiper-container::part(bullet-active) {
     background-color: #ff8c00;
 }
 /*====================================================================================*/
+.keen-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align horizontally center */
+    justify-content: center; /* Align vertically center */
+    height: 100%;
+    width: 100%;
+}
+
+.keen-slider__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Each slide's height is the same as the container's height */
+    font-size: 20px;
+}
