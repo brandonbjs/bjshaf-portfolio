@@ -1,26 +1,22 @@
 import './App.css'
-import NavigationBar from './components/NavigationBar'
+import React, { useState } from 'react'
 import LandingPage from './components/LandingPage'
 import Footer from './components/Footer'
-import Projects from './components/Projects'
+import Project1 from './components/Project1'
+import Project2 from './components/Project2'
+import Project3 from './components/Project3'
 import ContactMe from './components/ContactMe'
 import StorySlider from './components/StorySlider'
 import Pics from './components/Pics'
-import { register } from 'swiper/element/bundle'
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 
-register()
-
 const App = () => {
-    const [sliderRef, instanceRef] = useKeenSlider({
-        slideChanged() {
-            console.log('slide changed')
-        },
+    const [currentSlide, setCurrentSlide] = useState(0)
+    const [sliderRef, slider] = useKeenSlider({
         slidesPerView: 1,
         mode: 'snap',
         spacing: 0,
-        orientation: 'vertical',
         vertical: true,
         loop: true,
         dragSpeed: 0.8,
@@ -40,17 +36,63 @@ const App = () => {
             // Remove event listener when the component is unmounted
             instance.container.removeEventListener('wheel', (event) => {})
         },
+        slideChanged: (instance) => {
+            // Accessing the details directly as a property
+            setCurrentSlide(instance.track.details.rel) // Update the current slide index using the relative index
+        },
     })
+
+    // function to send a person to a particular slide upon button press
+    // uses built in function moveToIdx from keen-slider
+    const goToSlide = (index) => {
+        slider.current?.moveToIdx(index)
+    }
 
     return (
         <>
+            <div className="navbar">
+                <button
+                    className={currentSlide === 0 ? 'active' : ''}
+                    onClick={() => goToSlide(0)}
+                >
+                    HOME
+                </button>
+                <button
+                    className={currentSlide === 1 ? 'active' : ''}
+                    onClick={() => goToSlide(1)}
+                >
+                    ABOUT ME
+                </button>
+                <button
+                    className={
+                        currentSlide >= 2 && currentSlide <= 4 ? 'active' : ''
+                    }
+                    onClick={() => goToSlide(2)}
+                >
+                    PROJECTS
+                </button>
+                <button className={currentSlide === 5 ? 'active' : ''}>
+                    CONTACT ME
+                </button>
+                <button className={currentSlide === 6 ? 'active' : ''}>
+                    COOL SNOWBOARDING PICS
+                </button>
+            </div>
             <div ref={sliderRef} className="keen-slider">
                 <div className="keen-slider__slide">
-                    <NavigationBar />
-                    <LandingPage />
+                    <LandingPage goToSlide={goToSlide} />
                 </div>
                 <div className="keen-slider__slide">
                     <StorySlider />
+                </div>
+                <div className="keen-slider__slide">
+                    <Project1 />
+                </div>
+                <div className="keen-slider__slide">
+                    <Project2 />
+                </div>
+                <div className="keen-slider__slide">
+                    <Project3 />
                 </div>
             </div>
         </>

@@ -39,18 +39,35 @@ body {
     height: 6vh; /* Height of the circle */
     width: 7vw; /* Width of the circle */
     margin-bottom: 2vh;
-    background-color: white; /* White background color */
-    color: #333; /* Dark text for contrast */
-    font-family: 'Roboto', sans-serif; /* Assuming you're using Roboto elsewhere */
+    background-color: transparent; /* White background color */
+    font-family: 'Roboto', sans-serif;
     font-size: 16px; /* Medium text size */
     font-weight: 500; /* Medium font weight */
     border: none; /* No border for a clean look */
     border-radius: 5px; /* Slightly rounded corners */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
     cursor: pointer; /* Pointer cursor on hover */
     text-align: center; /* Center the text inside */
     text-decoration: none; /* Remove underline from links if needed */
     transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.landingButton {
+    border: none;
+    color: black; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Appropriate font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    text-transform: uppercase; /* Uppercase text for a more professional look */
+    cursor: pointer; /* Cursor indicates the element is clickable */
+    transition: border 0.3s ease-in-out;
+    width: auto;
+    height: auto;
+}
+
+.landingButton:hover {
+    background-color: #c590cc; /* Slightly lighter shade for hover effect */
+    color: #333; /* Dark text color on hover for contrast */
 }
 
 /*=====================================================================================*/
@@ -58,7 +75,7 @@ body {
 /*============================= Style the Swiper story panels ==============================*/
 
 swiper-container {
-    background-color: #3f3e3e;
+    background-color: #5e5c5c;
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -91,7 +108,6 @@ swiper-container::part(bullet-active) {
 }
 
 .storySliderContainer {
-    margin-bottom: 750vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,54 +249,100 @@ swiper-container::part(bullet-active) {
     text-align: center;
 }
 
-/* Style the navigation buttons */
-.navbar a {
-    display: inline-block; /* Align links horizontally */
-    color: #ffffff;
-    text-decoration: none;
-    padding: 1vh 2vw; /* Adjust padding */
-    transition: background-color 0.3s ease;
-}
-
-/* Optional: Add a hover effect to navigation buttons */
-.navbar a:hover {
-    background-color: #c590cc; /* Slightly lighter shade for hover effect */
-}
-
-.button {
+/* Styling for each button */
+.navbar button {
+    background-color: transparent;
+    border: none;
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Appropriate font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    text-transform: uppercase; /* Uppercase text for a more professional look */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    cursor: pointer; /* Cursor indicates the element is clickable */
     transition: border 0.3s ease-in-out;
+    width: auto;
+    margin-right: 3vw;
+}
+
+.navbar button :last-child {
+    margin-right: 0;
+}
+
+/* Hover state for buttons */
+.navbar button:hover {
+    background-color: #c590cc; /* Slightly lighter shade for hover effect */
+    color: #333; /* Dark text color on hover for contrast */
+}
+
+.navbar button.active {
+    background-color: #c590cc; /* Slightly lighter shade for hover effect */
+    color: #333; /* Dark text color on hover for contrast */
 }
 
 /*=====================================================================================*/
 
 /*============================= Style the Projects grid ==============================*/
 
-.projectGrid {
-    display: flex;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    border-color: #000000;
-    gap: 3px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
+.projectContainer {
+    display: flex; /* Establishes a flex container */
+    align-items: center; /* Vertically aligns the children in the middle */
+    justify-content: space-between; /* Spaces the children out with equal space between them */
+    margin: 1vw; /* Adds some margin around the slide for spacing */
 }
 
-.project1,
-.project2,
-.project3,
-.project4 {
-    color: #ffffff;
-    border-color: #000000;
-    border: 1px solid rgb(207, 201, 202);
-    background-color: #1a1a1a;
-    height: auto;
-    width: 20%;
-    height: 30%;
-    text-align: left;
+.projectImage {
+    flex: 1; /* Takes up 1 portion of the available space */
+    padding-right: 1vw; /* Adds some padding between the image and the description */
+}
+
+.projectImage img {
+    width: 100%; /* Makes the image expand to fill the container */
+    height: auto; /* Keeps the image aspect ratio intact */
+    border-radius: 15px; /* Rounded corners */
+}
+
+.projectContent {
+    font-size: 1.3em;
+    align-items: center;
+    width: 40%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    flex: 1; /* Takes up the remaining space next to the image */
+    padding-left: 20px; /* Adds some space between the image and this content */
+}
+
+.projectDescription,
+.projectTechnologies {
+    border-radius: 15px;
+    color: white;
+    flex: 2; /* Takes up 2 portions of the available space, making it larger than the image section */
+    padding-left: 1vw; /* Adds some padding for spacing */
+    width: 60%;
     padding: 1vh;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: justify;
+}
+
+.projectDescription {
+    background-color: #000000c0;
+}
+
+.projectTechnologies {
+    background-color: #ff0101c0;
+    margin-top: 3vh;
+}
+
+.projectTechnologies a {
+    color: white;
+}
+
+.projectDescription p {
+    margin-top: 0; /* Removes top margin from the heading for a cleaner look */
+}
+
+.projectDescription a {
+    color: white;
 }
 /*====================================================================================*/
 
@@ -305,4 +367,6 @@ swiper-container::part(bullet-active) {
     align-items: center;
     height: 100%; /* Each slide's height is the same as the container's height */
     font-size: 20px;
+    min-height: 100vh;
+    max-height: 100vh;
 }
