@@ -1,7 +1,7 @@
 import './App.css'
 import React, { useState } from 'react'
 import LandingPage from './components/LandingPage'
-import Footer from './components/Footer'
+//import Footer from './components/Footer'
 import Project1 from './components/Project1'
 import Project2 from './components/Project2'
 import Project3 from './components/Project3'
@@ -20,7 +20,6 @@ const App = () => {
         loop: true,
         dragSpeed: 0.8,
         duration: 2000,
-        centered: true,
         created: (instance) => {
             // Attach event listener for mousewheel scroll
             instance.container.addEventListener('wheel', (event) => {
@@ -72,7 +71,10 @@ const App = () => {
                 >
                     PROJECTS
                 </button>
-                <button className={currentSlide === 5 ? 'active' : ''}>
+                <button
+                    className={currentSlide === 5 ? 'active' : ''}
+                    onClick={() => goToSlide(5)}
+                >
                     CONTACT ME
                 </button>
             </div>
@@ -91,6 +93,9 @@ const App = () => {
                 </div>
                 <div className="keen-slider__slide">
                     <Project3 />
+                </div>
+                <div className="keen-slider__slide">
+                    <ContactMe />
                 </div>
             </div>
         </>

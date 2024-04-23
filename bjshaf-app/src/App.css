@@ -362,9 +362,56 @@ swiper-container::part(bullet-active) {
 
 /*================================== Style the Contact Me Stuff=======================*/
 
-.contactMe {
-    background-color: #ff8c00;
+.contactMeContainer {
+    font-size: large;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 20%;
+    margin-top: 30vh;
+    background-color: #5e5c5c;
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
+
+.contactMe {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+
+.contactMeContainer a {
+    color: white;
+}
+
+.logo1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo2 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*====================================================================================*/
 
 .keen-slider .keen-slider__slide {
