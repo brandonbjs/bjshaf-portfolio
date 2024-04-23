@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Project1 extends Component {
     render() {
         return (
-            <div className="projectContainer">
+            <div className="projectContainer1">
                 <div className="projectImage">
                     <a
                         href="https://brandonbjs.github.io/Dark-Souls-Character-Builder-gh-pages/"

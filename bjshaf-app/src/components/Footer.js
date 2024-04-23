@@ -11,9 +11,7 @@ class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <a href="http://www.freepik.com">
-                    Copyright reserved by Brandon James Shaffer
-                </a>
+                <p>© 2024 Brandon James Shaffer. All rights reserved.</p>
             </div>
         )
     }

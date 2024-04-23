@@ -7,7 +7,6 @@ import Project2 from './components/Project2'
 import Project3 from './components/Project3'
 import ContactMe from './components/ContactMe'
 import StorySlider from './components/StorySlider'
-import Pics from './components/Pics'
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 
@@ -16,11 +15,12 @@ const App = () => {
     const [sliderRef, slider] = useKeenSlider({
         slidesPerView: 1,
         mode: 'snap',
-        spacing: 0,
+        spacing: 10,
         vertical: true,
         loop: true,
         dragSpeed: 0.8,
-        duration: 2000, // Transition duration in ms
+        duration: 2000,
+        centered: true,
         created: (instance) => {
             // Attach event listener for mousewheel scroll
             instance.container.addEventListener('wheel', (event) => {
@@ -44,6 +44,7 @@ const App = () => {
 
     // function to send a person to a particular slide upon button press
     // uses built in function moveToIdx from keen-slider
+    // can add in the Cool Pics section again once the website is in prod
     const goToSlide = (index) => {
         slider.current?.moveToIdx(index)
     }
@@ -73,9 +74,6 @@ const App = () => {
                 </button>
                 <button className={currentSlide === 5 ? 'active' : ''}>
                     CONTACT ME
-                </button>
-                <button className={currentSlide === 6 ? 'active' : ''}>
-                    COOL SNOWBOARDING PICS
                 </button>
             </div>
             <div ref={sliderRef} className="keen-slider">
