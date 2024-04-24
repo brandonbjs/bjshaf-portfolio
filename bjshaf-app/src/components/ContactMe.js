@@ -12,7 +12,11 @@ class ContactMe extends Component {
                 </div>
                 <div className="logoContainer">
                     <div className="logo1">
-                        <a href="https://www.linkedin.com/in/brandonbjs/">
+                        <a
+                            href="https://www.linkedin.com/in/brandonbjs/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <img
                                 src="images/LinkedIn_logo.png"
                                 alt="LinkedIn Logo"
@@ -22,7 +26,11 @@ class ContactMe extends Component {
                         </a>
                     </div>
                     <div className="logo2">
-                        <a href="https://github.com/brandonbjs/">
+                        <a
+                            href="https://github.com/brandonbjs/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <img
                                 src="images/GitHub-logo.png"
                                 alt="GitHub Logo"

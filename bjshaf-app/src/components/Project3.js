@@ -34,11 +34,14 @@ class Project3 extends Component {
                         </a>
 
                         <p>
-                            A robust character builder for gamers playing the
-                            original FromSoft title "Dark Souls". Users are able
-                            to theorycraft different character builds by placing
-                            stat allocations, selecting weapons, selecting
-                            armor, selecting spells, and more!
+                            The C&I Doctoral Tracking Tool is a Learning
+                            Management System created for the Curriculum and
+                            Instruction Doctoral program at Northern Arizona
+                            University; this web app was created for my Senior
+                            Capstone Project. The Minimum Viable Product allowed
+                            faculty to add/remove students to their program and
+                            track their milestone progress, while also allowing
+                            students to view their progress in realtime.
                         </p>
                     </div>
                     <div className="projectTechnologies">

@@ -75,7 +75,7 @@ body {
 /*============================= Style the Swiper story panels ==============================*/
 
 swiper-container {
-    background-color: #5e5c5c;
+    background-image: url('../public/images/cracks.webp');
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -83,7 +83,6 @@ swiper-container {
     width: 60%;
     height: 60%;
     border-radius: 5%;
-    border: 2px solid #ffffff;
 }
 
 swiper-container::part(button-prev) {
@@ -129,6 +128,8 @@ swiper-container::part(bullet-active) {
 }
 
 .paragraphWrapper {
+    border-radius: 15px;
+    background-color: #5e5c5c;
     font-size: 1.2em;
     padding-left: 1vw;
     padding-right: 1vw;
@@ -373,7 +374,7 @@ swiper-container::part(bullet-active) {
     height: 30vh;
     width: 20%;
     margin-top: 30vh;
-    background-color: #5e5c5c;
+    background-image: url('../public/images/cracks.webp');
     color: #ffffff;
     border: 2px solid #ffffff;
 }

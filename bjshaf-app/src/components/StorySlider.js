@@ -307,7 +307,7 @@ const StorySlider = () => {
                         Hello there! My name is Brandon James Shaffer. I'm a
                         bilingual Colombian-American with a passion for coding,
                         gaming, snowboarding, climbing, and TV/films. I
-                        graduated from NAU in 2023 with my Bachelors of Science
+                        graduated from NAU in 2023 with my Bachelor of Science
                         in Computer Science. I am skilled in HTML, CSS,
                         JavaScript, Python, Java, C, and C#. I have also dabbled
                         in Unity and RStudio. I have experience with both
