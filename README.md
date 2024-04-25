@@ -1,4 +1,4 @@
-![Alt Text](https://github.com/brandonbjs/bjshaf-portfolio/blob/main/public/images/background_banner.jpg)
+![Alt Text](https://github.com/brandonbjs/bjshaf-portfolio/blob/main/public/images/background_banner1.jpg)
 # Brandon James Shaffer's Portfolio Website
 
 Welcome to my React Portfolio Website! **PLEASE NOTE: This project is continually changing at the moment.**
