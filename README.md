@@ -6,7 +6,7 @@ Welcome to my React Portfolio Website! **PLEASE NOTE: This project is continuall
 ## Developer Information:
 
 -   Brandon James Shaffer | B.S. in Computer Science from Northern Arizona University
-    -   Email: bjs397@nau.edu
+    -   Email: bjs.swe@gmail.com
     -   GitHub: https://github.com/brandonbjs
     -   LinkedIn: https://www.linkedin.com/in/brandonbjs/
 
