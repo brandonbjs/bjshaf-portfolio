@@ -524,7 +524,7 @@ swiper-container::part(bullet) {
 
     .headshot img {
         margin-top: 1vh;
-        height: 40vh;
+        height: 38vh;
     }
 
     .paragraphWrapperLarge {
@@ -532,7 +532,7 @@ swiper-container::part(bullet) {
     }
 
     .skipToStartButton {
-        margin-top: 29vh;
+        margin-top: 30vh;
         width: 10vw;
     }
 
