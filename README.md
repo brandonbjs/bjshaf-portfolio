@@ -22,7 +22,6 @@ The purpose of this project is to practice, improve, and showcase my MERN stack 
 ### Planning:
 
 -   **Front-End Development:** The front-end user interface will be designed using React and styled using CSS. I will uphold ES6 best practices to provide the user with an intuitive and enjoyable character building experience.
--   **Back-End Development:** The back-end will consist of a MongoDB that will be integrated using Node.js and Express.js. I will be creating a custom Node.js API, fit with suitable endpoints that will make GET, POST, PUT, and DELETE requests to and from my MongoDB.
 -   **Hosting:** TBD
 
 ### Functionality
@@ -33,24 +32,27 @@ The portfolio website will give users a way to learn about me, interact with all
 
 -   App.js
 -   NavigationBar.js
--   TBD
+-   LandingPage.js
+-   StorySlider.js
+-   Project1.js
+-   Project2.js
+-   Project3.js
+-   ContactMe.js
+-   Footer.js
 
-#### Functions to be Used
+#### Functions Used
 
--   TBD
+-   goToSlide(index)
+-   goToLastSlide()
+-   goToFirstSlide()
+-   useEffect()
 
-#### Endpoints to be Used
+#### Libraries Used
 
--   TBD
-
-#### Models Used
-
--   TBD
-
-#### API Request-Response Formats
-
--   TBD
+-   keen-slider: used to create the vertical slide effect for the entire webpage
+-   SwiperElement: used to create my horizontal story slider
 
 #### FUTURE Design Ideas
 
--   TBD
+-   Custom email form to send emails to my business email directly from the website.
+-   Cool pictures from trips I have taken.
