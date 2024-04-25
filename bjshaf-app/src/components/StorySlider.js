@@ -57,7 +57,6 @@ const StorySlider = () => {
                                 <b> AI</b>; I am not an artist, please don't get
                                 mad at me.*
                             </p>
-                            <h3>or</h3>
                         </div>
 
                         <button
@@ -303,7 +302,7 @@ const StorySlider = () => {
                             style={{ display: 'block', margin: 'auto' }}
                         />
                     </div>
-                    <div className="paragraphWrapper">
+                    <div className="paragraphWrapperLarge">
                         Hello there! My name is Brandon James Shaffer. I'm a
                         bilingual Colombian-American with a passion for coding,
                         gaming, snowboarding, climbing, and TV/films. I

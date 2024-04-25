@@ -41,7 +41,7 @@ class Project2 extends Component {
                         </b>
                     </div>
                 </div>
-                <div className="projectImage">
+                <div className="projectImage2">
                     <a
                         href="https://brandonbjs.github.io/FFDT-gh-pages/"
                         target="_blank"

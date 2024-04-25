@@ -32,10 +32,10 @@ class ContactMe extends Component {
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="images/GitHub-logo.png"
+                                src="images/github2.webp"
                                 alt="GitHub Logo"
-                                width="40%"
-                                height="40%"
+                                width="23%"
+                                height="23%"
                             />
                         </a>
                     </div>
