@@ -11,7 +11,7 @@ class Project1 extends Component {
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="images/darkSoulsCharBuilder.png"
+                            src="images/darkSoulsCharBuilder.PNG"
                             alt="Screenshot of my Dark Souls Character Builder Web Application"
                             style={{ display: 'block', margin: 'auto' }}
                             width="80%"
