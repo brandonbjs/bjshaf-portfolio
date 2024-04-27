@@ -1,7 +1,10 @@
 ![Alt Text](https://github.com/brandonbjs/bjshaf-portfolio/blob/main/public/images/background_banner1.jpg)
+
 # Brandon James Shaffer's Portfolio Website
 
-Welcome to my React Portfolio Website! **PLEASE NOTE: This project is continually changing at the moment.**
+Welcome to my React Portfolio Website! Check out the website here: www.brandonjshaffer.com
+
+**PLEASE NOTE: This project is continually changing at the moment.**
 
 ## Developer Information:
 
@@ -9,6 +12,7 @@ Welcome to my React Portfolio Website! **PLEASE NOTE: This project is continuall
     -   Email: bjs.swe@gmail.com
     -   GitHub: https://github.com/brandonbjs
     -   LinkedIn: https://www.linkedin.com/in/brandonbjs/
+    -   Portfolio Website: www.brandonjshaffer.com
 
 ## Summary of Project
 
