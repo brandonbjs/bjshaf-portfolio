@@ -215,9 +215,9 @@ swiper-container::part(bullet) {
     transform: translateX(
         -50%
     ); /* Shift it back by half its width to truly center it */
-    height: 6vh; /* Height of the circle */
+    height: 4vh; /* Height of the circle */
     width: 7vw; /* Width of the circle */
-    margin-top: 21vh;
+    margin-top: 23vh;
     background-color: white; /* White background color */
     color: #333; /* Dark text for contrast */
     font-family: 'Roboto', sans-serif; /* Assuming you're using Roboto elsewhere */

@@ -306,20 +306,20 @@ const StorySlider = () => {
                         Hello there! My name is Brandon James Shaffer. I'm a
                         bilingual Colombian-American with a passion for coding,
                         gaming, snowboarding, climbing, and TV/films. I
-                        graduated from NAU in 2023 with my Bachelor of Science
-                        in Computer Science. I received my AWS Certified Cloud
-                        Practitioner Certification in November of 2023. I am
-                        skilled in HTML, CSS, JavaScript, Python, Java, C, and
-                        C#. I have also dabbled in Unity and RStudio. I have
-                        experience with both relational and non-relational
-                        databases and favor the MERN tech stack. My past
-                        projects and experiences lean more towards front-end
-                        development, but I'm fully capable of developing
-                        back-end and APIs. I'm an eager learner keen on becoming
-                        a Software Engineer in the tech industry, aiming to
-                        evolve into a Full Stack Software Engineer. Make sure to
-                        check out my project portfolio below for more examples
-                        of my work!
+                        graduated from Northern Arizona University in 2023 with
+                        my Bachelor of Science in Computer Science and
+                        subsequently achieved my AWS Certified Cloud
+                        Practitioner cert in November of 2023. I am skilled in
+                        HTML, CSS, JavaScript, Python, Java, C, and C#. I have
+                        also dabbled in Unity and RStudio. I have experience
+                        with both relational and non-relational databases and
+                        favor the MERN tech stack. My past projects and
+                        experiences lean more towards front-end development, but
+                        I'm fully capable of developing back-end and APIs. I'm
+                        an eager learner keen on becoming a Software Engineer in
+                        the tech industry, aiming to evolve into a Full Stack
+                        Software Engineer. Make sure to check out my project
+                        portfolio below for more examples of my work!
                     </div>
                     <button
                         className="skipToStartButton"
