@@ -595,4 +595,10 @@ swiper-container::part(bullet) {
     .paragraphWrapperLarge {
         margin-top: 40%;
     }
+
+    .headshot img {
+        margin-top: 1vh;
+        max-height: 30%;
+        width: 30%;
+    }
 }
