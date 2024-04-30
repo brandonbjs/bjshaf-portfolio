@@ -14,8 +14,6 @@ class Project1 extends Component {
                             src="images/darkSoulsCharBuilder.PNG"
                             alt="Screenshot of my Dark Souls Character Builder Web Application"
                             style={{ display: 'block', margin: 'auto' }}
-                            width="80%"
-                            height="80%"
                         />
                     </a>
                 </div>
