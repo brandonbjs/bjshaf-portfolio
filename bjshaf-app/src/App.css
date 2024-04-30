@@ -472,7 +472,7 @@ swiper-container::part(bullet) {
 /* ADJUSTMENTS FOR SMALLER SCREEN SIZES */
 
 /* Media query for 14-inch laptop screens */
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
     /* Adjustments for the body */
     body {
         font-size: 14px; /* Slightly smaller font size for better readability */
@@ -583,5 +583,12 @@ swiper-container::part(bullet) {
     .contactMeContainer {
         width: 30%; /* Make the contact section narrower */
         padding: 10vh; /* Adjust padding for better spacing */
+    }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .skipToStartButton {
+        margin-top: 24%;
+        width: 10vw;
     }
 }
