@@ -591,4 +591,8 @@ swiper-container::part(bullet) {
         margin-top: 24%;
         width: 10vw;
     }
+
+    .paragraphWrapperLarge {
+        margin-top: 20%;
+    }
 }
