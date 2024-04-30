@@ -7,7 +7,7 @@ class Project2 extends Component {
                 <div className="projectContentLeft">
                     <div className="projectDescription">
                         <a
-                            href="https://github.com/brandonbjs/FF-Draft-Tool-Build"
+                            href="https://brandonbjs.github.io/FFDT-gh-pages/"
                             className="project-link"
                             target="_blank"
                             rel="noopener noreferrer"
