@@ -588,11 +588,13 @@ swiper-container::part(bullet) {
 
 @media screen and (min-width: 1920px) and (min-height: 1080px) {
     .skipToEndButton {
-        margin-top: 27%;
+        margin-top: 25%;
+        width: 10%;
     }
 
     .disclaimer {
         height: 10%;
+        font-size: 1.3em;
     }
 
     .panelImage img {
@@ -604,6 +606,10 @@ swiper-container::part(bullet) {
         font-size: 1.5em;
     }
 
+    .paragraphWrapperLarge {
+        font-size: 1.5em;
+    }
+
     .skipToStartButton {
         margin-top: 27%;
         width: 10vw;
@@ -611,7 +617,12 @@ swiper-container::part(bullet) {
 
     .headshot img {
         margin-top: 1vh;
-        max-height: 25%;
-        width: 25%;
+        max-height: 23%;
+        width: 23%;
+    }
+
+    .projectContainer,
+    .projectContainer1 {
+        font-size: 1.5em;
     }
 }
