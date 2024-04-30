@@ -2,7 +2,7 @@
 
 # Brandon James Shaffer's Portfolio Website
 
-Welcome to my React Portfolio Website! Check out the website here: www.brandonjshaffer.com
+Welcome to my React Portfolio Website! Check out the website here: https://brandonjshaffer.com
 
 **PLEASE NOTE: This project is continually changing at the moment.**
 
@@ -12,7 +12,7 @@ Welcome to my React Portfolio Website! Check out the website here: www.brandonjs
     -   Email: bjs.swe@gmail.com
     -   GitHub: https://github.com/brandonbjs
     -   LinkedIn: https://www.linkedin.com/in/brandonbjs/
-    -   Portfolio Website: www.brandonjshaffer.com
+    -   Portfolio Website: https://brandonjshaffer.com
 
 ## Summary of Project
 
@@ -22,16 +22,16 @@ The objective of this is to create an interactive website application to showcas
 
 ### Purpose:
 
-The purpose of this project is to practice, improve, and showcase my MERN stack development capabilities, while also showcasing my portfolio of projects.
+The purpose of this project is to practice, improve, and showcase my React development capabilities, while also consolidating my portfolio of projects.
 
 ### Planning:
 
--   **Front-End Development:** The front-end user interface will be designed using React and styled using CSS. I will uphold ES6 best practices to provide the user with an intuitive and enjoyable character building experience.
--   **Hosting:** TBD
+-   **Front-End Development:** The front-end user interface is designed using React and styled using CSS. I will uphold ES6 best practices to provide the user with an intuitive, responsive, and enjoyable website experience.
+-   **Hosting:** GitHub Pages and GoDaddy
 
 ### Functionality
 
-The portfolio website will give users a way to learn about me, interact with all my projects from a central website, and understand my capabilities and qualifications.
+The portfolio website gives users a way to learn about me, interact with all my projects, and understand my capabilities and qualifications.
 
 #### React Components
 
