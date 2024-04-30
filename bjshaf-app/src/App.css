@@ -175,7 +175,7 @@ swiper-container::part(bullet) {
 .headshot img {
     margin-top: 1vh;
     max-height: 30%;
-    width: 25%;
+    width: 28%;
 }
 
 .skipToEndButton {
@@ -583,22 +583,5 @@ swiper-container::part(bullet) {
     .contactMeContainer {
         width: 30%; /* Make the contact section narrower */
         padding: 10vh; /* Adjust padding for better spacing */
-    }
-}
-
-@media screen and (min-width: 1920px) and (min-height: 1080px) {
-    .skipToStartButton {
-        margin-top: 24%;
-        width: 10vw;
-    }
-
-    .paragraphWrapperLarge {
-        margin-top: 40%;
-    }
-
-    .headshot img {
-        margin-top: 1vh;
-        max-height: 30%;
-        width: 30%;
     }
 }
