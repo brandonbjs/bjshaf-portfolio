@@ -4,7 +4,7 @@ class Project3 extends Component {
     render() {
         return (
             <div className="projectContainer">
-                <div className="projectImage3">
+                <div className="projectImage">
                     <a
                         href="https://github.com/adlarson88/WhatsUpDoc"
                         target="_blank"

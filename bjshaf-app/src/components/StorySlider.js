@@ -114,9 +114,10 @@ const StorySlider = () => {
                     </div>
                     <div className="paragraphWrapper">
                         Despite their initial reservations to allow a youngling
-                        to play an MMO, the boy's parents relent and agree to
-                        buy him the game, so long as he plays with parental
-                        controls and helps pay for his $15 sub every month.
+                        to play a massively multiplayer online role-playing
+                        game, the boy's parents relent and agree to buy him the
+                        game, so long as he plays with parental controls and
+                        helps pay for his $15 sub every month.
                     </div>
                 </swiper-slide>
                 <swiper-slide>

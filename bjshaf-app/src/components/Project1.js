@@ -4,7 +4,7 @@ class Project1 extends Component {
     render() {
         return (
             <div className="projectContainer1">
-                <div className="projectImage1">
+                <div className="projectImage">
                     <a
                         href="https://brandonbjs.github.io/Dark-Souls-Character-Builder-gh-pages/"
                         target="_blank"
