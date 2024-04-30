@@ -22,6 +22,7 @@ const App = () => {
         duration: 2000,
         created: (instance) => {
             // Attach event listener for mousewheel scroll
+            // uses keen-slider built in next and prev functions
             instance.container.addEventListener('wheel', (event) => {
                 event.preventDefault()
                 if (event.deltaY > 0) {
@@ -48,6 +49,8 @@ const App = () => {
         slider.current?.moveToIdx(index)
     }
 
+    // navbar tracks which slide is the "active" slide for styling purposes and uses the
+    // goToSlide() function to allow for button functionality
     return (
         <>
             <div className="navbar">

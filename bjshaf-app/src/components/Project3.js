@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 class Project3 extends Component {
     render() {
+        // each project will have their own component, complete with an image, description, and technologies used
         return (
             <div className="projectContainer">
                 <div className="projectImageLeft">

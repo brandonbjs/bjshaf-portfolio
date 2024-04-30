@@ -18,6 +18,7 @@ const StorySlider = () => {
         })
     }, [])
 
+    // custom function used to send the user to the last slide of the Swiper Element slide show
     const goToLastSlide = () => {
         if (swiperElRef.current && swiperElRef.current.swiper) {
             const lastIndex = swiperElRef.current.swiper.slides.length - 1
@@ -25,6 +26,7 @@ const StorySlider = () => {
         }
     }
 
+    // custom function used to send the user to the first slide of the Swiper Element slide show
     const goToFirstSlide = () => {
         if (swiperElRef.current && swiperElRef.current.swiper) {
             const firstIndex = 0
@@ -32,6 +34,8 @@ const StorySlider = () => {
         }
     }
 
+    // everything in this component will be contained within a swiper-container or a swiper-slide
+    // So far, I have 15 swiper-slides for my horizontal story slider each with their own image and story paragraph
     return (
         <div className="storySliderContainer">
             <swiper-container
