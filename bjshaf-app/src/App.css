@@ -585,3 +585,33 @@ swiper-container::part(bullet) {
         padding: 10vh; /* Adjust padding for better spacing */
     }
 }
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .skipToEndButton {
+        margin-top: 27%;
+    }
+
+    .disclaimer {
+        height: 10%;
+    }
+
+    .panelImage img {
+        max-width: 45%; /* Makes sure the image is responsive */
+        width: 45%;
+    }
+
+    .paragraphWrapper {
+        font-size: 1.5em;
+    }
+
+    .skipToStartButton {
+        margin-top: 27%;
+        width: 10vw;
+    }
+
+    .headshot img {
+        margin-top: 1vh;
+        max-height: 25%;
+        width: 25%;
+    }
+}
