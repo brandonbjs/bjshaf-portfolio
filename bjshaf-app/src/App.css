@@ -325,22 +325,35 @@ swiper-container::part(bullet) {
     margin: 1vw; /* Adds some margin around the slide for spacing */
     width: auto;
     height: auto;
-    margin-top: 20vh;
+    margin-top: 10%;
 }
 
-.projectImage {
+.projectImageLeft {
     flex: 1; /* Takes up 1 portion of the available space */
     padding-right: 1vw; /* Adds some padding between the image and the description */
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
-.projectImage img {
+.projectImageRight {
+    flex: 1; /* Takes up 1 portion of the available space */
+    padding-left: 1vw; /* Adds some padding between the image and the description */
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+.projectImageLeft img {
     width: 100%; /* Makes the image expand to fill the container */
     height: auto; /* Keeps the image aspect ratio intact */
     border-radius: 15px; /* Rounded corners */
 }
 
-.projectContent {
+.projectImageRight img {
+    width: 120%; /* Makes the image expand to fill the container */
+    height: auto; /* Keeps the image aspect ratio intact */
+    border-radius: 15px; /* Rounded corners */
+}
+
+.projectContentLeft {
     font-size: 1.3em;
     align-items: center;
     width: 50%;
@@ -348,7 +361,16 @@ swiper-container::part(bullet) {
     display: flex;
     flex-direction: column; /* Stacks children vertically */
     flex: 1; /* Takes up the remaining space next to the image */
-    padding-left: 20px; /* Adds some space between the image and this content */
+}
+
+.projectContentRight {
+    font-size: 1.3em;
+    align-items: center;
+    width: 4%;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    flex: 1; /* Takes up the remaining space next to the image */
 }
 
 .projectDescription,

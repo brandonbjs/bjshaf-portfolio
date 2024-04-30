@@ -4,7 +4,7 @@ class Project2 extends Component {
     render() {
         return (
             <div className="projectContainer">
-                <div className="projectContent">
+                <div className="projectContentLeft">
                     <div className="projectDescription">
                         <a
                             href="https://github.com/brandonbjs/FF-Draft-Tool-Build"
@@ -41,7 +41,7 @@ class Project2 extends Component {
                         </b>
                     </div>
                 </div>
-                <div className="projectImage">
+                <div className="projectImageRight">
                     <a
                         href="https://brandonbjs.github.io/FFDT-gh-pages/"
                         target="_blank"
