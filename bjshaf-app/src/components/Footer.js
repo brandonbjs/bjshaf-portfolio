@@ -4,7 +4,7 @@ class Footer extends Component {
     constructor(props) {
         super(props)
 
-        // Set the initial state with the default active page
+        
         this.state = {}
     }
 

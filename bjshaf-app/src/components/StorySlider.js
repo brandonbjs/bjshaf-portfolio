@@ -287,9 +287,9 @@ const StorySlider = () => {
                     </div>
                     <div className="paragraphWrapper">
                         Today, the man is an aspiring software engineer. He has
-                        tasked himself with expanding his portfolio so that
-                        potential employers might notice him. That very task has
-                        led him to{' '}
+                        tasked himself with expanding his portfolio to showcase
+                        his skills to future employers. That very task has led
+                        him to{' '}
                         <b>
                             create the portfolio website you are interacting
                             with right now
