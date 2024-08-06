@@ -32,11 +32,12 @@ class Project1 extends Component {
                         </a>
 
                         <p>
-                            A robust character builder for gamers playing the
-                            original FromSoft title "Dark Souls". Users are able
-                            to theorycraft different character builds by placing
-                            stat allocations, selecting weapons, selecting
-                            armor, selecting spells, and more!
+                            Full-Stack (MERN) Web App - A robust character
+                            builder for gamers playing the original FromSoft
+                            title "Dark Souls". Users are able to theorycraft
+                            different character builds by placing stat
+                            allocations, selecting weapons, selecting armor,
+                            selecting spells, and more!
                         </p>
                     </div>
                     <div className="projectTechnologies">
