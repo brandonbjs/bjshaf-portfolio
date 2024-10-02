@@ -81,6 +81,7 @@ const StorySlider = () => {
                             src="images/panel1.webp"
                             alt="panel 1"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -99,6 +100,7 @@ const StorySlider = () => {
                             src="images/panel2.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -114,6 +116,7 @@ const StorySlider = () => {
                             src="images/panel3.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -130,6 +133,7 @@ const StorySlider = () => {
                             src="images/panel4.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -145,6 +149,7 @@ const StorySlider = () => {
                             src="images/panel5.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -161,6 +166,7 @@ const StorySlider = () => {
                             src="images/panel6.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -177,6 +183,7 @@ const StorySlider = () => {
                             src="images/panel7.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -195,6 +202,7 @@ const StorySlider = () => {
                             src="images/panel8.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -214,6 +222,7 @@ const StorySlider = () => {
                             src="images/panel9.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -234,6 +243,7 @@ const StorySlider = () => {
                             src="images/panel10.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -250,6 +260,7 @@ const StorySlider = () => {
                             src="images/panel11.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -269,6 +280,7 @@ const StorySlider = () => {
                             src="images/panel12.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -283,6 +295,7 @@ const StorySlider = () => {
                             src="images/panel13.webp"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapper">
@@ -305,6 +318,7 @@ const StorySlider = () => {
                             src="images/cruise_headshot.jpg"
                             alt="panel 2"
                             style={{ display: 'block', margin: 'auto' }}
+                            loading="lazy"
                         />
                     </div>
                     <div className="paragraphWrapperLarge">
