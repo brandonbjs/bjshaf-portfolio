@@ -53,8 +53,8 @@ class Project2 extends Component {
                             src="images/ffdtPic.PNG"
                             alt="Screenshot of my Fantasy Football Draft Tool Web Application"
                             style={{ display: 'block', margin: 'auto' }}
-                            width="80%"
-                            height="80%"
+                            width="120%"
+                            height="120%"
                         />
                     </a>
                 </div>
