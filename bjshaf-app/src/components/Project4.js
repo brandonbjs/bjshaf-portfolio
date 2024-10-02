@@ -5,32 +5,16 @@ class Project4 extends Component {
         // each project will have their own component, complete with an image, description, and technologies used
         return (
             <div className="projectContainer">
-                <div className="projectImageLeft">
-                    <a
-                        href="https://github.com/brandonbjs/bjshaf-portfolio"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img
-                            src="images/globe.webp"
-                            alt="Screenshot of placeholder globe image."
-                            style={{ display: 'block', margin: 'auto' }}
-                            width="80%"
-                            height="80%"
-                        />
-                    </a>
-                </div>
-                <div className="projectContentRight">
+                <div className="projectContentLeft">
                     <div className="projectDescription">
                         <a
                             href="https://github.com/brandonbjs/bjshaf-portfolio"
+                            className="project-link"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            {' '}
                             <h1>My Travels: World Map</h1>
                         </a>
-
                         <p>
                             I am implementing a new feature within my portfolio
                             website. I am designing a 3D interactive world map,
@@ -53,6 +37,21 @@ class Project4 extends Component {
                             .
                         </b>
                     </div>
+                </div>
+                <div className="projectImageRight">
+                    <a
+                        href="https://github.com/brandonbjs/bjshaf-portfolio"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="images/globe.webp"
+                            alt="Screenshot of placeholder globe."
+                            style={{ display: 'block', margin: 'auto' }}
+                            width="40%"
+                            height="40%"
+                        />
+                    </a>
                 </div>
             </div>
         )
