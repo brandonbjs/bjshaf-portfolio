@@ -43,7 +43,15 @@ class Project4 extends Component {
                         href="https://github.com/brandonbjs/bjshaf-portfolio"
                         target="_blank"
                         rel="noopener noreferrer"
-                    ></a>
+                    >
+                        <img
+                            src="images/work_in_progress.png"
+                            alt="Screenshot of placeholder globe."
+                            style={{ display: 'block', margin: 'auto' }}
+                            width="60%"
+                            height="60%"
+                        />
+                    </a>
                 </div>
             </div>
         )
