@@ -46,7 +46,7 @@ class Project4 extends Component {
                     >
                         <img
                             src="images/work_in_progress.png"
-                            alt="Screenshot of placeholder globe."
+                            alt="Screenshot of placeholder work in progress sign."
                             style={{ display: 'block', margin: 'auto' }}
                             width="60%"
                             height="60%"
