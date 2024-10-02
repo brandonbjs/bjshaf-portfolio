@@ -69,7 +69,7 @@ const App = () => {
                 </button>
                 <button
                     className={
-                        currentSlide >= 2 && currentSlide <= 4 ? 'active' : ''
+                        currentSlide >= 2 && currentSlide <= 5 ? 'active' : ''
                     }
                     onClick={() => goToSlide(2)}
                 >
