@@ -15,8 +15,8 @@ class Project5 extends Component {
                             src="images/work_in_progress.png"
                             alt="Screenshot of placeholder work in progress sign."
                             style={{ display: 'block', margin: 'auto' }}
-                            width="60%"
-                            height="60%"
+                            width="10%"
+                            height="10%"
                         />
                     </a>
                 </div>
