@@ -6,6 +6,7 @@ import Project1 from './components/Project1'
 import Project2 from './components/Project2'
 import Project3 from './components/Project3'
 import Project4 from './components/Project4'
+import Project5 from './components/Project5'
 import ContactMe from './components/ContactMe'
 import StorySlider from './components/StorySlider'
 import 'keen-slider/keen-slider.min.css'
@@ -69,15 +70,15 @@ const App = () => {
                 </button>
                 <button
                     className={
-                        currentSlide >= 2 && currentSlide <= 5 ? 'active' : ''
+                        currentSlide >= 2 && currentSlide <= 6 ? 'active' : ''
                     }
                     onClick={() => goToSlide(2)}
                 >
                     PROJECTS
                 </button>
                 <button
-                    className={currentSlide === 6 ? 'active' : ''}
-                    onClick={() => goToSlide(6)}
+                    className={currentSlide === 7 ? 'active' : ''}
+                    onClick={() => goToSlide(7)}
                 >
                     CONTACT ME
                 </button>
@@ -100,6 +101,9 @@ const App = () => {
                 </div>
                 <div className="keen-slider__slide">
                     <Project4 />
+                </div>
+                <div className="keen-slider__slide">
+                    <Project5 />
                 </div>
                 <div className="keen-slider__slide">
                     <ContactMe />
