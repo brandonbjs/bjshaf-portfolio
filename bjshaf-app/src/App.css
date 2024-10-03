@@ -330,8 +330,9 @@ swiper-container::part(bullet) {
 
 .projectImageLeft {
     flex: 1; /* Takes up 1 portion of the available space */
-    padding-right: 1vw; /* Adds some padding between the image and the description */
-    margin-top: 1%;
+    padding-left: 1vw; /* Adds some padding between the image and the description */
+    margin-top: 3%;
+    margin-left: 5%;
 }
 
 .projectImageRight {
@@ -564,7 +565,7 @@ swiper-container::part(bullet) {
     }
 
     .projectImageLeft img {
-        width: 90%;
+        max-width: 90%;
     }
 
     /* Adjustments for .projectContainer */
