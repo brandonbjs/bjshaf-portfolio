@@ -18,14 +18,6 @@ const StorySlider = () => {
         })
     }, [])
 
-    // custom function used to send the user to the last slide of the Swiper Element slide show
-    const goToLastSlide = () => {
-        if (swiperElRef.current && swiperElRef.current.swiper) {
-            const lastIndex = swiperElRef.current.swiper.slides.length - 1
-            swiperElRef.current.swiper.slideTo(lastIndex)
-        }
-    }
-
     // custom function used to send the user to the first slide of the Swiper Element slide show
     const goToFirstSlide = () => {
         if (swiperElRef.current && swiperElRef.current.swiper) {
@@ -45,6 +37,36 @@ const StorySlider = () => {
                 pagination="true"
             >
                 <swiper-slide>
+                    <div className="headshot">
+                        <img
+                            src="images/cruise_headshot.jpg"
+                            alt="panel 2"
+                            style={{ display: 'block', margin: 'auto' }}
+                        />
+                    </div>
+                    <div className="paragraphWrapperLarge">
+                        Hello there! My name is Brandon James Shaffer. I'm a
+                        bilingual Colombian-American with a passion for coding,
+                        gaming, snowboarding, climbing, and TV/films. I
+                        graduated from Northern Arizona University in 2023 with
+                        my Bachelor of Science in Computer Science and
+                        subsequently achieved my AWS Certified Cloud
+                        Practitioner cert in November of 2023. I am skilled in
+                        HTML, CSS, JavaScript, Python, Java, C, and C#. I have
+                        also dabbled in Unity and RStudio. I have experience
+                        with both relational and non-relational databases and
+                        favor the MERN tech stack. My past projects and
+                        experiences lean more towards front-end development, but
+                        I'm fully capable of developing back-end and APIs. I'm
+                        an eager learner keen on becoming a Software Engineer in
+                        the tech industry, aiming to evolve into a Full Stack
+                        Software Engineer. Make sure to check out my project
+                        portfolio below for more examples of my work! Continue
+                        the slide show to read more about how I fell in love
+                        with software development.
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
                     <div className="titleSlide">
                         <div className="titleImgContainer">
                             <img
@@ -62,17 +84,6 @@ const StorySlider = () => {
                                 mad at me.*
                             </p>
                         </div>
-
-                        <button
-                            className="skipToEndButton"
-                            onClick={goToLastSlide}
-                            style={{
-                                position: 'absolute',
-                                top: '50%',
-                            }}
-                        >
-                            Skip to Summary Slide
-                        </button>
                     </div>
                 </swiper-slide>
                 <swiper-slide>
@@ -297,34 +308,6 @@ const StorySlider = () => {
                         . If you made it this far, thank you so much for
                         inquiring about my life! Continue on to the last slide
                         to read a short summary about me.
-                    </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div className="headshot">
-                        <img
-                            src="images/cruise_headshot.jpg"
-                            alt="panel 2"
-                            style={{ display: 'block', margin: 'auto' }}
-                        />
-                    </div>
-                    <div className="paragraphWrapperLarge">
-                        Hello there! My name is Brandon James Shaffer. I'm a
-                        bilingual Colombian-American with a passion for coding,
-                        gaming, snowboarding, climbing, and TV/films. I
-                        graduated from Northern Arizona University in 2023 with
-                        my Bachelor of Science in Computer Science and
-                        subsequently achieved my AWS Certified Cloud
-                        Practitioner cert in November of 2023. I am skilled in
-                        HTML, CSS, JavaScript, Python, Java, C, and C#. I have
-                        also dabbled in Unity and RStudio. I have experience
-                        with both relational and non-relational databases and
-                        favor the MERN tech stack. My past projects and
-                        experiences lean more towards front-end development, but
-                        I'm fully capable of developing back-end and APIs. I'm
-                        an eager learner keen on becoming a Software Engineer in
-                        the tech industry, aiming to evolve into a Full Stack
-                        Software Engineer. Make sure to check out my project
-                        portfolio below for more examples of my work!
                     </div>
                     <button
                         className="skipToStartButton"

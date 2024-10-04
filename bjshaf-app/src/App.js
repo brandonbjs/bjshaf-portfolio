@@ -15,12 +15,12 @@ import { useKeenSlider } from 'keen-slider/react'
 const buttonStyles = [
     { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // LandingPage
     { buttonColor: '#264653', textColor: '#FFFFFF' }, // StorySlider
-    { buttonColor: '#3357FF', textColor: '#FFFFFF' }, // Project1
-    { buttonColor: '#FF33A6', textColor: '#000000' }, // Project2
-    { buttonColor: '#33FFF9', textColor: '#000000' }, // Project3
-    { buttonColor: '#FFEB33', textColor: '#000000' }, // Project4
-    { buttonColor: '#8B33FF', textColor: '#FFFFFF' }, // Project5
-    { buttonColor: '#FF338F', textColor: '#FFFFFF' }, // ContactMe
+    { buttonColor: '#264653', textColor: '#FFFFFF' }, // Project1
+    { buttonColor: '#283618', textColor: '#FFFFFF' }, // Project2
+    { buttonColor: '#c1121f', textColor: '#FFFFFF' }, // Project3
+    { buttonColor: '#ff006e', textColor: '#FFFFFF' }, // Project4
+    { buttonColor: '#00bbf9', textColor: '#FFFFFF' }, // Project5
+    { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // ContactMe
 ]
 
 const App = () => {
