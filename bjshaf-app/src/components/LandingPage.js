@@ -6,7 +6,12 @@ class LandingPage extends Component {
 
         return (
             <div className="landingPage">
-                <div className="landingPageLogo"></div>
+                <div className="landingPageLogo">
+                    <img
+                        src="images/transparentLogo6.png"
+                        alt="Brandon James Shaffer Logo"
+                    />
+                </div>
                 <div className="floatingButton">
                     <button
                         className="landingButton"

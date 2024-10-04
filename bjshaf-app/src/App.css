@@ -3,27 +3,28 @@
     height: 100%;
 }
 
-body {
-    background-image: url('../public/images/background_slide.webp');
-    background-size: cover;
-    background-attachment: scroll; /* or 'scroll' if you want the image to scroll with the page */
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    height: 100vh; /* 100% of the viewport height */
-    overflow: hidden;
-}
-
 /*============================= Style the landing page ==============================*/
 .landingPage {
-    background-image: url('../public/images/background_final2.webp');
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background: linear-gradient(to bottom, #2a9d8f 50%, #e76f51 50%);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
-    position: absolute; /* or 'fixed' depending on your needs */
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    position: relative;
+}
+
+.landingPageLogo {
+    transform: translateY(
+        -1.7%
+    ); /* Moves the logo up slightly (20% of its own height) */
+}
+
+.landingPageLogo img {
+    max-width: 100%; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
 }
 
 .floatingButton {
@@ -52,9 +53,9 @@ body {
 }
 
 .landingButton {
-    background-color: #ffffff;
+    background-color: white;
     border: none;
-    color: black; /* White text color */
+    color: #2a9d8f; /* White text color */
     padding: 10px 20px; /* Padding inside the button */
     font-size: 16px; /* Appropriate font size */
     font-weight: bold; /* Bold text */
@@ -67,7 +68,58 @@ body {
 }
 
 .landingButton:hover {
-    background-color: #c590cc; /* Slightly lighter shade for hover effect */
+    background-color: #2a9d8f; /* Slightly lighter shade for hover effect */
+    color: white; /* Dark text color on hover for contrast */
+}
+
+/*=====================================================================================*/
+
+/*============================= Style the navigation bar ==============================*/
+/* Style the navbar to sit at the top of the page */
+.navbar {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 10vh; /* Height of the navbar */
+    position: absolute; /* Make it stick to the top */
+    top: 0;
+    left: 0;
+    right: 0; /* Stretch to full width */
+    width: 100vw; /* Full width */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    text-align: center;
+}
+
+/* Styling for each button */
+.navbar button {
+    background-color: transparent;
+    border: none;
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Appropriate font size */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Rounded corners */
+    text-transform: uppercase; /* Uppercase text for a more professional look */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+    cursor: pointer; /* Cursor indicates the element is clickable */
+    transition: border 0.3s ease-in-out;
+    width: auto;
+    margin-right: 3vw;
+}
+
+.navbar button :last-child {
+    margin-right: 0;
+}
+
+/* Hover state for buttons */
+.navbar button:hover {
+    background-color: #e76f51; /* Slightly lighter shade for hover effect */
+    color: white; /* Dark text color on hover for contrast */
+}
+
+.navbar button.active {
+    background-color: #e76f51; /* Slightly lighter shade for hover effect */
     color: white; /* Dark text color on hover for contrast */
 }
 
@@ -256,57 +308,6 @@ swiper-container::part(bullet) {
     color: #ffffff;
 }
 
-/*============================= Style the navigation bar ==============================*/
-/* Style the navbar to sit at the top of the page */
-.navbar {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: row; /* Align items horizontally */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    height: 10vh; /* Height of the navbar */
-    position: absolute; /* Make it stick to the top */
-    top: 0;
-    left: 0;
-    right: 0; /* Stretch to full width */
-    width: 100vw; /* Full width */
-    z-index: 1000; /* Ensure it stays on top of other content */
-    text-align: center;
-}
-
-/* Styling for each button */
-.navbar button {
-    background-color: transparent;
-    border: none;
-    color: white; /* White text color */
-    padding: 10px 20px; /* Padding inside the button */
-    font-size: 16px; /* Appropriate font size */
-    font-weight: bold; /* Bold text */
-    border-radius: 5px; /* Rounded corners */
-    text-transform: uppercase; /* Uppercase text for a more professional look */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
-    cursor: pointer; /* Cursor indicates the element is clickable */
-    transition: border 0.3s ease-in-out;
-    width: auto;
-    margin-right: 3vw;
-}
-
-.navbar button :last-child {
-    margin-right: 0;
-}
-
-/* Hover state for buttons */
-.navbar button:hover {
-    background-color: #c590cc; /* Slightly lighter shade for hover effect */
-    color: white; /* Dark text color on hover for contrast */
-}
-
-.navbar button.active {
-    background-color: #c590cc; /* Slightly lighter shade for hover effect */
-    color: white; /* Dark text color on hover for contrast */
-}
-
-/*=====================================================================================*/
-
 /*============================= Style the Projects grid ==============================*/
 .projectContainer1 {
     display: flex; /* Establishes a flex container */
@@ -479,12 +480,6 @@ swiper-container::part(bullet) {
 
     .navbar {
         height: 10%;
-    }
-
-    /* Adjustments for landingPage */
-    .landingPage {
-        background-position: center; /* Ensures background is centered */
-        background-size: cover; /* Covers the full background without repeating */
     }
 
     .landingButton {
