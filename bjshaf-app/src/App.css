@@ -229,14 +229,11 @@ swiper-container::part(bullet) {
     height: 40%; /* Keeps the aspect ratio of the image */
 }
 
-.headshot {
-    margin-top: 1vh;
-}
-
 .headshot img {
     margin-top: 1vh;
     max-height: 30%;
     width: 28%;
+    border-radius: 15px; /* Rounded corners */
 }
 
 .skipToStartButton {

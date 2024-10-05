@@ -1,5 +1,6 @@
 import './App.css'
 import React, { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LandingPage from './components/LandingPage'
 //import Footer from './components/Footer'
 import Project1 from './components/Project1'
@@ -9,6 +10,7 @@ import Project4 from './components/Project4'
 import Project5 from './components/Project5'
 import ContactMe from './components/ContactMe'
 import StorySlider from './components/StorySlider'
+import TravelGlobe from './components/TravelGlobe'
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 
@@ -20,7 +22,26 @@ const buttonStyles = [
     { buttonColor: '#c1121f', textColor: '#FFFFFF' }, // Project3
     { buttonColor: '#ff006e', textColor: '#FFFFFF' }, // Project4
     { buttonColor: '#00bbf9', textColor: '#FFFFFF' }, // Project5
+    { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // Travel Globe
     { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // ContactMe
+]
+
+const locations = [
+    {
+        lat: 48.8566,
+        lng: 2.3522,
+        name: 'Paris, France',
+        images: ['paris1.jpg', 'paris2.jpg'],
+        description: 'A beautiful city known for the Eiffel Tower.',
+    },
+    {
+        lat: 40.7128,
+        lng: -74.006,
+        name: 'New York City, USA',
+        images: ['nyc1.jpg', 'nyc2.jpg'],
+        description: 'The city that never sleeps!',
+    },
+    // Will add more locations later...
 ]
 
 const App = () => {
@@ -89,89 +110,105 @@ const App = () => {
     // goToSlide() function to allow for button functionality
     return (
         <>
-            <div className="navbar">
-                {/* Home Button */}
-                <button
-                    className={currentSlide === 0 ? 'active' : ''}
-                    onClick={() => goToSlide(0)}
-                    onMouseEnter={() => setHoveredButton(0)}
-                    onMouseLeave={() => setHoveredButton(null)}
-                    style={getButtonStyle(
-                        currentSlide === 0,
-                        hoveredButton === 0
-                    )}
-                >
-                    HOME
-                </button>
+            <Router>
+                <div className="navbar">
+                    {/* Home Button */}
+                    <button
+                        className={currentSlide === 0 ? 'active' : ''}
+                        onClick={() => goToSlide(0)}
+                        onMouseEnter={() => setHoveredButton(0)}
+                        onMouseLeave={() => setHoveredButton(null)}
+                        style={getButtonStyle(
+                            currentSlide === 0,
+                            hoveredButton === 0
+                        )}
+                    >
+                        HOME
+                    </button>
 
-                {/* About Me Button */}
-                <button
-                    className={currentSlide === 1 ? 'active' : ''}
-                    onClick={() => goToSlide(1)}
-                    onMouseEnter={() => setHoveredButton(1)}
-                    onMouseLeave={() => setHoveredButton(null)}
-                    style={getButtonStyle(
-                        currentSlide === 1,
-                        hoveredButton === 1
-                    )}
-                >
-                    ABOUT ME
-                </button>
+                    {/* About Me Button */}
+                    <button
+                        className={currentSlide === 1 ? 'active' : ''}
+                        onClick={() => goToSlide(1)}
+                        onMouseEnter={() => setHoveredButton(1)}
+                        onMouseLeave={() => setHoveredButton(null)}
+                        style={getButtonStyle(
+                            currentSlide === 1,
+                            hoveredButton === 1
+                        )}
+                    >
+                        ABOUT ME
+                    </button>
 
-                {/* Projects Button (for slides 2 to 6) */}
-                <button
-                    className={isProjectsButtonActive() ? 'active' : ''}
-                    onClick={() => goToSlide(2)} // Go to the first project slide when clicked
-                    onMouseEnter={() => setHoveredButton(2)}
-                    onMouseLeave={() => setHoveredButton(null)}
-                    style={getButtonStyle(
-                        isProjectsButtonActive(),
-                        hoveredButton === 2
-                    )}
-                >
-                    PROJECTS
-                </button>
+                    {/* Projects Button (for slides 2 to 6) */}
+                    <button
+                        className={isProjectsButtonActive() ? 'active' : ''}
+                        onClick={() => goToSlide(2)} // Go to the first project slide when clicked
+                        onMouseEnter={() => setHoveredButton(2)}
+                        onMouseLeave={() => setHoveredButton(null)}
+                        style={getButtonStyle(
+                            isProjectsButtonActive(),
+                            hoveredButton === 2
+                        )}
+                    >
+                        PROJECTS
+                    </button>
 
-                {/* Contact Me Button */}
-                <button
-                    className={currentSlide === 7 ? 'active' : ''}
-                    onClick={() => goToSlide(7)}
-                    onMouseEnter={() => setHoveredButton(7)}
-                    onMouseLeave={() => setHoveredButton(null)}
-                    style={getButtonStyle(
-                        currentSlide === 7,
-                        hoveredButton === 7
-                    )}
-                >
-                    CONTACT ME
-                </button>
-            </div>
-            <div ref={sliderRef} className="keen-slider">
-                <div className="keen-slider__slide">
-                    <LandingPage goToSlide={goToSlide} />
+                    {/* Contact Me Button */}
+                    <button
+                        className={currentSlide === 7 ? 'active' : ''}
+                        onClick={() => goToSlide(7)}
+                        onMouseEnter={() => setHoveredButton(7)}
+                        onMouseLeave={() => setHoveredButton(null)}
+                        style={getButtonStyle(
+                            currentSlide === 7,
+                            hoveredButton === 7
+                        )}
+                    >
+                        CONTACT ME
+                    </button>
                 </div>
-                <div className="keen-slider__slide">
-                    <StorySlider />
-                </div>
-                <div className="keen-slider__slide">
-                    <Project1 />
-                </div>
-                <div className="keen-slider__slide">
-                    <Project2 />
-                </div>
-                <div className="keen-slider__slide">
-                    <Project3 />
-                </div>
-                <div className="keen-slider__slide">
-                    <Project4 />
-                </div>
-                <div className="keen-slider__slide">
-                    <Project5 />
-                </div>
-                <div className="keen-slider__slide">
-                    <ContactMe />
-                </div>
-            </div>
+                <Routes>
+                    {/* Main Portfolio Route */}
+                    <Route
+                        path="/"
+                        element={
+                            <div className="keen-slider" ref={sliderRef}>
+                                <div className="keen-slider__slide">
+                                    <LandingPage />
+                                </div>
+                                <div className="keen-slider__slide">
+                                    <StorySlider />
+                                </div>
+                                <div className="keen-slider__slide">
+                                    <Project1 />
+                                </div>
+                                <div className="keen-slider__slide">
+                                    <Project2 />
+                                </div>
+                                <div className="keen-slider__slide">
+                                    <Project3 />
+                                </div>
+                                <div className="keen-slider__slide">
+                                    <Project4 />
+                                </div>
+                                <div className="keen-slider__slide">
+                                    <Project5 />
+                                </div>
+                                <div className="keen-slider__slide">
+                                    <ContactMe />
+                                </div>
+                            </div>
+                        }
+                    />
+
+                    {/* Travel Globe Route */}
+                    <Route
+                        path="/travel-globe"
+                        element={<TravelGlobe locations={locations} />}
+                    />
+                </Routes>
+            </Router>
         </>
     )
 }

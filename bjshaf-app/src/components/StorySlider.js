@@ -38,11 +38,7 @@ const StorySlider = () => {
             >
                 <swiper-slide>
                     <div className="headshot">
-                        <img
-                            src="images/cruise_headshot.jpg"
-                            alt="panel 2"
-                            style={{ display: 'block', margin: 'auto' }}
-                        />
+                        <img src="images/cruise_headshot.jpg" alt="panel 2" />
                     </div>
                     <div className="paragraphWrapperLarge">
                         Hello there! My name is Brandon James Shaffer. I'm a
