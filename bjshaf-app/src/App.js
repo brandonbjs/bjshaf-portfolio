@@ -2,7 +2,6 @@ import './App.css'
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import LandingPage from './components/LandingPage'
-//import Footer from './components/Footer'
 import Project1 from './components/Project1'
 import Project2 from './components/Project2'
 import Project3 from './components/Project3'
@@ -46,7 +45,7 @@ const locations = [
 
 const App = () => {
     const [currentSlide, setCurrentSlide] = useState(0)
-    const [hoveredButton, setHoveredButton] = useState(null) // Track hovered button
+    const [hoveredButton, setHoveredButton] = useState(null)
 
     const [sliderRef, slider] = useKeenSlider({
         slidesPerView: 1,
@@ -57,8 +56,6 @@ const App = () => {
         dragSpeed: 0.8,
         duration: 2000,
         created: (instance) => {
-            // Attach event listener for mousewheel scroll
-            // uses keen-slider built in next and prev functions
             instance.container.addEventListener('wheel', (event) => {
                 event.preventDefault()
                 if (event.deltaY > 0) {
@@ -68,26 +65,15 @@ const App = () => {
                 }
             })
         },
-        destroyed: (instance) => {
-            // Remove event listener when the component is unmounted
-            instance.container.removeEventListener('wheel', (event) => {})
-        },
         slideChanged: (instance) => {
-            // Accessing the details directly as a property
             const currentSlideIndex = instance.track.details.rel
             setCurrentSlide(currentSlideIndex)
         },
     })
 
-    // function to send a person to a particular slide upon button press
-    // uses built in function moveToIdx from keen-slider
-    // can add in the Cool Pics section again once the website is in prod
     const goToSlide = (index) => {
         slider.current?.moveToIdx(index)
     }
-
-    // Function to determine whether the "Projects" button should be active/hovered
-    const isProjectsButtonActive = () => currentSlide >= 2 && currentSlide <= 6
 
     // Get styles for all buttons based on the current active slide
     const getButtonStyle = (isActive, isHovered) => {
@@ -106,73 +92,84 @@ const App = () => {
         }
     }
 
-    // navbar tracks which slide is the "active" slide for styling purposes and uses the
-    // goToSlide() function to allow for button functionality
     return (
-        <>
-            <Router>
-                <div className="navbar">
-                    {/* Home Button */}
-                    <button
-                        className={currentSlide === 0 ? 'active' : ''}
-                        onClick={() => goToSlide(0)}
-                        onMouseEnter={() => setHoveredButton(0)}
-                        onMouseLeave={() => setHoveredButton(null)}
-                        style={getButtonStyle(
-                            currentSlide === 0,
-                            hoveredButton === 0
-                        )}
-                    >
-                        HOME
-                    </button>
+        <Router>
+            <Routes>
+                {/* Main Portfolio Route */}
+                <Route
+                    path="/"
+                    element={
+                        <>
+                            {/* Render Navbar only on non-TravelGlobe routes */}
+                            <div className="navbar">
+                                {/* Home Button */}
+                                <button
+                                    className={
+                                        currentSlide === 0 ? 'active' : ''
+                                    }
+                                    onClick={() => goToSlide(0)}
+                                    onMouseEnter={() => setHoveredButton(0)}
+                                    onMouseLeave={() => setHoveredButton(null)}
+                                    style={getButtonStyle(
+                                        currentSlide === 0,
+                                        hoveredButton === 0
+                                    )}
+                                >
+                                    HOME
+                                </button>
 
-                    {/* About Me Button */}
-                    <button
-                        className={currentSlide === 1 ? 'active' : ''}
-                        onClick={() => goToSlide(1)}
-                        onMouseEnter={() => setHoveredButton(1)}
-                        onMouseLeave={() => setHoveredButton(null)}
-                        style={getButtonStyle(
-                            currentSlide === 1,
-                            hoveredButton === 1
-                        )}
-                    >
-                        ABOUT ME
-                    </button>
+                                {/* About Me Button */}
+                                <button
+                                    className={
+                                        currentSlide === 1 ? 'active' : ''
+                                    }
+                                    onClick={() => goToSlide(1)}
+                                    onMouseEnter={() => setHoveredButton(1)}
+                                    onMouseLeave={() => setHoveredButton(null)}
+                                    style={getButtonStyle(
+                                        currentSlide === 1,
+                                        hoveredButton === 1
+                                    )}
+                                >
+                                    ABOUT ME
+                                </button>
 
-                    {/* Projects Button (for slides 2 to 6) */}
-                    <button
-                        className={isProjectsButtonActive() ? 'active' : ''}
-                        onClick={() => goToSlide(2)} // Go to the first project slide when clicked
-                        onMouseEnter={() => setHoveredButton(2)}
-                        onMouseLeave={() => setHoveredButton(null)}
-                        style={getButtonStyle(
-                            isProjectsButtonActive(),
-                            hoveredButton === 2
-                        )}
-                    >
-                        PROJECTS
-                    </button>
+                                {/* Projects Button */}
+                                <button
+                                    className={
+                                        currentSlide >= 2 && currentSlide <= 6
+                                            ? 'active'
+                                            : ''
+                                    }
+                                    onClick={() => goToSlide(2)}
+                                    onMouseEnter={() => setHoveredButton(2)}
+                                    onMouseLeave={() => setHoveredButton(null)}
+                                    style={getButtonStyle(
+                                        currentSlide >= 2 && currentSlide <= 6,
+                                        hoveredButton === 2
+                                    )}
+                                >
+                                    PROJECTS
+                                </button>
 
-                    {/* Contact Me Button */}
-                    <button
-                        className={currentSlide === 7 ? 'active' : ''}
-                        onClick={() => goToSlide(7)}
-                        onMouseEnter={() => setHoveredButton(7)}
-                        onMouseLeave={() => setHoveredButton(null)}
-                        style={getButtonStyle(
-                            currentSlide === 7,
-                            hoveredButton === 7
-                        )}
-                    >
-                        CONTACT ME
-                    </button>
-                </div>
-                <Routes>
-                    {/* Main Portfolio Route */}
-                    <Route
-                        path="/"
-                        element={
+                                {/* Contact Me Button */}
+                                <button
+                                    className={
+                                        currentSlide === 7 ? 'active' : ''
+                                    }
+                                    onClick={() => goToSlide(7)}
+                                    onMouseEnter={() => setHoveredButton(7)}
+                                    onMouseLeave={() => setHoveredButton(null)}
+                                    style={getButtonStyle(
+                                        currentSlide === 7,
+                                        hoveredButton === 7
+                                    )}
+                                >
+                                    CONTACT ME
+                                </button>
+                            </div>
+
+                            {/* The slider with your components */}
                             <div className="keen-slider" ref={sliderRef}>
                                 <div className="keen-slider__slide">
                                     <LandingPage />
@@ -199,17 +196,17 @@ const App = () => {
                                     <ContactMe />
                                 </div>
                             </div>
-                        }
-                    />
+                        </>
+                    }
+                />
 
-                    {/* Travel Globe Route */}
-                    <Route
-                        path="/travel-globe"
-                        element={<TravelGlobe locations={locations} />}
-                    />
-                </Routes>
-            </Router>
-        </>
+                {/* Travel Globe Route */}
+                <Route
+                    path="/travel-globe"
+                    element={<TravelGlobe locations={locations} />}
+                />
+            </Routes>
+        </Router>
     )
 }
 

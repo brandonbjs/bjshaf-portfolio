@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { useNavigate } from 'react-router-dom' // Import useNavigate for redirection
 
 const Project4 = () => {
@@ -12,19 +12,23 @@ const Project4 = () => {
         <div className="projectContainer">
             <div className="projectContentLeft">
                 <div className="projectDescription">
-                    <a
-                        href="https://github.com/brandonbjs/bjshaf-portfolio"
-                        className="project-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <h1
+                        onClick={handleImageClick}
+                        style={{
+                            textDecoration: 'underline',
+                            cursor: 'pointer',
+                        }}
                     >
-                        <h1>My Travel Globe</h1>
-                    </a>
+                        My Travel Globe
+                    </h1>
+
                     <p>
-                        I am implementing a new feature within my portfolio
-                        website. I am designing a 3D interactive world map,
-                        showcasing my travel destinations with pins and images
-                        of locations visited.
+                        I am developing an exciting new feature for my portfolio
+                        website: a 3D interactive world map. This map will
+                        highlight my travel destinations with pins, complemented
+                        by images of the places I've visited, creating a dynamic
+                        and immersive experience for users. Try it now by click
+                        the header or globe!
                     </p>
                 </div>
                 <div className="projectTechnologies">
@@ -32,7 +36,7 @@ const Project4 = () => {
                         Technologies Used: HTML, CSS, JavaScript, React, GitHub
                         Pages, Amazon EC2, Git, and{' '}
                         <a
-                            href="https://github.com/brandonbjs/bjshaf-portfolio"
+                            href="https://github.com/brandonbjs/bjshaf-portfolio/blob/main/bjshaf-app/src/components/TravelGlobe.js"
                             className="project-link"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -45,9 +49,13 @@ const Project4 = () => {
             </div>
             <div className="projectImageRight">
                 <img
-                    src="images/work_in_progress.png"
-                    alt="Screenshot of placeholder work in progress sign."
-                    style={{ display: 'block', margin: 'auto' }}
+                    src="images/globeSnip-edited.png"
+                    alt="Still of the globe being used for my TravelGlobe component."
+                    style={{
+                        display: 'block',
+                        margin: 'auto',
+                        cursor: 'pointer',
+                    }}
                     width="60%"
                     height="60%"
                     onClick={handleImageClick} // Redirect when the image is clicked
