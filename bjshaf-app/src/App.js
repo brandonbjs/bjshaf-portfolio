@@ -172,7 +172,7 @@ const App = () => {
                             {/* The slider with your components */}
                             <div className="keen-slider" ref={sliderRef}>
                                 <div className="keen-slider__slide">
-                                    <LandingPage />
+                                    <LandingPage goToSlide={goToSlide} />
                                 </div>
                                 <div className="keen-slider__slide">
                                     <StorySlider />

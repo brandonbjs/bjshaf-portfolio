@@ -27,8 +27,8 @@ const Project4 = () => {
                         website: a 3D interactive world map. This map will
                         highlight my travel destinations with pins, complemented
                         by images of the places I've visited, creating a dynamic
-                        and immersive experience for users. Try it now by click
-                        the header or globe!
+                        and immersive experience for users. Try it now by
+                        clicking the header or the globe!
                     </p>
                 </div>
                 <div className="projectTechnologies">
