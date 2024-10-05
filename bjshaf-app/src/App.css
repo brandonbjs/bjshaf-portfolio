@@ -370,6 +370,19 @@ swiper-container::part(bullet) {
 .projectDescription a {
     color: white;
 }
+
+.backToLandingPage {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
 /*====================================================================================*/
 
 /*================================== Style the Contact Me Stuff=======================*/

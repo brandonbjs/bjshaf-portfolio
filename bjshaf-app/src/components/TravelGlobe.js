@@ -8,6 +8,10 @@ const TravelGlobe = ({ locations }) => {
     const [showModal, setShowModal] = useState(false)
     const [currentLocation, setCurrentLocation] = useState(null)
 
+    const handleBackClick = () => {
+        window.location.href = '/' // Reload the landing page by navigating to '/' and forcing a page refresh
+    }
+
     useEffect(() => {
         const globe = Globe()(globeRef.current)
             .globeImageUrl(
@@ -30,6 +34,10 @@ const TravelGlobe = ({ locations }) => {
 
     return (
         <>
+            {/* Back button in the top left corner */}
+            <button className="backToLandingPage" onClick={handleBackClick}>
+                Back to Portfolio
+            </button>
             <div ref={globeRef} style={{ width: '100%', height: '100%' }} />
 
             {currentLocation && (
