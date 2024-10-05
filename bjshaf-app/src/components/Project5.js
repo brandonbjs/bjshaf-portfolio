@@ -41,7 +41,7 @@ class Project5 extends Component {
                         </p>
                     </div>
                     <div className="projectTechnologies">
-                        <b>TBD.</b>
+                        <b>Technologies Used: TBD</b>
                     </div>
                 </div>
             </div>
