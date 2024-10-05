@@ -27,18 +27,11 @@ const buttonStyles = [
 
 const locations = [
     {
-        lat: 48.8566,
-        lng: 2.3522,
-        name: 'Paris, France',
-        images: ['paris1.jpg', 'paris2.jpg'],
-        description: 'A beautiful city known for the Eiffel Tower.',
-    },
-    {
-        lat: 40.7128,
-        lng: -74.006,
-        name: 'New York City, USA',
-        images: ['nyc1.jpg', 'nyc2.jpg'],
-        description: 'The city that never sleeps!',
+        lat: 39.502,
+        lng: -106.1496,
+        name: 'Copper Mountain, Colorado, USA',
+        images: ['images/sick_tripod.jpg'],
+        description: 'An amazing mountain just asking to be ripped.',
     },
     // Will add more locations later...
 ]

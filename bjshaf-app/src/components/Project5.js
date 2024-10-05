@@ -41,19 +41,7 @@ class Project5 extends Component {
                         </p>
                     </div>
                     <div className="projectTechnologies">
-                        <b>
-                            Technologies Used: HTML, CSS, JavaScript, MySQL,
-                            Spring, GitHub Pages, AWS, Git, and{' '}
-                            <a
-                                href="https://github.com/brandonbjs/"
-                                className="project-link"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                GitHub
-                            </a>
-                            .
-                        </b>
+                        <b>TBD.</b>
                     </div>
                 </div>
             </div>
