@@ -615,7 +615,10 @@ swiper-container::part(bullet) {
         width: 30%; /* Make the contact section narrower */
         padding: 10vh; /* Adjust padding for better spacing */
     }
+}
 
+/* also targeting 14 inch laptop screens */
+@media screen and (max-width: 1920px) {
     .keen-slider__slide:nth-child(3) {
         background: linear-gradient(to right, #e9c46a 68%, #264653 50%);
     }
