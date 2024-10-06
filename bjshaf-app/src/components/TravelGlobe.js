@@ -41,7 +41,11 @@ const TravelGlobe = ({ locations }) => {
             <div ref={globeRef} style={{ width: '100%', height: '100%' }} />
 
             {currentLocation && (
-                <Modal show={showModal} onHide={() => setShowModal(false)}>
+                <Modal
+                    className="travelModal"
+                    show={showModal}
+                    onHide={() => setShowModal(false)}
+                >
                     <Modal.Header closeButton>
                         <Modal.Title>{currentLocation.name}</Modal.Title>
                     </Modal.Header>
