@@ -385,6 +385,8 @@ swiper-container::part(bullet) {
 }
 /*====================================================================================*/
 
+/*================================== Style the Travel Globe Stuff=======================*/
+
 .travelModal {
     width: 80%;
     height: 80%;
@@ -399,6 +401,18 @@ swiper-container::part(bullet) {
     border-radius: 10px;
     z-index: 10;
 }
+
+.closeButton {
+    width: 100%;
+}
+
+.carouselImage {
+    max-height: 100vh; /* Set a max height for the images */
+    object-fit: cover; /* Ensure the image covers the entire area without stretching */
+    border-radius: 10px; /* Round the corners */
+    margin: 0 auto; /* Center the image */
+}
+/*====================================================================================*/
 
 /*================================== Style the Contact Me Stuff=======================*/
 
@@ -600,6 +614,26 @@ swiper-container::part(bullet) {
     .contactMeContainer {
         width: 30%; /* Make the contact section narrower */
         padding: 10vh; /* Adjust padding for better spacing */
+    }
+
+    .keen-slider__slide:nth-child(3) {
+        background: linear-gradient(to right, #e9c46a 68%, #264653 50%);
+    }
+
+    .keen-slider__slide:nth-child(4) {
+        background: linear-gradient(to left, #bc6c25 72%, #283618 50%);
+    }
+
+    .keen-slider__slide:nth-child(5) {
+        background: linear-gradient(to right, #669bbc 63%, #c1121f 50%);
+    }
+
+    .keen-slider__slide:nth-child(6) {
+        background: linear-gradient(to left, #8338ec 66%, #ff006e 50%);
+    }
+
+    .keen-slider__slide:nth-child(7) {
+        background: linear-gradient(to right, #fee440 63%, #00bbf9 50%);
     }
 }
 
