@@ -45,6 +45,8 @@ const TravelGlobe = ({ locations }) => {
                     className="travelModal"
                     show={showModal}
                     onHide={() => setShowModal(false)}
+                    backdrop="static" // This will prevent closing when clicking outside
+                    keyboard={false}
                 >
                     <Modal.Header>
                         <button

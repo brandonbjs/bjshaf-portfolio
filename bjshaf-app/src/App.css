@@ -454,16 +454,30 @@ swiper-container::part(bullet) {
     border-radius: 5px; /* Slight rounding for a cleaner look */
 }
 
-/* Style for the carousel navigation buttons */
+/* Centering the carousel navigation buttons */
 .carousel-control-prev,
 .carousel-control-next {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
     background-color: #264653;
     color: white;
     border-radius: 10%;
     padding: 10px;
-    top: 50%; /* Center the buttons vertically */
-    transform: translateY(-50%); /* Offset by 50% to truly center */
-    width: 10%; /* Adjust the width to make the buttons more prominent */
+    position: absolute; /* Ensure they are positioned absolutely within the carousel */
+    width: 5%; /* Reset any previous width settings */
+    height: 3%; /* Extend height to cover the entire carousel for better accessibility */
+    border: none; /* Remove any border for a cleaner look */
+}
+
+/* Align the previous button to the left side of the carousel */
+.carousel-control-prev {
+    left: 10px; /* Adjust this value to position the button closer or further from the edge */
+}
+
+/* Align the next button to the right side of the carousel */
+.carousel-control-next {
+    right: 10px; /* Adjust this value to position the button closer or further from the edge */
 }
 
 .carousel-control-prev:hover,
