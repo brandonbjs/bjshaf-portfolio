@@ -46,17 +46,25 @@ const TravelGlobe = ({ locations }) => {
                     show={showModal}
                     onHide={() => setShowModal(false)}
                 >
-                    <Modal.Header closeButton className="closeButton">
+                    <Modal.Header>
+                        <button
+                            type="button"
+                            className="closeButton"
+                            aria-label="Close"
+                            onClick={() => setShowModal(false)}
+                        >
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                         <Modal.Title>{currentLocation.name}</Modal.Title>
                     </Modal.Header>
+
                     <Modal.Body>
-                        <Carousel>
+                        <Carousel interval={null}>
+                            {' '}
+                            {/* Ensuring it doesn't auto-slide */}
                             {currentLocation.images.map((img, idx) => (
-                                <Carousel.Item
-                                    key={idx}
-                                    className="carouselImage"
-                                >
-                                    <img src={img} alt={``} />
+                                <Carousel.Item key={idx}>
+                                    <img src={img} alt={`Slide ${idx}`} />
                                     <Carousel.Caption>
                                         <p>{currentLocation.description}</p>
                                     </Carousel.Caption>

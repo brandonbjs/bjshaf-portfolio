@@ -402,15 +402,73 @@ swiper-container::part(bullet) {
     z-index: 10;
 }
 
-.closeButton {
-    width: 100%;
+/* Style for the modal close button */
+.modal .closeButton {
+    background-color: red; /* Color to match your theme */
+    color: white;
+    border: none;
+    border-radius: 10%;
+    width: 2vw;
+    height: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.carouselImage {
-    max-height: 100vh; /* Set a max height for the images */
-    object-fit: cover; /* Ensure the image covers the entire area without stretching */
-    border-radius: 10px; /* Round the corners */
-    margin: 0 auto; /* Center the image */
+.modal .closeButton:hover {
+    background-color: #8d0808; /* Darker shade on hover */
+}
+
+/* Ensure the caption is positioned centrally below the image */
+.carousel-item {
+    display: flex; /* Flexbox to center content */
+    flex-direction: column; /* Stack image and caption vertically */
+    justify-content: center; /* Center both image and caption */
+    align-items: center; /* Center content horizontally */
+    height: 65vh; /* Adjust the height as necessary */
+}
+
+.carousel-item img {
+    max-width: 80%; /* Scale the image to fit within the Carousel */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 10px; /* Keep the existing rounded corners */
+    margin: auto; /* Center the image */
+}
+
+/* Adjust the caption styling to ensure it is centered below the image */
+.carousel-caption {
+    position: static; /* Change from absolute or relative to static positioning */
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.6
+    ); /* Optional: Semi-transparent background for readability */
+    color: white; /* White text color for contrast */
+    padding: 10px;
+    margin-top: 10px; /* Space between the image and caption */
+    text-align: center; /* Center-align the caption text */
+    width: 50%; /* Match the width to the image width */
+    border-radius: 5px; /* Slight rounding for a cleaner look */
+}
+
+/* Style for the carousel navigation buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #264653;
+    color: white;
+    border-radius: 10%;
+    padding: 10px;
+    top: 50%; /* Center the buttons vertically */
+    transform: translateY(-50%); /* Offset by 50% to truly center */
+    width: 10%; /* Adjust the width to make the buttons more prominent */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: #e76f51; /* Lighter shade for hover effect */
 }
 /*====================================================================================*/
 
