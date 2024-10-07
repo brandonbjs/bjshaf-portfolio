@@ -66,9 +66,9 @@ const TravelGlobe = ({ locations }) => {
                             {/* Ensuring it doesn't auto-slide */}
                             {currentLocation.images.map((img, idx) => (
                                 <Carousel.Item key={idx}>
-                                    <img src={img} alt={`Slide ${idx}`} />
+                                    <img src={img.src} alt={`Slide ${idx}`} />
                                     <Carousel.Caption>
-                                        <p>{currentLocation.description}</p>
+                                        <p>{img.caption}</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                             ))}

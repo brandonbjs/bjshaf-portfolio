@@ -30,8 +30,16 @@ const locations = [
         lat: 39.502,
         lng: -106.1496,
         name: 'Copper Mountain, Colorado, USA',
-        images: ['images/sick_tripod.jpg'],
-        description: 'An amazing mountain just asking to be ripped.',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+            {
+                src: 'images/panel1.webp',
+                caption: 'TEST TEST TEST',
+            },
+        ],
     },
     // Will add more locations later...
 ]
