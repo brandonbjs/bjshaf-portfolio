@@ -27,21 +27,6 @@ const buttonStyles = [
 
 const locations = [
     {
-        lat: 39.502,
-        lng: -106.1496,
-        name: 'Copper Mountain, Colorado, USA',
-        images: [
-            {
-                src: 'images/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
-            },
-            {
-                src: 'images/panel1.webp',
-                caption: 'TEST TEST TEST',
-            },
-        ],
-    },
-    {
         lat: 41.9028,
         lng: 12.4964,
         name: 'Rome, Italy',
@@ -89,6 +74,61 @@ const locations = [
         lat: 45.6495,
         lng: 13.7768,
         name: 'Trieste, Italy',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 42.9606,
+        lng: 17.1351,
+        name: 'Korčula, Croatia',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 37.9838,
+        lng: 23.7275,
+        name: 'Athens, Greece',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 37.637,
+        lng: 21.6307,
+        name: 'Olympia, Greece',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 37.4467,
+        lng: 25.3289,
+        name: 'Mykonos, Greece',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 35.5138,
+        lng: 24.018,
+        name: 'Chania, Crete, Greece',
         images: [
             {
                 src: 'images/sick_tripod.jpg',
