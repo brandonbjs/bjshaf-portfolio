@@ -49,7 +49,7 @@ const Project4 = () => {
             </div>
             <div className="projectImageRight">
                 <img
-                    src="images/globeSnip-edited.png"
+                    src="images/updatedGlobe.png"
                     alt="Still of the globe being used for my TravelGlobe component."
                     style={{
                         display: 'block',
