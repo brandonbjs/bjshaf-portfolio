@@ -74,6 +74,28 @@ const locations = [
             },
         ],
     },
+    {
+        lat: 45.4408,
+        lng: 12.3155,
+        name: 'Venice, Italy',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 45.6495,
+        lng: 13.7768,
+        name: 'Trieste, Italy',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
     // Will add more locations later...
 ]
 
