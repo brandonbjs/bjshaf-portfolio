@@ -41,6 +41,17 @@ const locations = [
             },
         ],
     },
+    {
+        lat: 41.9028,
+        lng: 12.4964,
+        name: 'Rome Italy',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
     // Will add more locations later...
 ]
 

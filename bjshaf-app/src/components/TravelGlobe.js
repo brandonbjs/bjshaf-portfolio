@@ -23,7 +23,7 @@ const TravelGlobe = ({ locations }) => {
             .pointsData(locations)
             .pointLat('lat')
             .pointLng('lng')
-            .pointAltitude(0.01)
+            .pointAltitude(0.1)
             .pointRadius(0.5)
             .pointColor(() => 'orange')
             .onPointClick((point) => {
