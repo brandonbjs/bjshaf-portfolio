@@ -33,8 +33,8 @@ const Project4 = () => {
                 </div>
                 <div className="projectTechnologies">
                     <b>
-                        Technologies Used: HTML, CSS, JavaScript, React, GitHub
-                        Pages, Amazon EC2, Git, and{' '}
+                        Technologies Used: HTML, CSS, JavaScript, React
+                        (globe.gl), GitHub Pages, Amazon EC2, Git, and{' '}
                         <a
                             href="https://github.com/brandonbjs/bjshaf-portfolio/blob/main/bjshaf-app/src/components/TravelGlobe.js"
                             className="project-link"
