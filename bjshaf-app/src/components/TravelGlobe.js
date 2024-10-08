@@ -15,7 +15,10 @@ const TravelGlobe = ({ locations }) => {
     useEffect(() => {
         const globe = Globe()(globeRef.current)
             .globeImageUrl(
-                '//unpkg.com/three-globe/example/img/earth-night.jpg'
+                '//unpkg.com/three-globe/example/img/earth-blue-marble.jpg'
+            )
+            .bumpImageUrl(
+                '//unpkg.com/three-globe/example/img/earth-topology.png'
             )
             .pointOfView({ lat: 0, lng: 0, altitude: 2 })
 
@@ -23,9 +26,9 @@ const TravelGlobe = ({ locations }) => {
             .pointsData(locations)
             .pointLat('lat')
             .pointLng('lng')
-            .pointAltitude(0.1)
-            .pointRadius(0.5)
-            .pointColor(() => 'orange')
+            .pointAltitude(0.2)
+            .pointRadius(0.3)
+            .pointColor(() => '#e76f51')
             .onPointClick((point) => {
                 setCurrentLocation(point)
                 setShowModal(true)

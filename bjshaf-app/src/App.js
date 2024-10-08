@@ -169,6 +169,72 @@ const locations = [
             },
         ],
     },
+    {
+        lat: 9.9281,
+        lng: -84.0907,
+        name: 'San José, Costa Rica',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: -0.1807,
+        lng: -78.4678,
+        name: 'Quito, Ecuador',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 39.502,
+        lng: -106.1496,
+        name: 'Copper Mountain, Colorado',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 58.3019,
+        lng: -134.4197,
+        name: 'Juneau, Alaska',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 55.3422,
+        lng: -131.6461,
+        name: 'Ketchikan, Alaska',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 49.2827,
+        lng: -123.1207,
+        name: 'Vancouver, British Columbia, Canada',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
     // Will add more locations later...
 ]
 
