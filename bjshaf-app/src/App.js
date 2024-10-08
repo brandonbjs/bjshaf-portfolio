@@ -136,6 +136,39 @@ const locations = [
             },
         ],
     },
+    {
+        lat: 37.8617,
+        lng: 27.2566,
+        name: 'Kusadasi, Turkey',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 37.939,
+        lng: 27.341,
+        name: 'Ephesus Ruins, Turkey',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 41.0082,
+        lng: 28.9784,
+        name: 'Istanbul, Turkey',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
     // Will add more locations later...
 ]
 
