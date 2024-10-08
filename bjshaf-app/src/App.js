@@ -235,6 +235,17 @@ const locations = [
             },
         ],
     },
+    {
+        lat: 4.711,
+        lng: -74.0721,
+        name: 'Bogotá, Colombia',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
     // Will add more locations later...
 ]
 
