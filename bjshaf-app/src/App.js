@@ -32,8 +32,20 @@ const locations = [
         name: 'Rome, Italy',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/IMG_9611.JPEG',
+                caption: 'Within the Coliseum.',
+            },
+            {
+                src: 'images/IMG_9612.JPEG',
+                caption: 'Within the Coliseum, second angle.',
+            },
+            {
+                src: 'images/IMG_9615.JPEG',
+                caption: 'Within the Coliseum, center view.',
+            },
+            {
+                src: 'images/IMG_9626.JPEG',
+                caption: 'Within the Coliseum, center view, second angle.',
             },
         ],
     },
