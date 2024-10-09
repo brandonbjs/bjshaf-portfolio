@@ -51,6 +51,10 @@ const locations = [
                 src: 'images/IMG_9639.JPEG',
                 caption: 'Cheeeeeese',
             },
+            {
+                src: 'images/IMG_9643.JPEG',
+                caption: 'Sis!',
+            },
         ],
     },
     {
