@@ -47,6 +47,10 @@ const locations = [
                 src: 'images/IMG_9626.JPEG',
                 caption: 'Within the Coliseum, center view, second angle.',
             },
+            {
+                src: 'images/IMG_9639.JPEG',
+                caption: 'Cheeeeeese',
+            },
         ],
     },
     {
