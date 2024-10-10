@@ -285,6 +285,22 @@ const locations = [
                 src: 'images/IMG_1298.JPEG',
                 caption: 'First run; backwards view from the lift.',
             },
+            {
+                src: 'images/IMG_1299.JPEG',
+                caption: 'First run selfie on the lift. Wear your helmet kids!',
+            },
+            {
+                src: 'images/IMG_1301.JPEG',
+                caption: 'Lift pic with my homies Dalton and Dax!',
+            },
+            {
+                src: 'images/IMG_1302.JPEG',
+                caption: 'Mountain View #1',
+            },
+            {
+                src: 'images/IMG_1304.JPEG',
+                caption: 'Mountain View #2',
+            },
         ],
     },
     {
