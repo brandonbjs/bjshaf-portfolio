@@ -32,20 +32,45 @@ const locations = [
         name: 'Rome, Italy',
         images: [
             {
+                src: 'images/IMG_9341.JPEG',
+                caption:
+                    'Arch of Constantine; erected in the year 315 in commemoration of the victory of Constantine I the Great in the Battle of Milvian Bridge. It is located between the Colosseum and the Palatine Hill.',
+            },
+            {
+                src: 'images/IMG_9342.JPEG',
+                caption: 'Arch of Constantine.',
+            },
+            {
+                src: 'images/IMG_9346.JPEG',
+                caption: 'Inner wall of Colosseum.',
+            },
+            {
+                src: 'images/IMG_9352.JPEG',
+                caption: 'Inner wall of Colosseum.',
+            },
+            {
+                src: 'images/IMG_9353.JPEG',
+                caption: 'Inner wall of Colosseum.',
+            },
+            {
+                src: 'images/IMG_9356.JPEG',
+                caption: 'Inner wall of Colosseum, with view of Outer Wall.',
+            },
+            {
                 src: 'images/IMG_9611.JPEG',
-                caption: 'Within the Coliseum.',
+                caption: 'Within the Colosseum.',
             },
             {
                 src: 'images/IMG_9612.JPEG',
-                caption: 'Within the Coliseum, second angle.',
+                caption: 'Within the Colosseum, second angle.',
             },
             {
                 src: 'images/IMG_9615.JPEG',
-                caption: 'Within the Coliseum, center view.',
+                caption: 'Within the Colosseum, center view.',
             },
             {
                 src: 'images/IMG_9626.JPEG',
-                caption: 'Within the Coliseum, center view, second angle.',
+                caption: 'Within the Colosseum, center view, second angle.',
             },
             {
                 src: 'images/IMG_9639.JPEG',
@@ -237,6 +262,17 @@ const locations = [
         lat: 55.3422,
         lng: -131.6461,
         name: 'Ketchikan, Alaska',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 59.4583,
+        lng: -135.3139,
+        name: 'Skagway, Alaska',
         images: [
             {
                 src: 'images/sick_tripod.jpg',
