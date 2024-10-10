@@ -122,6 +122,42 @@ const locations = [
                 src: 'images/IMG_2604.JPEG',
                 caption: 'Rialto Bridge!',
             },
+            {
+                src: 'images/IMG_2615.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
+            {
+                src: 'images/IMG_2622.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
+            {
+                src: 'images/IMG_2623.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
+            {
+                src: 'images/IMG_2624.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
+            {
+                src: 'images/IMG_2625.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
+            {
+                src: 'images/IMG_2626.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
+            {
+                src: 'images/IMG_2627.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
+            {
+                src: 'images/IMG_2628.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
+            {
+                src: 'images/IMG_2604.JPEG',
+                caption: 'Amazing glass blown in Murano, Italy!',
+            },
         ],
     },
     {
