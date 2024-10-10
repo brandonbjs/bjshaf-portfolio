@@ -110,8 +110,17 @@ const locations = [
         name: 'Venice, Italy',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/IMG_2598.JPEG',
+                caption:
+                    'The Chiesa di San Polo is a Catholic church in Venice, dedicated to the Apostle Paul.',
+            },
+            {
+                src: 'images/IMG_2601.JPEG',
+                caption: 'Gondolas!',
+            },
+            {
+                src: 'images/IMG_2604.JPEG',
+                caption: 'Rialto Bridge!',
             },
         ],
     },
