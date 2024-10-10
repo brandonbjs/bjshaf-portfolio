@@ -158,6 +158,10 @@ const locations = [
                 src: 'images/IMG_2604.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
+            {
+                src: 'images/IMG_2658.JPEG',
+                caption: 'Famous painted buildings in Burano, Italy.',
+            },
         ],
     },
     {
