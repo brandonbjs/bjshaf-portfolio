@@ -455,7 +455,7 @@ swiper-container::part(bullet) {
     padding: 10px;
     margin-top: 10px; /* Space between the image and caption */
     text-align: center; /* Center-align the caption text */
-    width: 50%; /* Match the width to the image width */
+    width: 75%; /* Match the width to the image width */
     border-radius: 5px; /* Slight rounding for a cleaner look */
 }
 

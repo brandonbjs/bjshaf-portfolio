@@ -220,8 +220,43 @@ const locations = [
         name: 'San José, Costa Rica',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/IMG_3292.JPG',
+                caption: 'Alajuela, Costa Rica: La Fortuna Waterfall!',
+            },
+            {
+                src: 'images/IMG_3293.JPG',
+                caption: 'Couple of Green Iguanas I saw while in San Carlos.',
+            },
+            {
+                src: 'images/IMG_3295.JPG',
+                caption: 'A lone Green Iguana, basking in the sunlight.',
+            },
+            {
+                src: 'images/IMG_3299.JPG',
+                caption:
+                    'A cacao pod in San Carlos, ripening. We had some of the best chocolate ever on this tour!',
+            },
+            {
+                src: 'images/IMG_3301.JPG',
+                caption: 'Multiple unripe cacao pods.',
+            },
+            {
+                src: 'images/IMG_3327.JPG',
+                caption: 'A Panamanian white-faced capuchin.',
+            },
+            {
+                src: 'images/IMG_3382.JPG',
+                caption:
+                    'My zip line guide that I talked quite a bit with in Spanish. Really cool gentleman.',
+            },
+            {
+                src: 'images/IMG_3387.JPG',
+                caption: 'Young Brandon posted with another Green Iguana.',
+            },
+            {
+                src: 'images/IMG_3406.JPG',
+                caption:
+                    'A beautifully painted ox cart, AKA carretas in Spanish.',
             },
         ],
     },
@@ -243,7 +278,12 @@ const locations = [
         images: [
             {
                 src: 'images/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                caption:
+                    'My buddy was trying to take a pic of the mountain backdrop, and I ended up rippin a sweet tripod right through his picture. Unintentionally the best photo of the trip.',
+            },
+            {
+                src: 'images/IMG_1298.JPEG',
+                caption: 'First run; backwards view from the lift.',
             },
         ],
     },
@@ -253,8 +293,36 @@ const locations = [
         name: 'Juneau, Alaska',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/IMG_1449.JPEG',
+                caption: 'Juneau Welcome Sign!',
+            },
+            {
+                src: 'images/IMG_1445.JPEG',
+                caption: `Shangukeidí Kooteéyaa: The Shangukeidí, who are the Eagle moiety, are 
+                    identified as the Thunderbird clan. The designs on the Shangukeidí totem 
+                    pole include four of their crests. The Thunderbird, White Bear, and House 
+                    Lowered from the Sun were obtained through supernatural encounters. The 
+                    bottom crest reprsents a historical encounter with a US military officer 
+                    who failed to adequately compensate the Shangukeidí. As payment for this 
+                    debt, they took his name and the military uniform.`,
+            },
+            {
+                src: 'images/IMG_1430.JPEG',
+                caption:
+                    'Glacierita: Margarita made with Glacier ice from the Tracy Arm Fjord. Might have ingested an ice worm from this drink :)',
+            },
+            {
+                src: 'images/IMG_1450.JPEG',
+                caption:
+                    'Alaska King Crab: the best + largest crab I have ever enjoyed in my life.',
+            },
+            {
+                src: 'images/IMG_1454.JPEG',
+                caption: 'Fog with a cool little waterfall hiding behind it.',
+            },
+            {
+                src: 'images/IMG_1467.JPEG',
+                caption: 'Our view on the way out of Juneau.',
             },
         ],
     },
@@ -295,6 +363,17 @@ const locations = [
         lat: 4.711,
         lng: -74.0721,
         name: 'Bogotá, Colombia',
+        images: [
+            {
+                src: 'images/sick_tripod.jpg',
+                caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 10.391,
+        lng: -75.4794,
+        name: 'Cartagena, Colombia',
         images: [
             {
                 src: 'images/sick_tripod.jpg',
