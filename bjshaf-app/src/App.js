@@ -110,6 +110,10 @@ const locations = [
         name: 'Venice, Italy',
         images: [
             {
+                src: 'images/IMG_2596.JPEG',
+                caption: 'San Toma; Church in Venice.',
+            },
+            {
                 src: 'images/IMG_2598.JPEG',
                 caption:
                     'The Chiesa di San Polo is a Catholic church in Venice, dedicated to the Apostle Paul.',
@@ -123,8 +127,20 @@ const locations = [
                 caption: 'Rialto Bridge!',
             },
             {
+                src: 'images/IMG_2608.JPEG',
+                caption: 'View from Rialto Bridge!',
+            },
+            {
+                src: 'images/IMG_2642.JPEG',
+                caption: 'Grafiti I found in Venice.',
+            },
+            {
+                src: 'images/IMG_2644.JPEG',
+                caption: 'More Grafiti I found in Venice.',
+            },
+            {
                 src: 'images/IMG_2615.JPEG',
-                caption: 'Amazing glass blown in Murano, Italy!',
+                caption: 'Tolentini; Church found in Santa Croce, Italy.',
             },
             {
                 src: 'images/IMG_2622.JPEG',
@@ -155,12 +171,35 @@ const locations = [
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2604.JPEG',
+                src: 'images/IMG_2629.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
                 src: 'images/IMG_2658.JPEG',
                 caption: 'Famous painted buildings in Burano, Italy.',
+            },
+            {
+                src: 'images/IMG_2663.JPEG',
+                caption: 'Famous painted buildings in Burano, Italy.',
+            },
+            {
+                src: 'images/IMG_2666.JPEG',
+                caption: 'Famous painted buildings in Burano, Italy.',
+            },
+            {
+                src: 'images/IMG_2684.JPEG',
+                caption:
+                    'Burano Leaning Bell Tower. Built in the seventeenth century, the leaning tower has a square shape and Renaissance and neoclassical architectural features.',
+            },
+            {
+                src: 'images/IMG_2688.JPEG',
+                caption:
+                    'Because of land subsidence it is inclined of 1.83 meters respect to its axis.',
+            },
+            {
+                src: 'images/IMG_2692.JPEG',
+                caption:
+                    "The height of the Burano's tower is 53 meters and it stands on a base with a side of 6.20 meters.",
             },
         ],
     },
