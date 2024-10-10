@@ -301,6 +301,32 @@ const locations = [
                 src: 'images/IMG_1304.JPEG',
                 caption: 'Mountain View #2',
             },
+            {
+                src: 'images/IMG_1305.JPEG',
+                caption: 'Wider Mountain View #3',
+            },
+            {
+                src: 'images/IMG_1308.JPEG',
+                caption: "My brother Julian and I; don't mind my helmet gap!",
+            },
+            {
+                src: 'images/IMG_1315.JPEG',
+                caption: 'Juli and I again.',
+            },
+            {
+                src: 'images/IMG_1331.JPEG',
+                caption: 'Fit pic',
+            },
+            {
+                src: 'images/IMG_2511.JPEG',
+                caption:
+                    'Second Copper Mountain trip. About to rip Woodward Peace Park! One of the highlights of this trip for me.',
+            },
+            {
+                src: 'images/IMG_2514.JPEG',
+                caption:
+                    'Second Copper Mountain trip. About to rip Woodward Peace Park! One of the highlights of this trip for me.',
+            },
         ],
     },
     {
