@@ -132,11 +132,11 @@ const locations = [
             },
             {
                 src: 'images/venice/IMG_2642.JPEG',
-                caption: 'Grafiti I found in Venice.',
+                caption: 'Graffiti I found in Venice.',
             },
             {
                 src: 'images/venice/IMG_2644.JPEG',
-                caption: 'More Grafiti I found in Venice.',
+                caption: 'More Graffiti I found in Venice.',
             },
             {
                 src: 'images/venice/IMG_2615.JPEG',
@@ -231,8 +231,35 @@ const locations = [
         name: 'Athens, Greece',
         images: [
             {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/athens/IMG_2002.JPEG',
+                caption: 'Me in front of the magnificent Parthenon!',
+            },
+            {
+                src: 'images/athens/IMG_4044.JPEG',
+                caption:
+                    'Posing next to a fallen column to help show the scale.',
+            },
+            {
+                src: 'images/athens/IMG_4046.JPEG',
+                caption: `Center of marble column with the Greek letters Pi Sigma 
+                engraved into it. After some speculation, this could either be 
+                the stonecutters initials, a religious or symbolic connotation, 
+                later graffiti, or restoration marks used to identify/organize 
+                different parts of the structure for reassembly.`,
+            },
+            {
+                src: 'images/athens/IMG_4048.JPEG',
+                caption:
+                    'The center of another marble column, worn down by time.',
+            },
+            {
+                src: 'images/athens/IMG_4051.JPEG',
+                caption: 'The Parthenon in all its glory.',
+            },
+            {
+                src: 'images/athens/IMG_4053.JPEG',
+                caption:
+                    'Closer view of the peripteral octastyle Doric temple with its Ionic architectural features.',
             },
         ],
     },
