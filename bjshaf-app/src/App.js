@@ -330,10 +330,158 @@ const locations = [
             },
             {
                 src: 'images/athens/IMG_4099.JPEG',
-                caption: ` The famous Porch of the Maidens (Korai) or Caryatids dominates
+                caption: `The famous Porch of the Maidens (Korai) or Caryatids dominates
                  the south side of the building: six statues of young women, standing on 
                  a podium 1.77 m. high, support the roof of the porch, which was the part 
                  of Kekrops' tomb above the ground.`,
+            },
+            {
+                src: 'images/athens/IMG_4103.JPEG',
+                caption: `Lone column with a repaired section.`,
+            },
+            {
+                src: 'images/athens/IMG_4149.JPEG',
+                caption: `The Auditorium of the Theatre of Dionysos is the largest monument 
+                on the southern slope of the Acropolis, although the preserved remains of its 
+                seating portion, namely the auditorium or cavea, represent only a small 
+                portion of the gigantic original complex.`,
+            },
+            {
+                src: 'images/athens/IMG_4151.JPEG',
+                caption: `The Auditorium of the Theatre of Dionysos.`,
+            },
+            {
+                src: 'images/athens/IMG_4159.JPEG',
+                caption: `East of this monument the honorary base and statue 
+                of the most important representative of New Comedy, Menander, 
+                was erected in 291/0 B.C. He wrote over 100 plays where his 
+                innovative work focused on ordinary people and he is 
+                considered the father of psychological drama. At the age of 
+                only 51, he drowned while swimming off Piraeus.`,
+            },
+            {
+                src: 'images/athens/IMG_4170.JPEG',
+                caption: `The Temple of Olympian Zeus in Athens. This image 
+                shows the gigantic 16 Corinthian style columns that remain to 
+                this day.`,
+            },
+            {
+                src: 'images/athens/IMG_4172.JPEG',
+                caption: `The temple took 638 years to build and was meant to 
+                rival the largest temples known at the time. It had 104 columns 
+                total, which stood 56 ft high with a 6 ft 7 inch diameter.`,
+            },
+            {
+                src: 'images/athens/IMG_4186.JPEG',
+                caption: `The original style of the temple was meant to be Doric 
+                and sourced from local limestone but when king Antiochus IV Epiphanes, 
+                who presented himself as the earthly embodiment of Zeus, revived the 
+                project, he changed the material to the expensive Pentelic marble and 
+                the order was changed to Corinthian, which would mark the first time 
+                this order would be used on the outside of a major temple.`,
+            },
+            {
+                src: 'images/athens/IMG_4205.JPEG',
+                caption: `Alternate angle of The Temple of Olympian Zeus.`,
+            },
+            {
+                src: 'images/athens/IMG_4207.JPEG',
+                caption: `Close up of Corinthian style column.`,
+            },
+            {
+                src: 'images/athens/IMG_4197.JPEG',
+                caption: `The Arch of Hadrian, built in 131 or 132 AD.`,
+            },
+            {
+                src: 'images/athens/IMG_4198.JPEG',
+                caption: `The Arch of Hadrian, built in 131 or 132 AD.`,
+            },
+            {
+                src: 'images/athens/IMG_4237.JPEG',
+                caption: `View of Athens from vantage point.`,
+            },
+            {
+                src: 'images/athens/IMG_4252.JPEG',
+                caption: `The purely ceremonial Presidential Guard, guarding the 
+                Presidential Mansion. They change positions with the guards 
+                opposite them every 15 minutes. Their march is slow, 
+                exagerated, and highly stylized. These guards are wearing the summer version 
+                of their uniform which is light khaki in color.`,
+            },
+            {
+                src: 'images/athens/IMG_4254.JPEG',
+                caption: `They are armed with a M1 Garand, fixed with bayonet. 
+                Here you can clearly see their tsarouchi shoe, which is made of 
+                red leather and a black pompon, which was originally made to 
+                make the toe of the shoe waterproof and later became an 
+                irreplaceable part of the uniform decoration. The sole of the 
+                tsarouchi usually has 60-120 nails which can be heard when the 
+                guards slam their right foott down as part of their extravagant 
+                marches. The tsarouchi weighs around 3.5 pounds!`,
+            },
+            {
+                src: 'images/athens/IMG_4275.JPEG',
+                caption: `Statue of the Emperor Hadrian located in the Ancient 
+                Agora of Athens, used as a commercial, assembly, or 
+                residential gathering place.`,
+            },
+            {
+                src: 'images/athens/IMG_4282.JPEG',
+                caption: `Temple of Hephaistos; a Doric peripteral temple, 
+                with pronaos (fore-temple), cella (inner shrine), and 
+                opisthonaos (rear temple), the best preserved of its type 
+                in the Greek world. It occupies the crest of the Kolonos 
+                Agoraios Hill and was designed by an unknown architect 
+                probably in honor of Hephaistos, patron of metal-workers, 
+                and Athena Ergane, patroness of potters and crafts in general.`,
+            },
+            {
+                src: 'images/athens/IMG_4284.JPEG',
+                caption: `Temple of Hephaistos; it is built mostly of 
+                Pentelic marble, with its decorative sculpture in Parian.`,
+            },
+            {
+                src: 'images/athens/IMG_4285.JPEG',
+                caption: `Temple of Hephaistos; it is built mostly of 
+                Pentelic marble, with its decorative sculpture in Parian.`,
+            },
+            {
+                src: 'images/athens/IMG_4288.JPEG',
+                caption: `Closer view of the Doric order columns.`,
+            },
+            {
+                src: 'images/athens/IMG_4289.JPEG',
+                caption: `A peak into the cella (inner shrine).`,
+            },
+            {
+                src: 'images/athens/IMG_4301.JPEG',
+                caption: `New Bouleuterion and Propylon; rectangular 
+                prostyle building that served as a meeting-place of 
+                the 500-member Boule (council), made up of fifty 
+                citizens from each of the ten Athenian tribes, 
+                chosen by allotment each year.`,
+            },
+            {
+                src: 'images/athens/IMG_4304.JPEG',
+                caption: `Tholos or Skias; one of the more significant 
+                public buildings of the Agora is the Tholos, a round 
+                structure with six interior columns and a propylon at 
+                the east that was added in the 1st century BC. It was 
+                the headquarters of the 50 prytaneis who served as the 
+                executive committee of the Boule (council) for an 
+                interval of 35 or 36 days, after which they were 
+                replaced by prytaneis from another tribe, so that 
+                by the end of the year representatives of all 10 
+                tribes had a turn in the administration.`,
+            },
+            {
+                src: 'images/athens/IMG_4305.JPEG',
+                caption: `Left view of the Tholos.`,
+            },
+            {
+                src: 'images/athens/IMG_4305.JPEG',
+                caption: `Wide shot of whats left of the Ancient 
+                Agora of Athens.`,
             },
         ],
     },
