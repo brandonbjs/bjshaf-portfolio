@@ -598,10 +598,6 @@ const locations = [
                 the cats to chill wherever they wanted.`,
             },
             {
-                src: 'images/kusadasi/IMG_4365.JPEG',
-                caption: `Ephesus Cat #2! These cats are the current rulers of Ephesus.`,
-            },
-            {
                 src: 'images/kusadasi/IMG_4368.JPEG',
                 caption: `Intriguing stairwell with an archway.`,
             },
@@ -616,6 +612,15 @@ const locations = [
             {
                 src: 'images/kusadasi/IMG_4374.JPEG',
                 caption: `Ephesus Cat #3, looking extra comfy!`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4375.JPEG',
+                caption: `View of the Odeon from the seating area, with the 
+                Arcadiane (Harbour) Street in view behind it!`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4377.JPEG',
+                caption: `Wide view of the Odeon from the seating area.`,
             },
         ],
     },
