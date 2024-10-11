@@ -231,6 +231,17 @@ const locations = [
         name: 'Athens, Greece',
         images: [
             {
+                src: 'images/athens/IMG_4051.JPEG',
+                caption: `The Parthenon, a temple of the Doric order, was dedicated 
+                to Athena Parthenos (Virgin). It was the most important building of 
+                the programme of Perikles for the re-establishment of the Acropolis 
+                sanctuary after the sack by the Persians in 480 B.C. The architects 
+                of the temple were Iktinos and Kallikrates. The renowned sculptor 
+                Pheidias collaborated with other sculpters to design and execute the 
+                abundant sculptural decoration of the temple. The Parthenon was built 
+                in 447-438 B.C.`,
+            },
+            {
                 src: 'images/athens/IMG_2002.JPEG',
                 caption: 'Me in front of the magnificent Parthenon!',
             },
@@ -253,13 +264,55 @@ const locations = [
                     'The center of another marble column, worn down by time.',
             },
             {
-                src: 'images/athens/IMG_4051.JPEG',
-                caption: 'The Parthenon in all its glory.',
+                src: 'images/athens/IMG_4053.JPEG',
+                caption: `Closer view of the peripteral octastyle Doric temple with 
+                    its Ionic architectural features.`,
             },
             {
-                src: 'images/athens/IMG_4053.JPEG',
+                src: 'images/athens/IMG_4055.JPEG',
                 caption:
-                    'Closer view of the peripteral octastyle Doric temple with its Ionic architectural features.',
+                    'Some of the scattered pieces of marble strewn around the Parthenon.',
+            },
+            {
+                src: 'images/athens/IMG_4057.JPEG',
+                caption: `Full view of columns. The whiter marble within the columns and 
+                    structure are renovations that have been made over the years.`,
+            },
+            {
+                src: 'images/athens/IMG_4061.JPEG',
+                caption:
+                    'Close up of the Ionic columns and what is left of the pediment.',
+            },
+            {
+                src: 'images/athens/IMG_4062.JPEG',
+                caption: 'Final angle.',
+            },
+            {
+                src: 'images/athens/IMG_4069.JPEG',
+                caption: `The Erechtheion. This elegant building of the Ionic order is called, 
+                    according to later literary sources, Erechtheion from the name of Erechtheus, 
+                    the mythical king of Athens. The construction started before the outbreak of 
+                    the Peloponnesian War (431 B.C.) or after the conclusion of the "peace of 
+                    Mikias" (421 B.C.) as was finished in 406 B.C., after the interruption of 
+                    the works because of the war.`,
+            },
+            {
+                src: 'images/athens/IMG_4070.JPEG',
+                caption: `The peculiar plan of the building is due to the natural 
+                irregularity of the ground and the need to house the ancient sacred spots: the 
+                salt spring, which appeared when Poseidon struck the rock with his trident 
+                during the contest with Athena over the patronage of the city, the trident 
+                marks and the tombs of the Athenian kings Kekrops and Erechtheus.`,
+            },
+            {
+                src: 'images/athens/IMG_4071.JPEG',
+                caption: `The Erechtheion consists of a rectangular cella divided by an 
+                interior wall forming two sections. The eastern section, which was at a 
+                level at least 3 m. higher than that of the western, was dedicated to 
+                Athena Polias and housed the xoanon, the ancient wooden cult statue of 
+                the goddess. The western section was divided into three parts and was 
+                dedicated to the cult of Poseidon, Erechtheus, Hephaistus and the hero 
+                Boutes.`,
             },
         ],
     },
