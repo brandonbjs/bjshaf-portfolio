@@ -26,13 +26,11 @@ body {
 }
 
 .landingPageLogo {
-    transform: translateY(
-        -1.7%
-    ); /* Moves the logo up slightly (20% of its own height) */
+    transform: translateY(-1.7%); /* Moves the logo up slightly */
 }
 
 .landingPageLogo img {
-    max-width: 100%; /* Adjust as needed */
+    max-width: 100%;
     height: auto; /* Maintains aspect ratio */
 }
 
@@ -404,7 +402,7 @@ swiper-container::part(bullet) {
 
 /* Style for the modal close button */
 .modal .closeButton {
-    background-color: red; /* Color to match your theme */
+    background-color: red;
     color: white;
     border: none;
     border-radius: 10%;
@@ -423,11 +421,11 @@ swiper-container::part(bullet) {
 
 /* Ensure the caption is positioned centrally below the image */
 .carousel-item {
-    display: none; /* Flexbox to center content */
+    display: none;
     flex-direction: column; /* Stack image and caption vertically */
     justify-content: center; /* Center both image and caption */
     align-items: center; /* Center content horizontally */
-    height: 60vh; /* Adjust the height as necessary */
+    height: 60vh;
 }
 
 .carousel-item.active {
@@ -444,7 +442,8 @@ swiper-container::part(bullet) {
 
 /* Adjust the caption styling to ensure it is centered below the image */
 .carousel-caption {
-    position: static; /* Change from absolute or relative to static positioning */
+    position: absolute;
+    bottom: 5%;
     background-color: rgba(
         0,
         0,
@@ -453,10 +452,11 @@ swiper-container::part(bullet) {
     ); /* Optional: Semi-transparent background for readability */
     color: white; /* White text color for contrast */
     padding: 10px;
-    margin-top: 10px; /* Space between the image and caption */
+    margin-top: 1vh; /* Space between the image and caption */
     text-align: center; /* Center-align the caption text */
     width: 75%; /* Match the width to the image width */
     border-radius: 5px; /* Slight rounding for a cleaner look */
+    font-size: 1.2em;
 }
 
 /* Centering the carousel navigation buttons */
@@ -477,18 +477,65 @@ swiper-container::part(bullet) {
 
 /* Align the previous button to the left side of the carousel */
 .carousel-control-prev {
-    left: 10px; /* Adjust this value to position the button closer or further from the edge */
+    left: 10px;
 }
 
 /* Align the next button to the right side of the carousel */
 .carousel-control-next {
-    right: 10px; /* Adjust this value to position the button closer or further from the edge */
+    right: 10px;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
     background-color: #e76f51; /* Lighter shade for hover effect */
 }
+
+/* Positioning the carousel indicators on the left side of the modal with wrapping */
+.carousel-indicators {
+    display: flex; /* Use Flexbox to handle layout */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    flex-direction: column; /* Stack indicators vertically */
+    align-content: flex-start; /* Align columns of indicators to the left */
+    gap: 8px; /* Space between indicators */
+    position: absolute; /* Position absolutely within the modal */
+    left: 2vw; /* Distance from the left edge of the modal */
+    top: 50%; /* Center the indicators vertically */
+    transform: translateY(
+        -50%
+    ); /* Adjust position to keep centered vertically */
+    max-height: 40vh; /* Limit the height to keep within the modal */
+}
+
+/* Styling for the individual carousel indicator buttons */
+.carousel-indicators button {
+    width: 12px; /* Size of the indicator dot */
+    height: 12px;
+    background-color: rgba(38, 70, 83, 0.8);
+    border-radius: 40%; /* Make the dots circular */
+    cursor: pointer;
+    border: none; /* Remove default borders */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.carousel-indicators .active {
+    background-color: rgba(
+        231,
+        111,
+        81,
+        0.8
+    ); /* Different color for the active dot */
+    transform: scale(1.2); /* Slightly enlarge the active indicator */
+}
+
+.carousel-indicators button:hover {
+    background-color: rgba(
+        231,
+        111,
+        81,
+        0.5
+    ); /* Hover effect for better interaction */
+}
+
 /*====================================================================================*/
 
 /*================================== Style the Contact Me Stuff=======================*/
@@ -714,6 +761,19 @@ swiper-container::part(bullet) {
 
     .keen-slider__slide:nth-child(7) {
         background: linear-gradient(to right, #fee440 68%, #00bbf9 50%);
+    }
+
+    .carousel-item img {
+        max-height: 100%;
+        max-width: 80%; /* Scale the image to fit within the Carousel */
+        height: auto; /* Maintain the aspect ratio of the image */
+        border-radius: 10px; /* Keep the existing rounded corners */
+        margin: auto; /* Center the image */
+        margin-bottom: 7vh;
+    }
+
+    .carousel-caption {
+        font-size: 1em;
     }
 }
 
