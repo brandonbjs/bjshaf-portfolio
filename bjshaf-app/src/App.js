@@ -479,9 +479,48 @@ const locations = [
                 caption: `Left view of the Tholos.`,
             },
             {
-                src: 'images/athens/IMG_4305.JPEG',
+                src: 'images/athens/IMG_4306.JPEG',
                 caption: `Wide shot of whats left of the Ancient 
                 Agora of Athens.`,
+            },
+            {
+                src: 'images/athens/IMG_4310.JPEG',
+                caption: `Southwest Fountain House.`,
+            },
+            {
+                src: 'images/athens/IMG_4312.JPEG',
+                caption: `A water clock!`,
+            },
+            {
+                src: 'images/athens/IMG_4313.JPEG',
+                caption: `Ruins located behind the water clock.`,
+            },
+            {
+                src: 'images/athens/IMG_4314.JPEG',
+                caption: `Another wide shot of the Agora, with modern Athens flanking it.`,
+            },
+            {
+                src: 'images/athens/IMG_4316.JPEG',
+                caption: `Socrates and Confucius: An Encounter - Wu Weishan, 2021`,
+            },
+            {
+                src: 'images/athens/IMG_4321.JPEG',
+                caption: `The Church of the Holy Apostles is located on the 
+                western side of the Ancient Agora of Athens and dates from 
+                the mid-10th century. It and the Temple of Hephaistos are 
+                the only two monuments within the Agora that remain intact since its 
+                foundation.`,
+            },
+            {
+                src: 'images/athens/IMG_4325.JPEG',
+                caption: `Corinthian Capital from Odeion of Acrippa.`,
+            },
+            {
+                src: 'images/athens/IMG_4327.JPEG',
+                caption: `Middle Stoa; it is the largest building in the Agora, 
+                147m. wide and 17.5m. deep, oriented east-west, with a Doric 
+                colonnade on each of its four sides. The Stoa was built of 
+                poros stone. It was destroyed by fire in A.D. 267.`,
             },
         ],
     },
