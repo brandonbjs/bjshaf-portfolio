@@ -298,11 +298,15 @@ const locations = [
             },
             {
                 src: 'images/athens/IMG_4070.JPEG',
-                caption: `The peculiar plan of the building is due to the natural 
-                irregularity of the ground and the need to house the ancient sacred spots: the 
-                salt spring, which appeared when Poseidon struck the rock with his trident 
-                during the contest with Athena over the patronage of the city, the trident 
-                marks and the tombs of the Athenian kings Kekrops and Erechtheus.`,
+                caption: `At the north side of the cella there is a magnificent porch with 
+                6 Ionic columns. The bases and capitals along with the grame of the doorway 
+                leading to the interior of the cella, have elaborate relief decoration, 
+                while the ceiling coffers were painted. The peculiar plan of the building 
+                is due to the natural irregularity of the ground and the need to house 
+                the ancient sacred spots: the salt spring, which appeared when Poseidon 
+                struck the rock with his trident during the contest with Athena over 
+                the patronage of the city, the trident marks and the tombs of the Athenian 
+                kings Kekrops and Erechtheus.`,
             },
             {
                 src: 'images/athens/IMG_4071.JPEG',
@@ -313,6 +317,23 @@ const locations = [
                 the goddess. The western section was divided into three parts and was 
                 dedicated to the cult of Poseidon, Erechtheus, Hephaistus and the hero 
                 Boutes.`,
+            },
+            {
+                src: 'images/athens/IMG_4079.JPEG',
+                caption: `Better view of the Ionic columns of the Erechtheion.`,
+            },
+            {
+                src: 'images/athens/IMG_4081.JPEG',
+                caption: `The sacred Moria tree that stands in front of the Erechtheion, 
+                thought to be the same location of the very first olive tree given to 
+                Athens by the goddess Athena.`,
+            },
+            {
+                src: 'images/athens/IMG_4099.JPEG',
+                caption: ` The famous Porch of the Maidens (Korai) or Caryatids dominates
+                 the south side of the building: six statues of young women, standing on 
+                 a podium 1.77 m. high, support the roof of the porch, which was the part 
+                 of Kekrops' tomb above the ground.`,
             },
         ],
     },
