@@ -32,52 +32,52 @@ const locations = [
         name: 'Rome, Italy',
         images: [
             {
-                src: 'images/IMG_9341.JPEG',
+                src: 'images/rome/IMG_9341.JPEG',
                 caption:
                     'Arch of Constantine; erected in the year 315 in commemoration of the victory of Constantine I the Great in the Battle of Milvian Bridge. It is located between the Colosseum and the Palatine Hill.',
             },
             {
-                src: 'images/IMG_9342.JPEG',
+                src: 'images/rome/IMG_9342.JPEG',
                 caption: 'Arch of Constantine.',
             },
             {
-                src: 'images/IMG_9346.JPEG',
+                src: 'images/rome/IMG_9346.JPEG',
                 caption: 'Inner wall of Colosseum.',
             },
             {
-                src: 'images/IMG_9352.JPEG',
+                src: 'images/rome/IMG_9352.JPEG',
                 caption: 'Inner wall of Colosseum.',
             },
             {
-                src: 'images/IMG_9353.JPEG',
+                src: 'images/rome/IMG_9353.JPEG',
                 caption: 'Inner wall of Colosseum.',
             },
             {
-                src: 'images/IMG_9356.JPEG',
+                src: 'images/rome/IMG_9356.JPEG',
                 caption: 'Inner wall of Colosseum, with view of Outer Wall.',
             },
             {
-                src: 'images/IMG_9611.JPEG',
+                src: 'images/rome/IMG_9611.JPEG',
                 caption: 'Within the Colosseum.',
             },
             {
-                src: 'images/IMG_9612.JPEG',
+                src: 'images/rome/IMG_9612.JPEG',
                 caption: 'Within the Colosseum, second angle.',
             },
             {
-                src: 'images/IMG_9615.JPEG',
+                src: 'images/rome/IMG_9615.JPEG',
                 caption: 'Within the Colosseum, center view.',
             },
             {
-                src: 'images/IMG_9626.JPEG',
+                src: 'images/rome/IMG_9626.JPEG',
                 caption: 'Within the Colosseum, center view, second angle.',
             },
             {
-                src: 'images/IMG_9639.JPEG',
+                src: 'images/rome/IMG_9639.JPEG',
                 caption: 'Cheeeeeese',
             },
             {
-                src: 'images/IMG_9643.JPEG',
+                src: 'images/rome/IMG_9643.JPEG',
                 caption: 'Sis!',
             },
         ],
@@ -88,7 +88,7 @@ const locations = [
         name: 'Montalcino, Italy',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -99,7 +99,7 @@ const locations = [
         name: 'Florence, Italy',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -110,94 +110,94 @@ const locations = [
         name: 'Venice, Italy',
         images: [
             {
-                src: 'images/IMG_2596.JPEG',
+                src: 'images/venice/IMG_2596.JPEG',
                 caption: 'San Toma; Church in Venice.',
             },
             {
-                src: 'images/IMG_2598.JPEG',
+                src: 'images/venice/IMG_2598.JPEG',
                 caption:
                     'The Chiesa di San Polo is a Catholic church in Venice, dedicated to the Apostle Paul.',
             },
             {
-                src: 'images/IMG_2601.JPEG',
+                src: 'images/venice/IMG_2601.JPEG',
                 caption: 'Gondolas!',
             },
             {
-                src: 'images/IMG_2604.JPEG',
+                src: 'images/venice/IMG_2604.JPEG',
                 caption: 'Rialto Bridge!',
             },
             {
-                src: 'images/IMG_2608.JPEG',
+                src: 'images/venice/IMG_2608.JPEG',
                 caption: 'View from Rialto Bridge!',
             },
             {
-                src: 'images/IMG_2642.JPEG',
+                src: 'images/venice/IMG_2642.JPEG',
                 caption: 'Grafiti I found in Venice.',
             },
             {
-                src: 'images/IMG_2644.JPEG',
+                src: 'images/venice/IMG_2644.JPEG',
                 caption: 'More Grafiti I found in Venice.',
             },
             {
-                src: 'images/IMG_2615.JPEG',
+                src: 'images/venice/IMG_2615.JPEG',
                 caption: 'Tolentini; Church found in Santa Croce, Italy.',
             },
             {
-                src: 'images/IMG_2622.JPEG',
+                src: 'images/venice/IMG_2622.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2623.JPEG',
+                src: 'images/venice/IMG_2623.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2624.JPEG',
+                src: 'images/venice/IMG_2624.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2625.JPEG',
+                src: 'images/venice/IMG_2625.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2626.JPEG',
+                src: 'images/venice/IMG_2626.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2627.JPEG',
+                src: 'images/venice/IMG_2627.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2628.JPEG',
+                src: 'images/venice/IMG_2628.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2629.JPEG',
+                src: 'images/venice/IMG_2629.JPEG',
                 caption: 'Amazing glass blown in Murano, Italy!',
             },
             {
-                src: 'images/IMG_2658.JPEG',
+                src: 'images/venice/IMG_2658.JPEG',
                 caption: 'Famous painted buildings in Burano, Italy.',
             },
             {
-                src: 'images/IMG_2663.JPEG',
+                src: 'images/venice/IMG_2663.JPEG',
                 caption: 'Famous painted buildings in Burano, Italy.',
             },
             {
-                src: 'images/IMG_2666.JPEG',
+                src: 'images/venice/IMG_2666.JPEG',
                 caption: 'Famous painted buildings in Burano, Italy.',
             },
             {
-                src: 'images/IMG_2684.JPEG',
+                src: 'images/venice/IMG_2684.JPEG',
                 caption:
                     'Burano Leaning Bell Tower. Built in the seventeenth century, the leaning tower has a square shape and Renaissance and neoclassical architectural features.',
             },
             {
-                src: 'images/IMG_2688.JPEG',
+                src: 'images/venice/IMG_2688.JPEG',
                 caption:
                     'Because of land subsidence it is inclined of 1.83 meters respect to its axis.',
             },
             {
-                src: 'images/IMG_2692.JPEG',
+                src: 'images/venice/IMG_2692.JPEG',
                 caption:
                     "The height of the Burano's tower is 53 meters and it stands on a base with a side of 6.20 meters.",
             },
@@ -209,7 +209,7 @@ const locations = [
         name: 'Trieste, Italy',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -220,7 +220,7 @@ const locations = [
         name: 'Korčula, Croatia',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -231,7 +231,7 @@ const locations = [
         name: 'Athens, Greece',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -242,7 +242,7 @@ const locations = [
         name: 'Olympia, Greece',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -253,7 +253,7 @@ const locations = [
         name: 'Mykonos, Greece',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -264,7 +264,7 @@ const locations = [
         name: 'Chania, Crete, Greece',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -275,7 +275,7 @@ const locations = [
         name: 'Kusadasi, Turkey',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -286,7 +286,7 @@ const locations = [
         name: 'Ephesus Ruins, Turkey',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -297,7 +297,7 @@ const locations = [
         name: 'Istanbul, Turkey',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -308,41 +308,41 @@ const locations = [
         name: 'San José, Costa Rica',
         images: [
             {
-                src: 'images/IMG_3292.JPG',
+                src: 'images/costaRica/IMG_3292.JPG',
                 caption: 'Alajuela, Costa Rica: La Fortuna Waterfall!',
             },
             {
-                src: 'images/IMG_3293.JPG',
+                src: 'images/costaRica/IMG_3293.JPG',
                 caption: 'Couple of Green Iguanas I saw while in San Carlos.',
             },
             {
-                src: 'images/IMG_3295.JPG',
+                src: 'images/costaRica/IMG_3295.JPG',
                 caption: 'A lone Green Iguana, basking in the sunlight.',
             },
             {
-                src: 'images/IMG_3299.JPG',
+                src: 'images/costaRica/IMG_3299.JPG',
                 caption:
                     'A cacao pod in San Carlos, ripening. We had some of the best chocolate ever on this tour!',
             },
             {
-                src: 'images/IMG_3301.JPG',
+                src: 'images/costaRica/IMG_3301.JPG',
                 caption: 'Multiple unripe cacao pods.',
             },
             {
-                src: 'images/IMG_3327.JPG',
+                src: 'images/costaRica/IMG_3327.JPG',
                 caption: 'A Panamanian white-faced capuchin.',
             },
             {
-                src: 'images/IMG_3382.JPG',
+                src: 'images/costaRica/IMG_3382.JPG',
                 caption:
                     'My zip line guide that I talked quite a bit with in Spanish. Really cool gentleman.',
             },
             {
-                src: 'images/IMG_3387.JPG',
+                src: 'images/costaRica/IMG_3387.JPG',
                 caption: 'Young Brandon posted with another Green Iguana.',
             },
             {
-                src: 'images/IMG_3406.JPG',
+                src: 'images/costaRica/IMG_3406.JPG',
                 caption:
                     'A beautifully painted ox cart, AKA carretas in Spanish.',
             },
@@ -354,7 +354,7 @@ const locations = [
         name: 'Quito, Ecuador',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -365,53 +365,53 @@ const locations = [
         name: 'Copper Mountain, Colorado',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption:
                     'My buddy was trying to take a pic of the mountain backdrop, and I ended up rippin a sweet tripod right through his picture. Unintentionally the best photo of the trip.',
             },
             {
-                src: 'images/IMG_1298.JPEG',
+                src: 'images/copper/IMG_1298.JPEG',
                 caption: 'First run; backwards view from the lift.',
             },
             {
-                src: 'images/IMG_1299.JPEG',
+                src: 'images/copper/IMG_1299.JPEG',
                 caption: 'First run selfie on the lift. Wear your helmet kids!',
             },
             {
-                src: 'images/IMG_1301.JPEG',
+                src: 'images/copper/IMG_1301.JPEG',
                 caption: 'Lift pic with my homies Dalton and Dax!',
             },
             {
-                src: 'images/IMG_1302.JPEG',
+                src: 'images/copper/IMG_1302.JPEG',
                 caption: 'Mountain View #1',
             },
             {
-                src: 'images/IMG_1304.JPEG',
+                src: 'images/copper/IMG_1304.JPEG',
                 caption: 'Mountain View #2',
             },
             {
-                src: 'images/IMG_1305.JPEG',
+                src: 'images/copper/IMG_1305.JPEG',
                 caption: 'Wider Mountain View #3',
             },
             {
-                src: 'images/IMG_1308.JPEG',
+                src: 'images/copper/IMG_1308.JPEG',
                 caption: "My brother Julian and I; don't mind my helmet gap!",
             },
             {
-                src: 'images/IMG_1315.JPEG',
+                src: 'images/copper/IMG_1315.JPEG',
                 caption: 'Juli and I again.',
             },
             {
-                src: 'images/IMG_1331.JPEG',
+                src: 'images/copper/IMG_1331.JPEG',
                 caption: 'Fit pic',
             },
             {
-                src: 'images/IMG_2511.JPEG',
+                src: 'images/copper/IMG_2511.JPEG',
                 caption:
                     'Second Copper Mountain trip. About to rip Woodward Peace Park! One of the highlights of this trip for me.',
             },
             {
-                src: 'images/IMG_2514.JPEG',
+                src: 'images/copper/IMG_2514.JPEG',
                 caption:
                     'Second Copper Mountain trip. About to rip Woodward Peace Park! One of the highlights of this trip for me.',
             },
@@ -423,11 +423,11 @@ const locations = [
         name: 'Juneau, Alaska',
         images: [
             {
-                src: 'images/IMG_1449.JPEG',
+                src: 'images/juneau/IMG_1449.JPEG',
                 caption: 'Juneau Welcome Sign!',
             },
             {
-                src: 'images/IMG_1445.JPEG',
+                src: 'images/juneau/IMG_1445.JPEG',
                 caption: `Shangukeidí Kooteéyaa: The Shangukeidí, who are the Eagle moiety, are 
                     identified as the Thunderbird clan. The designs on the Shangukeidí totem 
                     pole include four of their crests. The Thunderbird, White Bear, and House 
@@ -437,21 +437,21 @@ const locations = [
                     debt, they took his name and the military uniform.`,
             },
             {
-                src: 'images/IMG_1430.JPEG',
+                src: 'images/juneau/IMG_1430.JPEG',
                 caption:
                     'Glacierita: Margarita made with Glacier ice from the Tracy Arm Fjord. Might have ingested an ice worm from this drink :)',
             },
             {
-                src: 'images/IMG_1450.JPEG',
+                src: 'images/juneau/IMG_1450.JPEG',
                 caption:
                     'Alaska King Crab: the best + largest crab I have ever enjoyed in my life.',
             },
             {
-                src: 'images/IMG_1454.JPEG',
+                src: 'images/juneau/IMG_1454.JPEG',
                 caption: 'Fog with a cool little waterfall hiding behind it.',
             },
             {
-                src: 'images/IMG_1467.JPEG',
+                src: 'images/juneau/IMG_1467.JPEG',
                 caption: 'Our view on the way out of Juneau.',
             },
         ],
@@ -462,7 +462,7 @@ const locations = [
         name: 'Ketchikan, Alaska',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -473,7 +473,7 @@ const locations = [
         name: 'Skagway, Alaska',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -484,7 +484,7 @@ const locations = [
         name: 'Vancouver, British Columbia, Canada',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -495,7 +495,7 @@ const locations = [
         name: 'Bogotá, Colombia',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
@@ -506,7 +506,7 @@ const locations = [
         name: 'Cartagena, Colombia',
         images: [
             {
-                src: 'images/sick_tripod.jpg',
+                src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
             },
         ],
