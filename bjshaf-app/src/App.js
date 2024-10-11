@@ -579,8 +579,8 @@ const locations = [
                 caption: `Original irrigation/plumbing within the ancient city.`,
             },
             {
-                src: 'images/kusadasi/IMG_4349.JPEG',
-                caption: `View of some of the ruins, with the ampitheatre in 
+                src: 'images/kusadasi/IMG_4352.JPEG',
+                caption: `View of some of the ruins, with the Odeon in 
                 view behind it.`,
             },
             {
