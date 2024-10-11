@@ -563,19 +563,59 @@ const locations = [
         name: 'Kusadasi, Turkey',
         images: [
             {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/kusadasi/IMG_4341.JPEG',
+                caption: 'Our harbor view, entering into Kusadasi, Turkey!',
             },
-        ],
-    },
-    {
-        lat: 37.939,
-        lng: 27.341,
-        name: 'Ephesus Ruins, Turkey',
-        images: [
             {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/kusadasi/IMG_4347.JPEG',
+                caption: `First stop: Ephesus, a city in Ancient Greece, 
+                on the coast of Ionia, that now exists in present day 
+                Turkey. It was built in the 10th century BC on the site 
+                of Apasa, the former Arzawan capital, by Attic and 
+                Ionian Greek colonists.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4349.JPEG',
+                caption: `Original irrigation/plumbing within the ancient city.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4349.JPEG',
+                caption: `View of some of the ruins, with the ampitheatre in 
+                view behind it.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4358.JPEG',
+                caption: `It's true, Turkey is full of beautiful stray cats 
+                that are well taken care of by the Turkish people. Ephesus Cat #1!`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4363.JPEG',
+                caption: `More pipes excavated from the ruins.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4365.JPEG',
+                caption: `Ephesus Cat #2! Love how they allowed 
+                the cats to chill wherever they wanted.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4365.JPEG',
+                caption: `Ephesus Cat #2! These cats are the current rulers of Ephesus.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4368.JPEG',
+                caption: `Intriguing stairwell with an archway.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4373.JPEG',
+                caption: `Odeon in Ephesus: The smaller theatre located in Ephesus, 
+                that seats around 1500. It had a double function in use. First, 
+                it was used as a Bouleuterion for the meetings of the Boules, or 
+                the Senate. The second function was the Odeum as a concert hall 
+                for performances.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4374.JPEG',
+                caption: `Ephesus Cat #3, looking extra comfy!`,
             },
         ],
     },

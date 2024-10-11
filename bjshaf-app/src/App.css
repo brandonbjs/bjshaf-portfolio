@@ -405,9 +405,12 @@ swiper-container::part(bullet) {
     background-color: red;
     color: white;
     border: none;
-    border-radius: 10%;
+    border-radius: 20%;
     width: 2vw;
     height: 2vh;
+    position: absolute; /* Position the button absolutely */
+    top: 10px; /* Adjust the distance from the top */
+    right: 10px; /* Adjust the distance from the right */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -416,7 +419,7 @@ swiper-container::part(bullet) {
 }
 
 .modal .closeButton:hover {
-    background-color: #8d0808; /* Darker shade on hover */
+    background-color: darkred; /* Darken the color on hover */
 }
 
 /* Ensure the caption is positioned centrally below the image */
@@ -426,6 +429,15 @@ swiper-container::part(bullet) {
     justify-content: center; /* Center both image and caption */
     align-items: center; /* Center content horizontally */
     height: 60vh;
+}
+
+/* Style for the modal header title */
+.modal .modal-title {
+    font-family: 'Roboto', sans-serif; /* Example font family */
+    font-size: 2em; /* Adjust the size to make it larger or smaller */
+    font-weight: bold; /* Make the text bold for emphasis */
+    color: #264653; /* Choose a color that matches your theme */
+    text-align: left; /* Center the text in the header */
 }
 
 .carousel-item.active {
@@ -443,7 +455,7 @@ swiper-container::part(bullet) {
 /* Adjust the caption styling to ensure it is centered below the image */
 .carousel-caption {
     position: absolute;
-    bottom: 5%;
+    bottom: 4%;
     background-color: rgba(
         0,
         0,
@@ -498,8 +510,8 @@ swiper-container::part(bullet) {
     align-content: flex-start; /* Align columns of indicators to the left */
     gap: 8px; /* Space between indicators */
     position: absolute; /* Position absolutely within the modal */
-    left: 2vw; /* Distance from the left edge of the modal */
-    top: 50%; /* Center the indicators vertically */
+    left: 1vw; /* Distance from the left edge of the modal */
+    top: 40%; /* Center the indicators vertically */
     transform: translateY(
         -50%
     ); /* Adjust position to keep centered vertically */

@@ -27,7 +27,7 @@ const TravelGlobe = ({ locations }) => {
             .pointLat('lat')
             .pointLng('lng')
             .pointAltitude(0.2)
-            .pointRadius(0.3)
+            .pointRadius(0.2)
             .pointColor(() => '#e76f51')
             .onPointClick((point) => {
                 setCurrentLocation(point)
