@@ -622,6 +622,19 @@ const locations = [
                 src: 'images/kusadasi/IMG_4377.JPEG',
                 caption: `Wide view of the Odeon from the seating area.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4381.JPEG',
+                caption: `Beautiful archway still intact.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4384.JPEG',
+                caption: `Multiple columns along the Arcadiane (Harbour) Street. 
+                One column looks to be Corinthian while the other might be Doric.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4386.JPEG',
+                caption: `Clearer view of the Arcadiane (Harbour) Street.`,
+            },
         ],
     },
     {
