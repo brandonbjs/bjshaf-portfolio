@@ -635,6 +635,49 @@ const locations = [
                 src: 'images/kusadasi/IMG_4386.JPEG',
                 caption: `Clearer view of the Arcadiane (Harbour) Street.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4387.JPEG',
+                caption: `Ya boy posing with the columns for scale.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4390.JPEG',
+                caption: `Ruins along the Arcadiane Street.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4393.JPEG',
+                caption: `Ruins along the Arcadiane Street.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4397.JPEG',
+                caption: `Ruins on the way down to the Library of Celsus, 
+                which you can see standing in the background.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4405.JPEG',
+                caption: `Figures engraved into the marble.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4407.JPEG',
+                caption: `A marvelously preserved Caduceus. 
+                You might recognize this as the staff that 
+                is carried by Hermes, the messenger god.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4409.JPEG',
+                caption: `Hermes, the messenger god! In this bas-relief, 
+                you can clearly see Hermes with his winged sandals and his 
+                caduceus, with its intertwined snakes looping around it. 
+                Due to the altar and libation bowl visible behind Hermes, 
+                it seems as though he is leading this goat towards sacrifice.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4417.JPEG',
+                caption: `Nike, the goddess of victory! This is dated to the 
+                1st or 2nd century AD and stands on the west side of Domitian 
+                Square. In her left hand, she is holding a wreath, which would 
+                be given to a victor, and in her right hand she holds a palm 
+                branch.`,
+            },
         ],
     },
     {
