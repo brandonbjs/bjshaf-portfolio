@@ -678,6 +678,32 @@ const locations = [
                 be given to a victor, and in her right hand she holds a palm 
                 branch.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4423.JPEG',
+                caption: `Ruins of the Temple of Domitian. The temple 
+                and altar served the Imperial cult and were dedicated to 
+                Emperor Domitian (AD 81-96); after his death and 
+                condemnation of his memory (damnatio memoriae), however, 
+                they were dedicated to the Flavian family. After the victory of 
+                Christianity it was torn down to its foundations and 
+                today it has almost completely disappeared.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4427.JPEG',
+                caption: `The Memmius Monument was built between 50 and 30 B.C. 
+                at a particularly prominent sit: it is an honorific monument 
+                for Gaius Memmius, a grandson of the Roman Dictator Sulla.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4431.JPEG',
+                caption: `Ruins along the Curetes Street, which ran through 
+                the valley depression between the two city mountains and the 
+                former Processional Way. It does not follow the orthogonal 
+                street grid of the Hellenistic-Roman city. The 210m long main 
+                boulevard was prestigiously equipped with porticoes and marble 
+                paving in the early Imperial period. A sewer channel ran 
+                under the 6.80-10m wide street.`,
+            },
         ],
     },
     {
