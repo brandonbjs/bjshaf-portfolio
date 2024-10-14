@@ -716,6 +716,20 @@ const locations = [
                 src: 'images/kusadasi/IMG_4441.JPEG',
                 caption: `Corinthian columns along the Curetes Street.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4442.JPEG',
+                caption: `The statue of a male figure wrapped in a himation 
+                (cloak) was made in the Roman Imperial period and reused, 
+                perhaps with the addition of a portrait head of Alexander 
+                (Alexandros) in the late 4th - 5th century AD. The 
+                inscription on the base states that the statue was set up by 
+                council and people (the boule and the demos) of Ephesus.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4447.JPEG',
+                caption: `Relief that is part of the Hercules Gate, most likely 
+                depicting Hercules and the Nemean lion!`,
+            },
         ],
     },
     {
