@@ -704,6 +704,18 @@ const locations = [
                 paving in the early Imperial period. A sewer channel ran 
                 under the 6.80-10m wide street.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4435.JPEG',
+                caption: `Ruins along the Curetes Street.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4436.JPEG',
+                caption: `Ionic column along the Curetes Street.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4441.JPEG',
+                caption: `Corinthian columns along the Curetes Street.`,
+            },
         ],
     },
     {
