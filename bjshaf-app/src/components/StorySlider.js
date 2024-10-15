@@ -302,8 +302,7 @@ const StorySlider = () => {
                             with right now
                         </b>
                         . If you made it this far, thank you so much for
-                        inquiring about my life! Continue on to the last slide
-                        to read a short summary about me.
+                        inquiring about my life!
                     </div>
                     <button
                         className="skipToStartButton"
