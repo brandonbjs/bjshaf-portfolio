@@ -730,6 +730,32 @@ const locations = [
                 caption: `Relief that is part of the Hercules Gate, most likely 
                 depicting Hercules and the Nemean lion!`,
             },
+            {
+                src: 'images/kusadasi/IMG_4448.JPEG',
+                caption: `Ichthus Wheel: Used as a symbol for Christian meeting 
+                places and as a "signal" to fellow believers during eras of persecution.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4449.JPEG',
+                caption: `Interesting symbols carved into the stone. 
+                Maybe used to count something?`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4450.JPEG',
+                caption: `More impressions in the stone.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4452.JPEG',
+                caption: `Corinthian style column.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4454.JPEG',
+                caption: `Dilapidated Corinthian style column.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4456.JPEG',
+                caption: `Greek letters engraved in the marble.`,
+            },
         ],
     },
     {
