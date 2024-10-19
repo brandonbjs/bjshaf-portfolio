@@ -844,6 +844,11 @@ const locations = [
                 caption: `Here is Istanbul Cat #3. This cat is perhaps an 
                 intellectual as it hung around where we enjoyed our lunch meal.`,
             },
+            {
+                src: 'images/istanbul/IMG_5246.JPEG',
+                caption: `Here is Istanbul Cat #4. Beautiful coat and appears 
+                to be very well fed as well!`,
+            },
         ],
     },
     {
