@@ -796,6 +796,21 @@ const locations = [
                 administrative center of the Ottoman Empire, and was the main residence 
                 of its sultans!`,
             },
+            {
+                src: 'images/istanbul/IMG_5128.JPEG',
+                caption: `Sult of Ceremonial Armour of Mustafa III; 
+                Ottoman, second half of 18th century`,
+            },
+            {
+                src: 'images/istanbul/IMG_5190.JPEG',
+                caption: `Side angle of Hagia Sophia Grand Mosque, while we wait to enter.`,
+            },
+            {
+                src: 'images/istanbul/IMG_5206.JPEG',
+                caption: `Inside the Hagia Sophia you can see clear influences from both Islam 
+                and Christianity, which corresponds to the differing occupations that have 
+                occurred in Istanbul over time.`,
+            },
         ],
     },
     {
