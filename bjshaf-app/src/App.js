@@ -811,6 +811,19 @@ const locations = [
                 and Christianity, which corresponds to the differing occupations that have 
                 occurred in Istanbul over time.`,
             },
+            {
+                src: 'images/istanbul/IMG_5245.JPEG',
+                caption: `Delicious apple tea being enjoyed with Turkish delights and Baklava.`,
+            },
+            {
+                src: 'images/istanbul/IMG_5264.JPEG',
+                caption: `A view of the many shops that exist within the Egyptian Bazaar! 
+                You can acquire sweets, teas, fragrances and much more from bazaars like this one.`,
+            },
+            {
+                src: 'images/istanbul/IMG_5262.JPEG',
+                caption: `Some of the many varieties of teas that the bazaar has to offer.`,
+            },
         ],
     },
     {
