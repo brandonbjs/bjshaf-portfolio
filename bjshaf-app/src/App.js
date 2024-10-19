@@ -830,6 +830,20 @@ const locations = [
                 are well-fed and cared for by the city's residents, who consider them to be 
                 part of the city experience. Here is Istanbul Cat #1.`,
             },
+            {
+                src: 'images/istanbul/IMG_4984.JPEG',
+                caption: `The only dog I saw while roaming around Istanbul.`,
+            },
+            {
+                src: 'images/istanbul/IMG_5157.JPEG',
+                caption: `Istanbul is estimated to have 125,000 to 750,000 cats. 
+                Here is Istanbul Cat #2.`,
+            },
+            {
+                src: 'images/istanbul/IMG_5243.JPEG',
+                caption: `Here is Istanbul Cat #3. This cat is perhaps an 
+                intellectual as it hung around where we enjoyed our lunch meal.`,
+            },
         ],
     },
     {
