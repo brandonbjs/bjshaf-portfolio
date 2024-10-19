@@ -784,6 +784,18 @@ const locations = [
                  subseqeuntly moved to the Hippodrome of Constantinople 
                  by the Roman emperor Theodosius I in the 4th century AD.`,
             },
+            {
+                src: 'images/istanbul/IMG_5011.JPEG',
+                caption: `Hagia Sophia Grand Mosque; a mosque and former church 
+                completed in AD 537 and built by the Byzantine emperor Justinian I 
+                as the Christian cathedral of Constantinople for the Byzantine Empire.`,
+            },
+            {
+                src: 'images/istanbul/IMG_5025.JPEG',
+                caption: `Entrance to the Topkapi Palace Museum which served as the 
+                administrative center of the Ottoman Empire, and was the main residence 
+                of its sultans!`,
+            },
         ],
     },
     {
