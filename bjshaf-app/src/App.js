@@ -802,6 +802,10 @@ const locations = [
                 Ottoman, second half of 18th century`,
             },
             {
+                src: 'images/istanbul/IMG_5074.JPEG',
+                caption: `Ornate ceremonial dagger made with many jewels and gems!`,
+            },
+            {
                 src: 'images/istanbul/IMG_5190.JPEG',
                 caption: `Side angle of Hagia Sophia Grand Mosque, while we wait to enter.`,
             },
