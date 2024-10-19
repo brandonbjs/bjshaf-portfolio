@@ -806,6 +806,13 @@ const locations = [
                 caption: `Ornate ceremonial dagger made with many jewels and gems!`,
             },
             {
+                src: 'images/istanbul/IMG_5142.JPEG',
+                caption: `The white eunuchs were responsible for guarding the 
+                Gate of Felicity and carrying out important functions at the 
+                palace, and the chief white eunuch was the highest 
+                functionary in the palace hierarchy.`,
+            },
+            {
                 src: 'images/istanbul/IMG_5190.JPEG',
                 caption: `Side angle of Hagia Sophia Grand Mosque, while we wait to enter.`,
             },
