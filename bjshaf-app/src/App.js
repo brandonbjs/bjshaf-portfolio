@@ -756,6 +756,10 @@ const locations = [
                 src: 'images/kusadasi/IMG_4456.JPEG',
                 caption: `Greek letters engraved in the marble.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4458.JPEG',
+                caption: `Another set of Greek letters engraved in marble.`,
+            },
         ],
     },
     {
@@ -764,8 +768,21 @@ const locations = [
         name: 'Istanbul, Turkey',
         images: [
             {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/istanbul/IMG_4864.JPEG',
+                caption: `Great view of the bridge separating the EU and Asia
+                 sides of Istanbul. The view is from the EU side.`,
+            },
+            {
+                src: 'images/istanbul/IMG_4951.JPEG',
+                caption: `Picture of me in front of a beautiful Istanbul sunset, 
+                viewed from the tower we ate dinner at.`,
+            },
+            {
+                src: 'images/istanbul/IMG_4977.JPEG',
+                caption: `The Obelisk of Theodosius; first erected in Ancient
+                 Egpyt during the 18th dynasty (1550 - 1292 BC), and 
+                 subseqeuntly moved to the Hippodrome of Constantinople 
+                 by the Roman emperor Theodosius I in the 4th century AD.`,
             },
         ],
     },
