@@ -824,6 +824,12 @@ const locations = [
                 src: 'images/istanbul/IMG_5262.JPEG',
                 caption: `Some of the many varieties of teas that the bazaar has to offer.`,
             },
+            {
+                src: 'images/istanbul/IMG_4980.JPEG',
+                caption: `Istanbul is known as the "City of Cats" or "Catstanbul". The cats 
+                are well-fed and cared for by the city's residents, who consider them to be 
+                part of the city experience. Here is Istanbul Cat #1.`,
+            },
         ],
     },
     {
