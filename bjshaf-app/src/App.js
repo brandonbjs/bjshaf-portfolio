@@ -768,6 +768,14 @@ const locations = [
                 src: 'images/kusadasi/IMG_4461.JPEG',
                 caption: `Entrance way.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4470.JPEG',
+                caption: `Interesting stairwell that happened to be roped off.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4472.JPEG',
+                caption: `Beautiful mosaic inlay.`,
+            },
         ],
     },
     {
