@@ -776,6 +776,14 @@ const locations = [
                 src: 'images/kusadasi/IMG_4472.JPEG',
                 caption: `Beautiful mosaic inlay.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4481.JPEG',
+                caption: `Temple of Hadrian; Magnificent archway also built in the Corinthian style.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4485.JPEG',
+                caption: `Close up of the entrance to the Temple of Hadrian.`,
+            },
         ],
     },
     {
