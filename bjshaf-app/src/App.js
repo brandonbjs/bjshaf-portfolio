@@ -760,6 +760,14 @@ const locations = [
                 src: 'images/kusadasi/IMG_4458.JPEG',
                 caption: `Another set of Greek letters engraved in marble.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4459.JPEG',
+                caption: `Corinthian style column heads.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4461.JPEG',
+                caption: `Entrance way.`,
+            },
         ],
     },
     {
