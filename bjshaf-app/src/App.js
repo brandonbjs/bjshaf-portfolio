@@ -556,6 +556,24 @@ const locations = [
                 steep inclines everywhere you went (my pops did not appreciate 
                 this fact).`,
             },
+            {
+                src: 'images/mykonos/IMG_5285.JPEG',
+                caption: `Fancy Mykonos Cat #1`,
+            },
+            {
+                src: 'images/mykonos/IMG_5289.JPEG',
+                caption: `Fancy Mykonos Cat #2`,
+            },
+            {
+                src: 'images/mykonos/IMG_5306.JPEG',
+                caption: `Angry Mykonos Cat #3; this cat ended up swiping at my 
+                sister when she went in for the pet. We then went on a hunt for 
+                some medicine due to her cut becoming inflamed and painful!`,
+            },
+            {
+                src: 'images/mykonos/IMG_5310.JPEG',
+                caption: `Comfy Mykonos Cat #4`,
+            },
         ],
     },
     {
