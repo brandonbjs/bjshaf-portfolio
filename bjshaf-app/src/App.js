@@ -568,7 +568,7 @@ const locations = [
                 src: 'images/mykonos/IMG_5306.JPEG',
                 caption: `Angry Mykonos Cat #3; this cat ended up swiping at my 
                 sister when she went in for the pet. We then went on a hunt for 
-                some medicine due to her cut becoming inflamed and painful!`,
+                some medicine due to her cut becoming inflamed and irritated!`,
             },
             {
                 src: 'images/mykonos/IMG_5310.JPEG',
