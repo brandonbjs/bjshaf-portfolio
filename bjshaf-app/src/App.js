@@ -544,6 +544,18 @@ const locations = [
                 src: 'images/mykonos/IMG_5271.JPEG',
                 caption: 'Beautiful water in Mykonos!',
             },
+            {
+                src: 'images/mykonos/IMG_5280.JPEG',
+                caption: `First thing on the list... get some food! 
+                I ordered a kebab that came with peta bread and fries!`,
+            },
+            {
+                src: 'images/mykonos/IMG_5284.JPEG',
+                caption: `After lunch, we explored the shops around the area. 
+                The city is made up of intricate alleys and walk ways, with 
+                steep inclines everywhere you went (my pops did not appreciate 
+                this fact).`,
+            },
         ],
     },
     {
