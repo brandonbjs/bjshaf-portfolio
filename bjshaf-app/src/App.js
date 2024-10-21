@@ -541,8 +541,8 @@ const locations = [
         name: 'Mykonos, Greece',
         images: [
             {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/mykonos/IMG_5271.JPEG',
+                caption: 'Beautiful water in Mykonos!',
             },
         ],
     },
