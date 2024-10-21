@@ -584,6 +584,18 @@ const locations = [
                 src: 'images/mykonos/IMG_5295.JPEG',
                 caption: `Interesting Windmill being repaired or preserved.`,
             },
+            {
+                src: 'images/mykonos/IMG_5300.JPEG',
+                caption: `Close up of a church, showing the rich white paint they use.`,
+            },
+            {
+                src: 'images/mykonos/IMG_5311.JPEG',
+                caption: `A cool shot of some of the family owned shops up ahead of us.`,
+            },
+            {
+                src: 'images/mykonos/IMG_2497.JPEG',
+                caption: `Last but not least, a windy family pic!`,
+            },
         ],
     },
     {
