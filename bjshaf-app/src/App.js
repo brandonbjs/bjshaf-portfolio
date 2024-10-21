@@ -574,6 +574,16 @@ const locations = [
                 src: 'images/mykonos/IMG_5310.JPEG',
                 caption: `Comfy Mykonos Cat #4`,
             },
+            {
+                src: 'images/mykonos/IMG_5293.JPEG',
+                caption: `Wide shot of the sprawling city below. Each building 
+                is painted the same color and they repaint it often due to the 
+                salt water eroding away the paint.`,
+            },
+            {
+                src: 'images/mykonos/IMG_5295.JPEG',
+                caption: `Interesting Windmill being repaired or preserved.`,
+            },
         ],
     },
     {
