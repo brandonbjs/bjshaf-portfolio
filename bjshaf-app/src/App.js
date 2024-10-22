@@ -612,6 +612,14 @@ const locations = [
                 src: 'images/crete/IMG_5342.JPEG',
                 caption: `Greek flag with a small cove that we pulled into.`,
             },
+            {
+                src: 'images/crete/IMG_5344.JPEG',
+                caption: `A view out of the small cove that we pulled into.`,
+            },
+            {
+                src: 'images/crete/IMG_5347.JPEG',
+                caption: `Some wild goats that were near where we stopped to do some swimming.`,
+            },
         ],
     },
     {
