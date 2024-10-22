@@ -606,7 +606,11 @@ const locations = [
             {
                 src: 'images/crete/IMG_5339.JPEG',
                 caption: `In crete we took a boat out so the following pictures will 
-                be from that day on the boat!`,
+                be from that day on the boat! Beautiful water color here in Greece.`,
+            },
+            {
+                src: 'images/crete/IMG_5342.JPEG',
+                caption: `Greek flag with a small cove that we pulled into.`,
             },
         ],
     },
