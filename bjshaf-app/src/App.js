@@ -620,6 +620,14 @@ const locations = [
                 src: 'images/crete/IMG_5347.JPEG',
                 caption: `Some wild goats that were near where we stopped to do some swimming.`,
             },
+            {
+                src: 'images/crete/IMG_5358.JPEG',
+                caption: `Cool looking house we saw on the boat ride.`,
+            },
+            {
+                src: 'images/crete/IMG_5361.JPEG',
+                caption: `Blinding picture of me!`,
+            },
         ],
     },
     {
