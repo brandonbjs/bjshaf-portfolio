@@ -604,8 +604,9 @@ const locations = [
         name: 'Chania, Crete, Greece',
         images: [
             {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/crete/IMG_5339.JPEG',
+                caption: `In crete we took a boat out so the following pictures will 
+                be from that day on the boat!`,
             },
         ],
     },
