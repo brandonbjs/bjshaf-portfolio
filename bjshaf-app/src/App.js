@@ -857,6 +857,10 @@ const locations = [
                 src: 'images/kusadasi/IMG_4485.JPEG',
                 caption: `Close up of the entrance to the Temple of Hadrian.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4504.JPEG',
+                caption: `Kusadasi cat chilling next to some ancient toilets.`,
+            },
         ],
     },
     {
