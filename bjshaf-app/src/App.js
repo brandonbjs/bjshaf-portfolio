@@ -859,7 +859,11 @@ const locations = [
             },
             {
                 src: 'images/kusadasi/IMG_4504.JPEG',
-                caption: `Kusadasi cat chilling next to some ancient toilets.`,
+                caption: `Ephesus cat chilling next to some ancient toilets.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4506.JPEG',
+                caption: `Close up of the ancient toilets at Ephesus. This city had its own plumbing/sewer system!`,
             },
         ],
     },
