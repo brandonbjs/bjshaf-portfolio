@@ -865,6 +865,14 @@ const locations = [
                 src: 'images/kusadasi/IMG_4506.JPEG',
                 caption: `Close up of the ancient toilets at Ephesus. This city had its own plumbing/sewer system!`,
             },
+            {
+                src: 'images/kusadasi/IMG_4509.JPEG',
+                caption: `More ruined columns, with the head of a Corinthian column on the right.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4513.JPEG',
+                caption: `They sure had a lot of toilets still preserved!`,
+            },
         ],
     },
     {
