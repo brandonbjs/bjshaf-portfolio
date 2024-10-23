@@ -873,6 +873,10 @@ const locations = [
                 src: 'images/kusadasi/IMG_4513.JPEG',
                 caption: `They sure had a lot of toilets still preserved!`,
             },
+            {
+                src: 'images/kusadasi/IMG_4514.JPEG',
+                caption: `Ruins with the Library of Hadrian in view behind it.`,
+            },
         ],
     },
     {
