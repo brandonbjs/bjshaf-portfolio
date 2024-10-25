@@ -891,6 +891,10 @@ const locations = [
                 src: 'images/kusadasi/IMG_4524.JPEG',
                 caption: `The conservation efforts being done at this site were astounding.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4526.JPEG',
+                caption: `Corinthian style columns also being used in the living quarters.`,
+            },
         ],
     },
     {
