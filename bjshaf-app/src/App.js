@@ -882,6 +882,15 @@ const locations = [
                 caption: `Here we entered into some of the living quarters of 
                 the wealthy that lived in Ephesus.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4521.JPEG',
+                caption: `These were multi-leveled and very well preserved due to 
+                the protections put in place above these ruins.`,
+            },
+            {
+                src: 'images/kusadasi/IMG_4524.JPEG',
+                caption: `The conservation efforts being done at this site were astounding.`,
+            },
         ],
     },
     {
