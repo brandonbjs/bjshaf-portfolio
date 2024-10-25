@@ -877,6 +877,11 @@ const locations = [
                 src: 'images/kusadasi/IMG_4514.JPEG',
                 caption: `Ruins with the Library of Hadrian in view behind it.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4520.JPEG',
+                caption: `Here we entered into some of the living quarters of 
+                the wealthy that lived in Ephesus.`,
+            },
         ],
     },
     {
