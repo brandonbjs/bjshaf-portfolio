@@ -895,6 +895,10 @@ const locations = [
                 src: 'images/kusadasi/IMG_4526.JPEG',
                 caption: `Corinthian style columns also being used in the living quarters.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4531.JPEG',
+                caption: `Wall`,
+            },
         ],
     },
     {
