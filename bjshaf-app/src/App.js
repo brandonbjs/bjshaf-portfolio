@@ -899,6 +899,10 @@ const locations = [
                 src: 'images/kusadasi/IMG_4531.JPEG',
                 caption: `Wall`,
             },
+            {
+                src: 'images/kusadasi/IMG_4536.JPEG',
+                caption: `Beautifully preserved Corinthian style columns.`,
+            },
         ],
     },
     {
