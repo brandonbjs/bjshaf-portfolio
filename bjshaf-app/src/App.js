@@ -903,6 +903,10 @@ const locations = [
                 src: 'images/kusadasi/IMG_4536.JPEG',
                 caption: `Beautifully preserved Corinthian style columns.`,
             },
+            {
+                src: 'images/kusadasi/IMG_4545.JPEG',
+                caption: `Stucco?`,
+            },
         ],
     },
     {
