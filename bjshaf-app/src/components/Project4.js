@@ -28,7 +28,7 @@ const Project4 = () => {
                         highlight my travel destinations with pins, complemented
                         by images of the places I've visited, creating a dynamic
                         and immersive experience for users. Try it now by
-                        clicking the header or the globe!
+                        clicking the globe!
                     </p>
                 </div>
                 <div className="projectTechnologies">
