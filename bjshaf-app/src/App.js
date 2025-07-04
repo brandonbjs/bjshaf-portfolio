@@ -1191,8 +1191,9 @@ const locations = [
         name: 'Vancouver, British Columbia, Canada',
         images: [
             {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/vancouver/IMG_1394(1).jpg',
+                caption:
+                    'The Gastown Steam Clock: A marvelous piece of machinery and engineering!',
             },
         ],
     },
