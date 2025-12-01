@@ -7,7 +7,7 @@ class Project5 extends Component {
             <div className="projectContainer">
                 <div className="projectImageLeft">
                     <a
-                        href="https://github.com/brandonbjs/aio-stats"
+                        href="https://aio-stats.vercel.app"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -23,7 +23,7 @@ class Project5 extends Component {
                 <div className="projectContentRight">
                     <div className="projectDescription">
                         <a
-                            href="https://github.com/brandonbjs/aio-stats"
+                            href="https://aio-stats.vercel.app"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
