@@ -7,41 +7,55 @@ class Project5 extends Component {
             <div className="projectContainer">
                 <div className="projectImageLeft">
                     <a
-                        href="https://github.com/brandonbjs/"
+                        href="https://github.com/brandonbjs/aio-stats"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img
-                            src="images/work_in_progress.png"
+                            src="images/thumbnail0.PNG"
                             alt="Screenshot of placeholder work in progress sign."
                             style={{ display: 'block', margin: 'auto' }}
-                            width="50%"
-                            height="50%"
+                            width="80%"
+                            height="80%"
                         />
                     </a>
                 </div>
                 <div className="projectContentRight">
                     <div className="projectDescription">
                         <a
-                            href="https://github.com/brandonbjs/"
+                            href="https://github.com/brandonbjs/aio-stats"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             {' '}
-                            <h1>LeetCode Tracker</h1>
+                            <h1>AIO Stats</h1>
                         </a>
 
                         <p>
-                            LeetCode Tracker is a tool I will be designing and
-                            utilizing to keep track of all the LeetCode
-                            questions I have completed while searching for
-                            suitable jobs. It will contain solutions for each
-                            problem in the multiple programming languages that I
-                            am actively practicing.
+                            AIO Stats is a Next.js application that consolidates
+                            NFL game data from multiple external APIs, including
+                            real-time sportsbook odds (Rundown), OpenWeather
+                            hourly forecasts (One Call 3.0), and team injury
+                            reports (Sleeper API). The app uses dynamic server
+                            routes, data normalization, and an optimized grid
+                            layout to deliver a responsive, high-performance
+                            analytics tool.
                         </p>
                     </div>
                     <div className="projectTechnologies">
-                        <b>Technologies Used: TBD</b>
+                        <b>
+                            Technologies Used: React, Next.js, Tailwind CSS,
+                            TheRundownAPI, OpenWeather One Call 3.0, Sleeper
+                            API, Node.js, Vercel, Postman, Git, and{' '}
+                            <a
+                                href="https://github.com/brandonbjs/aio-stats"
+                                className="project-link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                GitHub
+                            </a>
+                        </b>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ class ContactMe extends Component {
                 <div className="contactMe">
                     <h2>
                         Preferred contact is by email at:{' '}
-                        <a href="mailto:bjs.swe@gmail.com">bjs.swe@gmail.com</a>
+                        <a href="mailto:bjs.swe@gmail.com">bjs397@nau.edu</a>
                     </h2>
                 </div>
                 <div className="logoContainer">

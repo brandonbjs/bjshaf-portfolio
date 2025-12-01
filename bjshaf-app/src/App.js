@@ -1369,6 +1369,9 @@ const App = () => {
                                     <Project4 />
                                 </div>
                                 <div className="keen-slider__slide">
+                                    <Project5 />
+                                </div>
+                                <div className="keen-slider__slide">
                                     <ContactMe />
                                 </div>
                             </div>
