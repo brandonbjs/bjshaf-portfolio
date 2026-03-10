@@ -33,8 +33,7 @@ class Project6 extends Component {
 
                         <p>
                             ShafJobs is a full-stack MERN web application built to consolidate entry-level tech job 
-                            listings from eight trusted sources including Adzuna, The Muse, USAJobs, Remotive, Jobicy, 
-                            LinkedIn, Glassdoor, and Indeed into a single, personalized dashboard. The app leverages Node.js 
+                            listings from eight trusted sources into a single, personalized dashboard. The app leverages Node.js 
                             and Express.js on the backend to orchestrate parallel API calls and Playwright-powered web 
                             scrapers, with all listing data stored and cached in MongoDB via Mongoose. On the frontend, 
                             a React and Tailwind CSS interface delivers a minimal, responsive job browsing experience 

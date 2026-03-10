@@ -323,7 +323,7 @@ swiper-container::part(bullet) {
 }
 
 .projectContentLeft {
-    font-size: 1.2em;
+    font-size: 1.1em;
     align-items: center;
     width: 50%;
     max-width: 50%;
@@ -334,7 +334,7 @@ swiper-container::part(bullet) {
 }
 
 .projectContentRight {
-    font-size: 1.2em;
+    font-size: 1.1em;
     align-items: center;
     width: 4%;
     max-width: 40%;
