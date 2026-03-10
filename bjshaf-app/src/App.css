@@ -639,7 +639,7 @@ swiper-container::part(bullet) {
 }
 
 .keen-slider__slide:nth-child(8) {
-    background: linear-gradient(to left, #e0e1dd 63%, #0d1b2a 50%);
+    background: linear-gradient(to left, #e0e1dd 66%, #0d1b2a 50%);
 }
 
 .keen-slider__slide:nth-child(9) {
