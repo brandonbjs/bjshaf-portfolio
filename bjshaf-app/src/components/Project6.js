@@ -5,7 +5,7 @@ class Project6 extends Component {
         // each project will have their own component, complete with an image, description, and technologies used
         return (
             <div className="projectContainer">
-                <div className="projectImageLeft">
+                <div className="projectImageRight">
                     <a
                         href="https://aio-stats.vercel.app"
                         target="_blank"
@@ -20,7 +20,7 @@ class Project6 extends Component {
                         />
                     </a>
                 </div>
-                <div className="projectContentRight">
+                <div className="projectContentLeft">
                     <div className="projectDescription">
                         <a
                             href="https://aio-stats.vercel.app"
@@ -33,15 +33,14 @@ class Project6 extends Component {
 
                         <p>
                             ShafJobs is a full-stack MERN web application built to consolidate entry-level tech job 
-                            listings from eight trusted sources — including Adzuna, The Muse, USAJobs, Remotive, Jobicy, 
-                            LinkedIn, Glassdoor, and Indeed — into a single, personalized dashboard. The app leverages Node.js 
+                            listings from eight trusted sources including Adzuna, The Muse, USAJobs, Remotive, Jobicy, 
+                            LinkedIn, Glassdoor, and Indeed into a single, personalized dashboard. The app leverages Node.js 
                             and Express.js on the backend to orchestrate parallel API calls and Playwright-powered web 
                             scrapers, with all listing data stored and cached in MongoDB via Mongoose. On the frontend, 
-                            a React and Tailwind CSS interface delivers a clean, responsive job browsing experience 
+                            a React and Tailwind CSS interface delivers a minimal, responsive job browsing experience 
                             complete with a multi-filter sidebar, color-coded industry badges, location tags, and a 
-                            proprietary match scoring engine that ranks listings against the user's personal skill 
-                            profile. Key features include deduplication, an entry-level confidence indicator, salary range filtering, a saved jobs 
-                            board, CSV export, and more.
+                            match scoring engine that ranks listings.
+                            
                         </p>
                     </div>
                     <div className="projectTechnologies">
@@ -49,7 +48,7 @@ class Project6 extends Component {
                             Technologies Used: React, Next.js, Tailwind CSS, MongoDB, 
                             Node.js, Git, and{' '}
                             <a
-                                href="https://github.com/brandonbjs/aio-stats"
+                                href="https://github.com/brandonbjs/shafJobs"
                                 className="project-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
