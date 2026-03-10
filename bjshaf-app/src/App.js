@@ -7,6 +7,7 @@ import Project2 from './components/Project2'
 import Project3 from './components/Project3'
 import Project4 from './components/Project4'
 import Project5 from './components/Project5'
+import Project6 from './components/Project6'
 import ContactMe from './components/ContactMe'
 import StorySlider from './components/StorySlider'
 import TravelGlobe from './components/TravelGlobe'
@@ -1316,7 +1317,7 @@ const App = () => {
                                 {/* Projects Button */}
                                 <button
                                     className={
-                                        currentSlide >= 2 && currentSlide <= 6
+                                        currentSlide >= 2 && currentSlide <= 7
                                             ? 'active'
                                             : ''
                                     }
@@ -1324,7 +1325,7 @@ const App = () => {
                                     onMouseEnter={() => setHoveredButton(2)}
                                     onMouseLeave={() => setHoveredButton(null)}
                                     style={getButtonStyle(
-                                        currentSlide >= 2 && currentSlide <= 6,
+                                        currentSlide >= 2 && currentSlide <= 7,
                                         hoveredButton === 2
                                     )}
                                 >
@@ -1334,14 +1335,14 @@ const App = () => {
                                 {/* Contact Me Button */}
                                 <button
                                     className={
-                                        currentSlide === 7 ? 'active' : ''
+                                        currentSlide === 8 ? 'active' : ''
                                     }
                                     onClick={() => goToSlide(7)}
                                     onMouseEnter={() => setHoveredButton(7)}
                                     onMouseLeave={() => setHoveredButton(null)}
                                     style={getButtonStyle(
-                                        currentSlide === 7,
-                                        hoveredButton === 7
+                                        currentSlide === 8,
+                                        hoveredButton === 8
                                     )}
                                 >
                                     CONTACT ME
@@ -1370,6 +1371,9 @@ const App = () => {
                                 </div>
                                 <div className="keen-slider__slide">
                                     <Project5 />
+                                </div>
+                                <div className="keen-slider__slide">
+                                    <Project6 />
                                 </div>
                                 <div className="keen-slider__slide">
                                     <ContactMe />
