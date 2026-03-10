@@ -1337,8 +1337,8 @@ const App = () => {
                                     className={
                                         currentSlide === 8 ? 'active' : ''
                                     }
-                                    onClick={() => goToSlide(7)}
-                                    onMouseEnter={() => setHoveredButton(7)}
+                                    onClick={() => goToSlide(8)}
+                                    onMouseEnter={() => setHoveredButton(8)}
                                     onMouseLeave={() => setHoveredButton(null)}
                                     style={getButtonStyle(
                                         currentSlide === 8,

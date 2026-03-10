@@ -7,7 +7,7 @@ class Project6 extends Component {
             <div className="projectContainer">
                 <div className="projectImageLeft">
                     <a
-                        href=""
+                        href="https://aio-stats.vercel.app"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -23,7 +23,7 @@ class Project6 extends Component {
                 <div className="projectContentRight">
                     <div className="projectDescription">
                         <a
-                            href=""
+                            href="https://aio-stats.vercel.app"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -49,7 +49,7 @@ class Project6 extends Component {
                             Technologies Used: React, Next.js, Tailwind CSS, MongoDB, 
                             Node.js, Git, and{' '}
                             <a
-                                href=""
+                                href="https://github.com/brandonbjs/aio-stats"
                                 className="project-link"
                                 target="_blank"
                                 rel="noopener noreferrer"
