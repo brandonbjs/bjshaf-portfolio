@@ -52,8 +52,8 @@ class Project6 extends Component {
                             src="images/shafJobsScreenGrab.png"
                             alt="Screenshot of the ShafJobs Dashboard"
                             style={{ display: 'block', margin: 'auto' }}
-                            width="80%"
-                            height="80%"
+                            width="90%"
+                            height="90%"
                         />
                     </a>
                 </div>
