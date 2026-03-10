@@ -22,6 +22,7 @@ const buttonStyles = [
     { buttonColor: '#c1121f', textColor: '#FFFFFF' }, // Project3
     { buttonColor: '#ff006e', textColor: '#FFFFFF' }, // Project4
     { buttonColor: '#00bbf9', textColor: '#FFFFFF' }, // Project5
+    { buttonColor: '#0d1b2a', textColor: '#FFFFFF'}, // Project6
     { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // Travel Globe
     { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // ContactMe
 ]
