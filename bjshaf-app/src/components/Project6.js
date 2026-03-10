@@ -5,21 +5,6 @@ class Project6 extends Component {
         // each project will have their own component, complete with an image, description, and technologies used
         return (
             <div className="projectContainer">
-                <div className="projectImageRight">
-                    <a
-                        href="https://aio-stats.vercel.app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <img
-                            src="images/shafJobsScreenGrab.png"
-                            alt="Screenshot of the ShafJobs Dashboard"
-                            style={{ display: 'block', margin: 'auto' }}
-                            width="80%"
-                            height="80%"
-                        />
-                    </a>
-                </div>
                 <div className="projectContentLeft">
                     <div className="projectDescription">
                         <a
@@ -57,6 +42,22 @@ class Project6 extends Component {
                         </b>
                     </div>
                 </div>
+                <div className="projectImageRight">
+                    <a
+                        href="https://aio-stats.vercel.app"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src="images/shafJobsScreenGrab.png"
+                            alt="Screenshot of the ShafJobs Dashboard"
+                            style={{ display: 'block', margin: 'auto' }}
+                            width="80%"
+                            height="80%"
+                        />
+                    </a>
+                </div>
+                
             </div>
         )
     }
