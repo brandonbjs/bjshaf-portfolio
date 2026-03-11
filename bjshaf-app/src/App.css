@@ -142,8 +142,8 @@ swiper-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70%;
-    height: 80%;
+    width: 80%;
+    height: 88%;
     border-radius: 5%;
 }
 
@@ -210,13 +210,13 @@ swiper-container::part(bullet) {
 .paragraphWrapperLarge {
     border-radius: 15px;
     background-color: #264653;
-    font-size: 1.2em;
-    padding: 2%;
-    max-width: 75%; /* Adjust the width of the paragraph */
+    font-size: 1.3em;
+    padding: 2% 3%;
+    max-width: 85%;
     text-align: center;
-    margin: auto; /* Centers the div in the container */
+    margin: auto;
     margin-top: 2%;
-    width: 100%; /* Ensures it takes full width of the max-width */
+    width: 100%;
 }
 
 .panelImage {
@@ -229,11 +229,14 @@ swiper-container::part(bullet) {
     height: auto;
 }
 
+.headshot {
+    padding-top: 4vh;
+}
+
 .headshot img {
-    margin-top: 1vh;
-    max-height: 30vh;
+    max-height: 45vh;
     width: auto;
-    max-width: 30%;
+    max-width: 45%;
     border-radius: 15px;
 }
 
@@ -687,9 +690,8 @@ swiper-container::part(bullet) {
 
     /* Adjustments for swiper-container */
     swiper-container {
-        width: 85%; /* Reduce width to allow some space around */
-        height: 65%; /* Adjust height as needed */
-        margin-bottom: 25%;
+        width: 82%;
+        height: 88%;
     }
 
     /* Adjustments for .storySlider */
@@ -723,10 +725,9 @@ swiper-container::part(bullet) {
     }
 
     .headshot img {
-        margin-top: 1vh;
-        max-height: 26vh;
+        max-height: 38vh;
         width: auto;
-        max-width: 18%;
+        max-width: 35%;
     }
 
     .paragraphWrapper {
@@ -834,10 +835,9 @@ swiper-container::part(bullet) {
     }
 
     .headshot img {
-        margin-top: 1vh;
-        max-height: 20vh;
+        max-height: 40vh;
         width: auto;
-        max-width: 23%;
+        max-width: 38%;
     }
 
     .projectContainer,
