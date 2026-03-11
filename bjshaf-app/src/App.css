@@ -631,27 +631,27 @@ swiper-container::part(bullet) {
 }
 
 .keen-slider__slide:nth-child(3) {
-    background: linear-gradient(to right, #e9c46a 63%, #264653 50%);
+    background: linear-gradient(to right, #e76f51 63%, #264653 50%);
 }
 
 .keen-slider__slide:nth-child(4) {
-    background: linear-gradient(to left, #bc6c25 66%, #283618 50%);
+    background: linear-gradient(to left, #264653 66%, #e76f51 50%);
 }
 
 .keen-slider__slide:nth-child(5) {
-    background: linear-gradient(to right, #669bbc 63%, #c1121f 50%);
+    background: linear-gradient(to right, #e76f51 63%, #264653 50%);
 }
 
 .keen-slider__slide:nth-child(6) {
-    background: linear-gradient(to left, #8338ec 66%, #ff006e 50%);
+    background: linear-gradient(to left, #264653 66%, #e76f51 50%);
 }
 
 .keen-slider__slide:nth-child(7) {
-    background: linear-gradient(to right, #fee440 63%, #00bbf9 50%);
+    background: linear-gradient(to right, #e76f51 63%, #264653 50%);
 }
 
 .keen-slider__slide:nth-child(8) {
-    background: linear-gradient(to left, #e0e1dd 66%, #0d1b2a 50%);
+    background: linear-gradient(to left, #264653 66%, #e76f51 50%);
 }
 
 .keen-slider__slide:nth-child(9) {
