@@ -18,12 +18,12 @@ const buttonStyles = [
     { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // LandingPage
     { buttonColor: '#264653', textColor: '#FFFFFF' }, // StorySlider
     { buttonColor: '#264653', textColor: '#FFFFFF' }, // Project1
-    { buttonColor: '#283618', textColor: '#FFFFFF' }, // Project2
-    { buttonColor: '#c1121f', textColor: '#FFFFFF' }, // Project3
-    { buttonColor: '#ff006e', textColor: '#FFFFFF' }, // Project4
-    { buttonColor: '#00bbf9', textColor: '#FFFFFF' }, // Project5
-    { buttonColor: '#0d1b2a', textColor: '#FFFFFF'}, // Project6
-    { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // Travel Globe
+    { buttonColor: '#264653', textColor: '#FFFFFF' }, // Project2
+    { buttonColor: '#264653', textColor: '#FFFFFF' }, // Project3
+    { buttonColor: '#264653', textColor: '#FFFFFF' }, // Project4
+    { buttonColor: '#264653', textColor: '#FFFFFF' }, // Project5
+    { buttonColor: '#264653', textColor: '#FFFFFF'}, // Project6
+    { buttonColor: '#264653', textColor: '#FFFFFF' }, // Travel Globe
     { buttonColor: '#e76f51', textColor: '#FFFFFF' }, // ContactMe
 ]
 
