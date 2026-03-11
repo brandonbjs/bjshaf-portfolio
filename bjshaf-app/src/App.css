@@ -143,7 +143,7 @@ swiper-container {
     align-items: center;
     justify-content: center;
     width: 70%;
-    height: 70%;
+    height: 80%;
     border-radius: 5%;
 }
 
@@ -168,9 +168,10 @@ swiper-container::part(bullet) {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 90vh;
     width: 80%;
-    margin-top: 5%;
+    padding-top: 10vh; /* offset for navbar */
+    box-sizing: border-box;
 }
 
 .titleSlide {
@@ -222,15 +223,17 @@ swiper-container::part(bullet) {
     margin-top: 1vh;
 }
 .panelImage img {
-    max-width: 50%; /* Makes sure the image is responsive */
-    width: 60%;
-    height: 40%; /* Keeps the aspect ratio of the image */
+    max-width: 50%;
+    max-height: 30vh;
+    width: auto;
+    height: auto;
 }
 
 .headshot img {
     margin-top: 1vh;
-    max-height: 30%;
-    width: 28%;
+    max-height: 22vh;
+    width: auto;
+    max-width: 28%;
     border-radius: 15px; /* Rounded corners */
 }
 
@@ -280,22 +283,24 @@ swiper-container::part(bullet) {
 
 /*============================= Style the Projects grid ==============================*/
 .projectContainer1 {
-    display: flex; /* Establishes a flex container */
-    align-items: center; /* Vertically aligns the children in the middle */
-    justify-content: space-between; /* Spaces the children out with equal space between them */
-    margin: 1vw; /* Adds some margin around the slide for spacing */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vw;
     width: auto;
-    height: auto;
+    max-height: 85vh;
+    box-sizing: border-box;
     margin-top: 10vh;
 }
 
 .projectContainer {
-    display: flex; /* Establishes a flex container */
-    align-items: center; /* Vertically aligns the children in the middle */
-    justify-content: space-between; /* Spaces the children out with equal space between them */
-    margin: 1vw; /* Adds some margin around the slide for spacing */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1vw;
     width: auto;
-    height: auto;
+    max-height: 85vh;
+    box-sizing: border-box;
     margin-top: 10%;
 }
 
@@ -313,13 +318,19 @@ swiper-container::part(bullet) {
 }
 
 .projectImageLeft img {
-    height: auto; /* Keeps the image aspect ratio intact */
-    border-radius: 15px; /* Rounded corners */
+    max-width: 100%;
+    max-height: 45vh;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
 }
 
 .projectImageRight img {
-    height: auto; /* Keeps the image aspect ratio intact */
-    border-radius: 15px; /* Rounded corners */
+    max-width: 100%;
+    max-height: 45vh;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
 }
 
 .projectContentLeft {
@@ -691,7 +702,7 @@ swiper-container::part(bullet) {
 
     /* Adjustments for .storySliderContainer */
     .storySliderContainer {
-        height: 130vh; /* Adjust height to better fit the content */
+        height: 90vh;
     }
 
     /* Adjustments for .navbar */
@@ -707,15 +718,17 @@ swiper-container::part(bullet) {
     }
 
     .panelImage img {
-        max-width: 35%; /* Makes sure the image is responsive */
+        max-width: 35%;
+        max-height: 28vh;
         width: auto;
-        height: 20%; /* Keeps the aspect ratio of the image */
+        height: auto;
     }
 
     .headshot img {
         margin-top: 1vh;
-        height: 10%;
-        width: 15%;
+        max-height: 18vh;
+        width: auto;
+        max-width: 15%;
     }
 
     .paragraphWrapper {
@@ -824,8 +837,9 @@ swiper-container::part(bullet) {
 
     .headshot img {
         margin-top: 1vh;
-        max-height: 23%;
-        width: 23%;
+        max-height: 20vh;
+        width: auto;
+        max-width: 23%;
     }
 
     .projectContainer,
