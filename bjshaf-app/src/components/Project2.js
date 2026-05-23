@@ -16,21 +16,22 @@ class Project2 extends Component {
                             <h1>Fantasy Football Draft Tool Web Application</h1>
                         </a>
                         <p>
-                            Full-Stack (MERN) Web App - A fun tool that allows
-                            commissioners to virtually host fantasy football
-                            drafts! This full stack app enables the user to
-                            create teams, populate them, view the remaining
-                            players, and track drafted players. The webpage
-                            shares vital draft information about each player
-                            such as player position, team, bye week, ADP, and
-                            other relevant statistics.
+                            Developed a full stack MERN Fantasy Football Draft Tool that allows a 
+                            commissioner to host a complete 10-team snake draft from a single dashboard. 
+                            Features include a live draft board with snake draft logic, a per-team 
+                            countdown timer with auto-pick on expiration, a searchable and paginated 
+                            available player list with smart roster slot management, and a team management 
+                            console for tracking rosters by position. Originally built as a university 
+                            project with a static MongoDB ADP dataset hosted on Amazon EC2, the app was 
+                            later migrated to MongoDB Atlas and Render to automate ADP updates via the 
+                            Fantasy Football Calculator API and eliminate manual server maintenance.
                         </p>
                     </div>
                     <div className="projectTechnologies">
                         <b>
-                            Technologies Used: HTML, CSS, JavaScript, MongoDB,
-                            Express.js, React, Node.js, GitHub Pages, Amazon
-                            EC2, Git, and{' '}
+                            Technologies Used: React.js, CSS, react-data-table-component; Node.js, 
+                            Express.js, Mongoose; MongoDB Atlas; Fantasy Football Calculator API (ADP); 
+                            Render (API hosting); GitHub Pages (frontend deployment); Postman; Axios, and{' '}
                             <a
                                 href="https://github.com/brandonbjs/FF-Draft-Tool-Build"
                                 className="project-link"
