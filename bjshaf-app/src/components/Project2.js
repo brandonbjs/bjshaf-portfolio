@@ -16,13 +16,9 @@ class Project2 extends Component {
                             <h1>Fantasy Football Draft Tool Web Application</h1>
                         </a>
                         <p>
-                            Developed a full stack MERN Fantasy Football Draft Tool that allows a 
+                            Developed a React Fantasy Football Draft Tool that allows a 
                             commissioner to host a complete 10-team snake draft from a single dashboard. 
-                            Features include a live draft board with snake draft logic, a per-team 
-                            countdown timer with auto-pick on expiration, a searchable and paginated 
-                            available player list with smart roster slot management, and a team management 
-                            console for tracking rosters by position. Originally built as a university 
-                            project with a static MongoDB ADP dataset hosted on Amazon EC2, the app was 
+                            Originally built as a university project with a static MongoDB ADP dataset hosted on Amazon EC2, the app was 
                             later migrated to MongoDB Atlas and Render to automate ADP updates via the 
                             Fantasy Football Calculator API and eliminate manual server maintenance.
                         </p>
