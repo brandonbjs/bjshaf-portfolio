@@ -54,6 +54,9 @@ class Project2 extends Component {
                             height="120%"
                         />
                     </a>
+                    <p style={{ fontSize: '0.75rem', color: '#888', textAlign: 'center', marginTop: '6px' }}>
+                        Note: The hosting service may take up to 30 seconds to serve data after 15 minutes of inactivity.
+                    </p>
                 </div>
             </div>
         )
