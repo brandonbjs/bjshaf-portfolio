@@ -17,7 +17,7 @@ class Project1 extends Component {
                             style={{ display: 'block', margin: 'auto' }}
                         />
                     </a>
-                    <p style={{ fontSize: '0.75rem', color: '#888', textAlign: 'center', marginTop: '6px' }}>
+                    <p style={{ fontSize: '0.75rem', color: '#ffffff', textAlign: 'center', marginTop: '6px' }}>
                         Note: The hosting service may take up to 30 seconds to serve data after 15 minutes of inactivity.
                     </p>
                 </div>
