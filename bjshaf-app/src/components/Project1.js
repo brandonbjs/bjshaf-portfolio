@@ -32,19 +32,19 @@ class Project1 extends Component {
                         </a>
 
                         <p>
-                            Full-Stack (MERN) Web App - A robust character
-                            builder for gamers playing the original FromSoft
-                            title "Dark Souls". Users are able to theorycraft
-                            different character builds by placing stat
-                            allocations, selecting weapons, selecting armor,
-                            selecting spells, and more!
+                            Built a full stack MERN Character Builder for the FromSoftware title Dark Souls, 
+                            enabling players to theorycraft complete character builds before committing time 
+                            in game. The app features dynamic real-time calculation of HP, Stamina, Poise, 
+                            Equip Load, Encumbrance, and all Defense stats as the user allocates soul levels, 
+                            equips weapons, armor, rings, and spells across a fully interactive dashboard. 
+                            The Express REST API serves eight MongoDB Atlas collections via Mongoose, with 
+                            the frontend deployed on GitHub Pages and the backend hosted on Render.
                         </p>
                     </div>
                     <div className="projectTechnologies">
                         <b>
-                            Technologies Used: HTML, CSS, JavaScript, MongoDB,
-                            Express.js, React, Node.js, GitHub Pages, Amazon
-                            EC2, Git, and{' '}
+                            Technologies Used: React.js, CSS; Node.js, Express.js; MongoDB Atlas, 
+                            Mongoose; Render (API hosting); GitHub Pages (frontend deployment); REST API and{' '}
                             <a
                                 href="https://github.com/brandonbjs/dark-souls-character-builder"
                                 className="project-link"

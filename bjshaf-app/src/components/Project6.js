@@ -29,7 +29,7 @@ class Project6 extends Component {
                     </div>
                     <div className="projectTechnologies">
                         <b>
-                            Technologies Used: React, Next.js, Tailwind CSS, MongoDB, 
+                            Technologies Used: React, Next.js, Tailwind CSS, MongoDB, Playwright, 
                             Node.js, Git, and{' '}
                             <a
                                 href="https://github.com/brandonbjs/shafJobs"
