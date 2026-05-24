@@ -190,7 +190,7 @@ const locations = [
     {
         lat: 42.9606,
         lng: 17.1351,
-        name: 'KorÄula, Croatia',
+        name: 'Korcula, Croatia',
         images: [
             {
                 src: 'images/copper/sick_tripod.jpg',
@@ -1173,7 +1173,7 @@ const locations = [
     {
         lat: 4.711,
         lng: -74.0721,
-        name: 'BogotÃ¡, Colombia',
+        name: 'Bogota, Colombia',
         images: [
             {
                 src: 'images/copper/sick_tripod.jpg',

@@ -1,7 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Globe from 'globe.gl'
-//import { useNavigate } from 'react-router-dom' // Import useNavigate for redirection
+import * as THREE from 'three'
 import { Modal, Carousel } from 'react-bootstrap'
+
+
+const NEEDLE_HEIGHT = 6
+const NEEDLE_BASE_RADIUS = 0.3
+const HEAD_RADIUS = 1.1
 
 const TravelGlobe = ({ locations }) => {
     const globeRef = useRef()
@@ -9,7 +14,7 @@ const TravelGlobe = ({ locations }) => {
     const [currentLocation, setCurrentLocation] = useState(null)
 
     const handleBackClick = () => {
-        window.location.href = '/' // Reload the landing page by navigating to '/' and forcing a page refresh
+        window.location.href = '/'
     }
 
     useEffect(() => {
@@ -23,13 +28,39 @@ const TravelGlobe = ({ locations }) => {
             .pointOfView({ lat: 0, lng: 0, altitude: 2 })
 
         globe
-            .pointsData(locations)
-            .pointLat('lat')
-            .pointLng('lng')
-            .pointAltitude(0.2)
-            .pointRadius(0.2)
-            .pointColor(() => '#e76f51')
-            .onPointClick((point) => {
+            .customLayerData(locations)
+            .customThreeObject(() => {
+                const group = new THREE.Group()
+
+                // ConeGeometry: apex at +Y, base at -Y by default.
+                // Flip 180° so apex points toward globe (-Y), then shift up
+                // so apex sits at local origin (globe surface).
+                const needle = new THREE.Mesh(
+                    new THREE.ConeGeometry(NEEDLE_BASE_RADIUS, NEEDLE_HEIGHT, 8),
+                    new THREE.MeshPhongMaterial({ color: '#ffffff' })
+                )
+                needle.rotation.z = Math.PI
+                needle.position.y = NEEDLE_HEIGHT / 2
+
+                const head = new THREE.Mesh(
+                    new THREE.SphereGeometry(HEAD_RADIUS, 16, 8),
+                    new THREE.MeshPhongMaterial({ color: '#e74c3c' })
+                )
+                head.position.y = NEEDLE_HEIGHT + HEAD_RADIUS
+
+                group.add(needle)
+                group.add(head)
+                return group
+            })
+            .customThreeObjectUpdate((obj, d) => {
+                const { x, y, z } = globe.getCoords(d.lat, d.lng, 0)
+                obj.position.set(x, y, z)
+                obj.quaternion.setFromUnitVectors(
+                    new THREE.Vector3(0, 1, 0),
+                    new THREE.Vector3(x, y, z).normalize()
+                )
+            })
+            .onCustomLayerClick((point) => {
                 setCurrentLocation(point)
                 setShowModal(true)
             })
@@ -37,7 +68,6 @@ const TravelGlobe = ({ locations }) => {
 
     return (
         <>
-            {/* Back button in the top left corner */}
             <button className="backToLandingPage" onClick={handleBackClick}>
                 Back to Portfolio
             </button>
@@ -48,7 +78,7 @@ const TravelGlobe = ({ locations }) => {
                     className="travelModal"
                     show={showModal}
                     onHide={() => setShowModal(false)}
-                    backdrop="static" // This will prevent closing when clicking outside
+                    backdrop="static"
                     keyboard={false}
                 >
                     <Modal.Header>
@@ -64,9 +94,13 @@ const TravelGlobe = ({ locations }) => {
                     </Modal.Header>
 
                     <Modal.Body>
-                        <Carousel interval={null}>
-                            {' '}
-                            {/* Ensuring it doesn't auto-slide */}
+                        <Carousel
+                            interval={null}
+                            prevIcon={<span className="carousel-nav-arrow">&#8249;</span>}
+                            nextIcon={<span className="carousel-nav-arrow">&#8250;</span>}
+                            prevLabel=""
+                            nextLabel=""
+                        >
                             {currentLocation.images.map((img, idx) => (
                                 <Carousel.Item key={idx}>
                                     <img src={img.src} alt={`Slide ${idx}`} />

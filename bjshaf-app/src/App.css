@@ -458,10 +458,11 @@ swiper-container::part(bullet) {
 
 .carousel-item img {
     max-height: 100%;
-    max-width: 80%; /* Scale the image to fit within the Carousel */
-    height: auto; /* Maintain the aspect ratio of the image */
-    border-radius: 10px; /* Keep the existing rounded corners */
-    margin: auto; /* Center the image */
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
 }
 
 /* Adjust the caption styling to ensure it is centered below the image */
@@ -483,35 +484,47 @@ swiper-container::part(bullet) {
     font-size: 1.2em;
 }
 
-/* Centering the carousel navigation buttons */
 .carousel-control-prev,
 .carousel-control-next {
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
+    justify-content: center;
+    align-items: center;
     background-color: #264653;
     color: white;
     border-radius: 10%;
     padding: 10px;
-    position: absolute; /* Ensure they are positioned absolutely within the carousel */
-    width: 5%; /* Reset any previous width settings */
-    height: 3%; /* Extend height to cover the entire carousel for better accessibility */
-    border: none; /* Remove any border for a cleaner look */
+    position: absolute;
+    width: 5%;
+    height: 3%;
+    border: none;
 }
 
-/* Align the previous button to the left side of the carousel */
 .carousel-control-prev {
     left: 10px;
 }
 
-/* Align the next button to the right side of the carousel */
 .carousel-control-next {
     right: 10px;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-    background-color: #e76f51; /* Lighter shade for hover effect */
+    background-color: #e76f51;
+}
+
+.carousel-nav-arrow {
+    color: white;
+    font-size: 2.8rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    text-decoration: none;
 }
 
 /* Positioning the carousel indicators on the left side of the modal with wrapping */
