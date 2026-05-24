@@ -1,4 +1,4 @@
-﻿const locations = [
+const locations = [
     {
         lat: 41.9028,
         lng: 12.4964,
