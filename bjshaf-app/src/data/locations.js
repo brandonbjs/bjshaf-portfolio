@@ -642,17 +642,6 @@ const locations = [
         ],
     },
     {
-        lat: 37.637,
-        lng: 21.6307,
-        name: 'Olympia, Greece',
-        images: [
-            {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
-            },
-        ],
-    },
-    {
         lat: 37.4467,
         lng: 25.3289,
         name: 'Mykonos, Greece',
@@ -1333,6 +1322,213 @@ const locations = [
             {
                 src: 'images/copper/sick_tripod.jpg',
                 caption: 'Me rippin a sweet tripod!',
+            },
+        ],
+    },
+    {
+        lat: 37.6379,
+        lng: 21.6302,
+        name: 'Ancient Olympia, Greece',
+        images: [
+            {
+                src: 'images/olympia/IMG_3485.jpg',
+                caption: 'Selfie at the entrance to the archaeological site of Olympia, with the tree-lined path stretching behind.',
+            },
+            {
+                src: 'images/olympia/IMG_3496.jpg',
+                caption: 'Low stone foundation walls and ancient building remains within the sacred Altis enclosure at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3506.jpg',
+                caption: 'Scattered column drums and stone blocks from ruined temple structures, with a lone Ionic capital visible in the background.',
+            },
+            {
+                src: 'images/olympia/IMG_3512.jpg',
+                caption: 'Three standing columns with a partial entablature — the surviving remains of the Philippeion, the circular rotunda built by Philip II of Macedon.',
+            },
+            {
+                src: 'images/olympia/IMG_3514.jpg',
+                caption: 'Close-up of the stepped circular base (crepidoma) and lower column drums of the Philippeion.',
+            },
+            {
+                src: 'images/olympia/IMG_3519.jpg',
+                caption: 'Looking up at a single surviving Doric column and capital from the Temple of Zeus, the largest temple in the Peloponnese.',
+            },
+            {
+                src: 'images/olympia/IMG_3525.jpg',
+                caption: 'Site information board showing reconstructions of the Nymphaeum (Nymphaion) and a general plan of the Olympia sanctuary.',
+            },
+            {
+                src: 'images/olympia/IMG_3526.jpg',
+                caption: 'Stone seating tiers and ruins of the Exedra of Herodes Atticus, a monumental nymphaeum built into the base of the Kronos Hill.',
+            },
+            {
+                src: 'images/olympia/IMG_3550.jpg',
+                caption: 'Visitors walking through the ancient vaulted stone entrance tunnel (krypte) that led athletes into the Olympic stadium.',
+            },
+            {
+                src: 'images/olympia/IMG_3551.jpg',
+                caption: 'The exit end of the ancient tunnel, with visitors emerging onto the track of the Olympic stadium.',
+            },
+            {
+                src: 'images/olympia/IMG_3554.jpg',
+                caption: 'Standing beside the single reconstructed column of the Temple of Zeus — the only one still standing at the site.',
+            },
+            {
+                src: 'images/olympia/IMG_3566.jpg',
+                caption: 'Ruins of a Roman-era brick building with a gated arched doorway, part of the later construction within the sanctuary.',
+            },
+            {
+                src: 'images/olympia/IMG_3567.jpg',
+                caption: 'Interior of a Roman brick building ruin, with a sunken arched niche in the back wall.',
+            },
+            {
+                src: 'images/olympia/IMG_3583.jpg',
+                caption: 'A large stone pedestal base — one of the many votive monument bases that once lined the Altis sacred enclosure.',
+            },
+            {
+                src: 'images/olympia/IMG_3601.jpg',
+                caption: 'Posing among the extensive ruins of the ancient sanctuary at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3614.jpg',
+                caption: 'Exterior of a ruined two-story Roman brick building with an arched entrance, likely part of the Leonidaion guesthouse complex.',
+            },
+            {
+                src: 'images/olympia/IMG_3615.jpg',
+                caption: 'Close-up of decorative diamond-pattern brickwork on a Roman-era wall within the sanctuary.',
+            },
+            {
+                src: 'images/olympia/IMG_3617.jpg',
+                caption: 'Interior of a Roman brick ruin with arched openings and a stone-lined basin in the floor, likely part of an ancient bathing complex.',
+            },
+            {
+                src: 'images/olympia/IMG_3618.jpg',
+                caption: 'Interior of a vaulted Roman room with broken ceramic fragments scattered on the floor.',
+            },
+            {
+                src: 'images/olympia/IMG_3654.jpg',
+                caption: 'Museum display of Bronze Age pottery and stone tools excavated from the earliest apsidal buildings in the Altis.',
+            },
+            {
+                src: 'images/olympia/IMG_3666.jpg',
+                caption: 'Geometric-period bronze tripod attachments on display — ring handles and leg fittings from the most common votive offering dedicated to Zeus at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3691.jpg',
+                caption: 'A display case overflowing with hundreds of small bronze and terracotta votive figurines of horses, bulls, and other animals dedicated to Zeus.',
+            },
+            {
+                src: 'images/olympia/IMG_3699.jpg',
+                caption: 'A large Archaic-period bronze cauldron (lebes) on display — one of the most prestigious votive gifts offered at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3705.jpg',
+                caption: 'An Archaic bronze shield decorated in relief with a winged Gorgon figure — a votive offering dedicated to Zeus at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3713.jpg',
+                caption: 'Posing beside a display of ancient bronze helmets, including Corinthian and Illyrian types, dedicated as war trophies at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3748.jpg',
+                caption: 'A terracotta group sculpture of an older bearded figure grasping a woman, likely depicting a mythological abduction scene.',
+            },
+            {
+                src: 'images/olympia/IMG_3753.jpg',
+                caption: 'Close-up of the bearded male face of the terracotta group, with finely detailed curling hair and an archaic expression.',
+            },
+            {
+                src: 'images/olympia/IMG_3754.jpg',
+                caption: 'Close-up of the female figure in the terracotta group, wearing a broad-brimmed hat and cradling an object in her arms.',
+            },
+            {
+                src: 'images/olympia/IMG_3755.jpg',
+                caption: 'Two ancient bronze helmets: an Etruscan type (inscribed) and a Corinthian type, dedicated to Zeus by Hieron of Syracuse after his victory at the Battle of Cumae in 474 BC.',
+            },
+            {
+                src: 'images/olympia/IMG_3758.jpg',
+                caption: 'The Nike of Paionios — a marble statue of the winged goddess Nike descending from the sky, carved around 421 BC and displayed in the Olympia Museum.',
+            },
+            {
+                src: 'images/olympia/IMG_3760.jpg',
+                caption: 'Second angle of the Nike of Paionios, showing the dramatic sweep of her windswept robes from behind.',
+            },
+            {
+                src: 'images/olympia/IMG_3777.jpg',
+                caption: 'A headless armored marble torso with traces of original paint — a figure from a pediment sculpture at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3809.jpg',
+                caption: 'A red-figure bell krater decorated with athletic figures, excavated from the sanctuary of Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3836.jpg',
+                caption: 'Close-up of a marble head from the Temple of Zeus west pediment: a Lapith caught in the chaos of the battle with the Centaurs.',
+            },
+            {
+                src: 'images/olympia/IMG_3838.jpg',
+                caption: 'Close-up of a bearded Lapith head from the Temple of Zeus west pediment, showing deeply human anguish.',
+            },
+            {
+                src: 'images/olympia/IMG_3839.jpg',
+                caption: 'Reassembled marble horses from the east pediment of the Temple of Zeus, depicting the chariot race of Pelops and Oinomaos.',
+            },
+            {
+                src: 'images/olympia/IMG_3841.jpg',
+                caption: 'The full pediment sculpture arrangement of the Temple of Zeus in the museum — one of the greatest works of Early Classical Greek art.',
+            },
+            {
+                src: 'images/olympia/IMG_3848.jpg',
+                caption: 'Close-up of a helmeted warrior figure from the Temple of Zeus west pediment battle scene.',
+            },
+            {
+                src: 'images/olympia/IMG_3872.jpg',
+                caption: 'The commanding central figure of Apollo from the Temple of Zeus west pediment, arm outstretched over the battle between Lapiths and Centaurs.',
+            },
+            {
+                src: 'images/olympia/IMG_3874.jpg',
+                caption: 'Close-up of Apollo\'s serene face from the west pediment — calm and idealized amid the surrounding chaos, a defining image of Early Classical sculpture.',
+            },
+            {
+                src: 'images/olympia/IMG_3876.jpg',
+                caption: 'West pediment figures: a Lapith woman being seized by a centaur, and other combatants in the fray.',
+            },
+            {
+                src: 'images/olympia/IMG_3896.jpg',
+                caption: 'Close-up of a draped marble torso from the pediment, showing the masterful rendering of clinging fabric folds over the body.',
+            },
+            {
+                src: 'images/olympia/IMG_3898.jpg',
+                caption: 'A headless draped marble statue in Roman style, likely an imperial-era dedication at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3900.jpg',
+                caption: 'The decorative breastplate of a Roman cuirass statue, with mythological relief scenes and a row of medallion faces along the hem.',
+            },
+            {
+                src: 'images/olympia/IMG_3901.jpg',
+                caption: 'Close-up of the cuirass breastplate relief: a central goddess figure flanked by attendants, with an animal crouching at her feet.',
+            },
+            {
+                src: 'images/olympia/IMG_3905.jpg',
+                caption: 'Back of the cuirass statue showing a Gorgon (Medusa) head relief on the backplate — a standard apotropaic symbol on Roman armor.',
+            },
+            {
+                src: 'images/olympia/IMG_3908.jpg',
+                caption: 'A finely carved marble head of a young woman with elaborately styled hair, likely from a Roman-period dedication at Olympia.',
+            },
+            {
+                src: 'images/olympia/IMG_3914.jpg',
+                caption: 'A full-length marble statue of a draped female figure with flowing robes, likely a goddess or personification from the Roman imperial period.',
+            },
+            {
+                src: 'images/olympia/IMG_3936.jpg',
+                caption: 'An ancient Roman glass jug with a round globular body, its surface showing the iridescent patina of centuries underground.',
+            },
+            {
+                src: 'images/olympia/IMG_3942.jpg',
+                caption: 'Museum display of iron tools of everyday use excavated from Olympia — hoes, axes, hammers, and tongs spanning the Classical to Early Christian periods.',
             },
         ],
     },
