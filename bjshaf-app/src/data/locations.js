@@ -193,8 +193,152 @@ const locations = [
         name: 'Korcula, Croatia',
         images: [
             {
-                src: 'images/copper/sick_tripod.jpg',
-                caption: 'Me rippin a sweet tripod!',
+                src: 'images/korcula/IMG_5371.jpg',
+                caption: 'The medieval Veliki Revelin tower, one of the fortified gateways guarding the entrance to Korcula\'s old town.',
+            },
+            {
+                src: 'images/korcula/IMG_5372.jpg',
+                caption: 'A closer look at the Veliki Revelin tower, showcasing the intricate stonework of Korcula\'s 15th-century fortifications.',
+            },
+            {
+                src: 'images/korcula/IMG_5375.jpg',
+                caption: 'A map tracing Marco Polo\'s legendary journey from Korcula all the way to China.',
+            },
+            {
+                src: 'images/korcula/IMG_5418.jpg',
+                caption: 'A bronze statue inside the house in Korcula\'s old town traditionally associated with Marco Polo.',
+            },
+            {
+                src: 'images/korcula/IMG_5427.jpg',
+                caption: 'A carved stone bust of a bishop on display in one of Korcula\'s museums, reflecting the island\'s deep Catholic heritage.',
+            },
+            {
+                src: 'images/korcula/IMG_5442.jpg',
+                caption: 'Interior of a Korcula church: an arched window draped in red curtain casts soft light over religious artifacts and stonework.',
+            },
+            {
+                src: 'images/korcula/IMG_5460.jpg',
+                caption: 'A Renaissance-era painting of the Madonna and Child flanked by two saints, part of Korcula\'s rich ecclesiastical art collection.',
+            },
+            {
+                src: 'images/korcula/IMG_5464.jpg',
+                caption: 'An ornate bronze figure of Christ displayed on a decorative chalice stand in the treasury museum.',
+            },
+            {
+                src: 'images/korcula/IMG_5469.jpg',
+                caption: 'A display case of historical coins from Venice, the Ottoman Empire, and Bosnia — evidence of the many powers that shaped Korcula\'s past.',
+            },
+            {
+                src: 'images/korcula/IMG_5472.jpg',
+                caption: 'Two religious paintings hanging side by side on a museum wall, part of Korcula\'s extensive collection of Baroque and Renaissance sacred art.',
+            },
+            {
+                src: 'images/korcula/IMG_5473.jpg',
+                caption: 'A formal portrait of a nobleman accompanied by a greyhound, painted in the style typical of Dalmatian aristocracy.',
+            },
+            {
+                src: 'images/korcula/IMG_5474.jpg',
+                caption: 'A dark, dramatic painting of a robed saint gazing heavenward, characteristic of the Counter-Reformation style.',
+            },
+            {
+                src: 'images/korcula/IMG_5475.jpg',
+                caption: 'A Baroque painting depicting an angel gently comforting a swooning figure, full of movement and emotional intensity.',
+            },
+            {
+                src: 'images/korcula/IMG_5476.jpg',
+                caption: 'A portrait of the Madonna set in an elaborately gilded frame — a centerpiece of the church treasury collection.',
+            },
+            {
+                src: 'images/korcula/IMG_5497.jpg',
+                caption: 'A portrait of a young person dressed in a white lace gown with a red bow, likely from a prominent Korcula family.',
+            },
+            {
+                src: 'images/korcula/IMG_5500.jpg',
+                caption: 'A gallery wall displaying heraldic coats of arms alongside ecclesiastical portraits from Korcula\'s noble and religious history.',
+            },
+            {
+                src: 'images/korcula/IMG_5501.jpg',
+                caption: 'A museum wall covered in heraldic shields and multiple religious artworks, illustrating the island\'s layered civic and sacred identity.',
+            },
+            {
+                src: 'images/korcula/IMG_5504.jpg',
+                caption: 'A display case filled with silver votive tablets — small offerings left by the faithful in gratitude for answered prayers.',
+            },
+            {
+                src: 'images/korcula/IMG_5508.jpg',
+                caption: 'An ornate carved wooden candelabra adorned with cherub figures, a fine example of Baroque decorative craftsmanship.',
+            },
+            {
+                src: 'images/korcula/IMG_5516.jpg',
+                caption: 'A display case of religious jewelry — crosses, chains, and medallions from the church treasury spanning several centuries.',
+            },
+            {
+                src: 'images/korcula/IMG_5517.jpg',
+                caption: 'A display case of ornate silver crowns and votive offerings, donated to the church over generations by Korcula\'s faithful.',
+            },
+            {
+                src: 'images/korcula/IMG_5518.jpg',
+                caption: 'An antique skeleton clock flanked by matching black and gold vases, displayed in Korcula\'s civic museum.',
+            },
+            {
+                src: 'images/korcula/IMG_5519.jpg',
+                caption: 'A formal portrait of a seated bishop in white vestments, one of the many clergy who served the Diocese of Korcula.',
+            },
+            {
+                src: 'images/korcula/IMG_5539.jpg',
+                caption: 'A display case of commemorative medals featuring Croatian historical figures, celebrating the island\'s cultural legacy.',
+            },
+            {
+                src: 'images/korcula/IMG_5540.jpg',
+                caption: 'Another case of artistic and commemorative medals, each one a miniature work of sculptural art.',
+            },
+            {
+                src: 'images/korcula/IMG_5541.jpg',
+                caption: 'A collection of medals by renowned Croatian sculptor Ivo Kerdic, showcasing his mastery of small-scale relief casting.',
+            },
+            {
+                src: 'images/korcula/IMG_5542.jpg',
+                caption: 'A quirky art installation: ordinary household objects placed inside picture frames and mounted on an ancient stone wall.',
+            },
+            {
+                src: 'images/korcula/IMG_5543.jpg',
+                caption: 'Another angle of the framed-objects installation — a playful contrast between everyday life and the old town\'s medieval setting.',
+            },
+            {
+                src: 'images/korcula/IMG_5615(1).jpg',
+                caption: 'A close-up of a framed sickle and farming tools on the stone wall, part of the same installation celebrating rural Dalmatian life.',
+            },
+            {
+                src: 'images/korcula/IMG_5617(1).jpg',
+                caption: 'Close up of the framed sickle.',
+            },
+            {
+                src: 'images/korcula/IMG_5618(1).jpg',
+                caption: 'A blooming red oleander tree bursting with color against the backdrop of the harbor and the distant mountains.',
+            },
+            {
+                src: 'images/korcula/IMG_5619(1).jpg',
+                caption: '',
+            },
+            {
+                src: 'images/korcula/IMG_5620(1).jpg',
+                caption: 'A blooming red oleander tree bursting with color against the backdrop of the harbor and the distant mountains.',
+            },
+            {
+                src: 'images/korcula/IMG_5624(1).jpg',
+                caption: 'Stone steps descend directly into the crystal-clear turquoise water of the Adriatic — a perfect swimming spot.',
+            },
+            {
+                src: 'images/korcula/IMG_5631(1).jpg',
+                caption: 'The coastline of Korcula island seen from the water, its limestone cliffs and dense green hills tumbling into the Adriatic.',
+            },
+            {
+                src: 'images/korcula/IMG_5632(1).jpg',
+                caption: 'Close-up of a rocky Korcula shoreline, the water an impossibly clear shade of turquoise blue.',
+            },
+            {
+                src: 'images/korcula/IMG_5633(1).jpg',
+                caption: 'Crystal-clear Adriatic water lapping against the limestone rocks of Korcula\'s shoreline.',
             },
         ],
     },
@@ -985,7 +1129,7 @@ const locations = [
     {
         lat: 9.9281,
         lng: -84.0907,
-        name: 'San JosÃ©, Costa Rica',
+        name: 'San JosÃƒÂ©, Costa Rica',
         images: [
             {
                 src: 'images/costaRica/IMG_3292.JPG',
@@ -1108,12 +1252,12 @@ const locations = [
             },
             {
                 src: 'images/juneau/IMG_1445.JPEG',
-                caption: `ShangukeidÃ­ KooteÃ©yaa: The ShangukeidÃ­, who are the Eagle moiety, are 
-                    identified as the Thunderbird clan. The designs on the ShangukeidÃ­ totem 
+                caption: `ShangukeidÃƒÂ­ KooteÃƒÂ©yaa: The ShangukeidÃƒÂ­, who are the Eagle moiety, are 
+                    identified as the Thunderbird clan. The designs on the ShangukeidÃƒÂ­ totem 
                     pole include four of their crests. The Thunderbird, White Bear, and House 
                     Lowered from the Sun were obtained through supernatural encounters. The 
                     bottom crest reprsents a historical encounter with a US military officer 
-                    who failed to adequately compensate the ShangukeidÃ­. As payment for this 
+                    who failed to adequately compensate the ShangukeidÃƒÂ­. As payment for this 
                     debt, they took his name and the military uniform.`,
             },
             {
